@@ -1,0 +1,10272 @@
+.cbFormLabel
+{
+	/*Form Label Text Attributes*/
+	color: #001B44;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.cbFormLabel_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormLabel_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetPdfHeaderFooter
+{
+	font-family: Sans-serif;
+}
+
+.cbResultSetPdfHeaderFooter_tablet
+{
+	
+}
+
+.cbResultSetPdfHeaderFooter_mobile
+{
+	
+}
+
+.cbFormLabelRequired
+{
+	/*Form Required Label Text Attributes*/
+	color: #001B44;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.cbFormLabelRequired_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormLabelRequired_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormRequiredMarker
+{
+	/*Form Required Label Text Attributes*/
+	/* Forced to add space by default */
+	color: #EB2A00;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 2px;
+	font-style: normal;
+}
+
+.cbFormRequiredMarker_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormRequiredMarker_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormHintLabel
+{
+	color: #20282B;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding: 0px 6px;
+	text-decoration: none;
+}
+
+.cbFormHintLabel_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormHintLabel_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormHintLabelImage
+{
+	border: none;
+	vertical-align: bottom;
+}
+
+.cbFormHintLabelImage_tablet
+{
+	
+}
+
+.cbFormHintLabelImage_mobile
+{
+	
+}
+
+.cbFormHintLabel_hover
+{
+	color: #20282B;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding: 0px 6px;
+	text-decoration: none;
+}
+
+.cbFormHintLabel_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormHintLabel_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormHintTipContainer
+{
+	-khtml-opacity: 1;
+	-moz-border-radius: 3px;
+	-moz-opacity: 1;
+	-webkit-border-radius: 3px;
+	background-color: #484C50;
+	border-radius: 3px;
+	opacity: 1;
+	padding: 4px 8px;
+}
+
+.cbFormHintTipContainer_tablet
+{
+	
+}
+
+.cbFormHintTipContainer_mobile
+{
+	
+}
+
+.cbFormHintTipText
+{
+	color: #FFFFFF;
+	font-family: Sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.cbFormHintTipText_tablet
+{
+	font-size: 15px;
+}
+
+.cbFormHintTipText_mobile
+{
+	font-size: 15px;
+}
+
+.cbResultSetHintLabel
+{
+	color: #FFFFFF;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding: 0px 6px;
+	text-decoration: none;
+}
+
+.cbResultSetHintLabel_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetHintLabel_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetHintLabelImage
+{
+	border: none;
+	vertical-align: bottom;
+}
+
+.cbResultSetHintLabelImage_tablet
+{
+	
+}
+
+.cbResultSetHintLabelImage_mobile
+{
+	
+}
+
+.cbResultSetHintLabel_hover
+{
+	color: #FFFFFF;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	letter-spacing: 1px;
+	padding: 0px 6px;
+	text-decoration: none;
+}
+
+.cbResultSetHintLabel_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetHintLabel_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetHintTipContainer
+{
+	-khtml-opacity: 1;
+	-moz-border-radius: 3px;
+	-moz-opacity: 1;
+	-webkit-border-radius: 3px;
+	background-color: #667388;
+	border-radius: 3px;
+	opacity: 1;
+	padding: 4px 8px;
+}
+
+.cbResultSetHintTipContainer_tablet
+{
+	
+}
+
+.cbResultSetHintTipContainer_mobile
+{
+	
+}
+
+.cbResultSetHintTipText
+{
+	color: #FFFFFF;
+	font-family: Sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.cbResultSetHintTipText_tablet
+{
+	font-size: 15px;
+}
+
+.cbResultSetHintTipText_mobile
+{
+	font-size: 15px;
+}
+
+.cbResultSetListViewHintLabel
+{
+	color: #20282B;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding: 0px 6px;
+	text-decoration: none;
+}
+
+.cbResultSetListViewHintLabel_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetListViewHintLabel_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetListViewHintLabel_hover
+{
+	color: #20282B;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding: 0px 6px;
+	text-decoration: none;
+}
+
+.cbResultSetListViewHintLabel_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetListViewHintLabel_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetCalendarHintLabel
+{
+	color: #20282B;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding: 0px 6px;
+	text-decoration: none;
+}
+
+.cbResultSetCalendarHintLabel_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetCalendarHintLabel_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetCalendarHintLabel_hover
+{
+	color: #20282B;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding: 0px 6px;
+	text-decoration: none;
+}
+
+.cbResultSetCalendarHintLabel_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetCalendarHintLabel_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormSection508Label
+{
+	
+}
+
+.cbFormSection508Label_tablet
+{
+	
+}
+
+.cbFormSection508Label_mobile
+{
+	
+}
+
+.cbFormLabelCell
+{
+	/*Form Label Cell Attributes*/
+	padding: 14px 15px 0px 15px;
+	text-align: left;
+	vertical-align: top;
+	white-space: break-spaces;
+	width: auto;
+	font-weight: 600;
+	color: #000000;
+}
+
+.cbFormLabelCell_tablet
+{
+	
+}
+
+.cbFormLabelCell_mobile
+{
+	
+}
+
+.cbFormLabelError
+{
+	/*Form Label Error Text Attributes*/
+	color: #333A44;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.cbFormLabelError_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormLabelError_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormErrorMarker
+{
+	/*Input Error Marker Attributes */
+	color: #EB2A00;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400px;
+	margin: 0px 5px 0px 0px;
+	vertical-align: middle;
+}
+
+.cbFormErrorMarker_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormErrorMarker_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormCommonError
+{
+	/*Form Error Text Attributes*/
+	/* Added to force marker below field */
+	color: #842029;
+	display: flex!important;
+	font-family: Sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	margin: 10px 0px 0px 0px;
+	text-align: left;
+	vertical-align: middle;
+	padding: 0.5rem 1rem;
+	background-color: #f8d7da;
+	line-height: 1.5;
+	border: 1px solid #f5c2c7;
+	align-items: center;
+}
+
+.cbFormCommonError_tablet
+{
+	font-size: 19px;
+}
+
+.cbFormCommonError_mobile
+{
+	font-size: 19px;
+}
+
+.cbFormError
+{
+	/*Form Error Text Attributes*/
+	/* Added to force marker below field */
+	color: #EB2A00;
+	display: block;
+	font-family: Sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	margin: 5px 0px 0px 0px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: normal;
+}
+
+.cbFormError_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormError_mobile
+{
+	font-size: 17px;
+}
+
+.cbConfirmationMessages
+{
+	/*Ack messages Text Attributes*/
+	color: #002A4E;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	min-height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #002a4e !important;
+}
+
+.cbConfirmationMessages_tablet
+{
+	font-size: 17px;
+}
+
+.cbConfirmationMessages_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormErrorField
+{
+	/*Form Text Area Attributes*/
+	border-color: #EB2A00;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.cbFormErrorField_tablet
+{
+	
+}
+
+.cbFormErrorField_mobile
+{
+	
+}
+
+.cbFormTextField
+{
+	/*Form Text Field Attributes*/
+	-moz-border-radius: 1px;
+	-moz-box-sizing: border-box;
+	-webkit-border-radius: 1px;
+	-webkit-box-sizing: border-box;
+	border-color: #002a4e;
+	border-radius: 1px;
+	border-style: solid;
+	border-width: 1px;
+	box-sizing: border-box;
+	color: #000000;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 7px 10px;
+	background-color: #FFFFFF;
+	height:auto;
+}
+
+.cbFormTextField_tablet
+{
+	font-size: 17px;
+	width: 100%;
+}
+
+.cbFormTextField_mobile
+{
+	font-size: 17px;
+	width: 100%;
+}
+
+.cbFormTextArea
+{
+	/*Form Text Area Attributes*/
+	-moz-border-radius: 1px;
+	-moz-box-sizing: border-box;
+	-webkit-border-radius: 1px;
+	-webkit-box-sizing: border-box;
+	border-color: #002866;
+	border-radius: 1px;
+	border-style: solid;
+	border-width: 1px;
+	box-sizing: border-box;
+	color: #191D22;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 7px 10px;
+	resize: vertical;
+	background-color: #FFFFFF;
+}
+
+.cbFormTextArea_tablet
+{
+	font-size: 17px;
+	width: 100%;
+}
+
+.cbFormTextArea_mobile
+{
+	font-size: 17px;
+	width: 100%;
+}
+
+.cbFormTextAreaHint
+{
+	/*Form Text Area Hint Attributes*/
+	color: #333333;
+	font-family: Sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	padding: 0px 2px 8px 2px;
+	text-align: right;
+}
+
+.cbFormTextAreaHint_tablet
+{
+	font-size: 15px;
+}
+
+.cbFormTextAreaHint_mobile
+{
+	font-size: 15px;
+}
+
+.cbFormTextAreaHintContainer
+{
+	/*Form Text Area Hint Container Attributes*/
+	display: table;
+	width: auto;
+}
+
+.cbFormTextAreaHintContainer_tablet
+{
+	
+}
+
+.cbFormTextAreaHintContainer_mobile
+{
+	
+}
+
+.cbFormTextField_placeholder
+{
+	color: #667388;
+}
+
+.cbFormTextField_placeholder_tablet
+{
+	
+}
+
+.cbFormTextField_placeholder_mobile
+{
+	
+}
+
+.cbFormPassword_placeholder
+{
+	color: #667388;
+}
+
+.cbFormPassword_placeholder_tablet
+{
+	
+}
+
+.cbFormPassword_placeholder_mobile
+{
+	
+}
+
+.cbFormTextArea_placeholder
+{
+	color: #667388;
+}
+
+.cbFormTextArea_placeholder_tablet
+{
+	
+}
+
+.cbFormTextArea_placeholder_mobile
+{
+	
+}
+
+.cbPasswordStrength
+{
+	/*Password Strength Field Attributes*/
+	font-family: Sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	padding: 3px 0px 0px 0px;
+	text-align: right;
+}
+
+.cbPasswordStrength_tablet
+{
+	font-size: 14px;
+}
+
+.cbPasswordStrength_mobile
+{
+	font-size: 14px;
+}
+
+.cbPasswordTextWeak
+{
+	/*Password Strength Week Field Attributes*/
+	color: #E91111;
+}
+
+.cbPasswordTextWeak_tablet
+{
+	
+}
+
+.cbPasswordTextWeak_mobile
+{
+	
+}
+
+.cbPasswordTextFair
+{
+	/*Password Strength Fair Field Attributes*/
+	color: #FFAD00;
+}
+
+.cbPasswordTextFair_tablet
+{
+	
+}
+
+.cbPasswordTextFair_mobile
+{
+	
+}
+
+.cbPasswordTextGood
+{
+	/*Password Strength Good Field Attributes*/
+	color: #9CC159;
+}
+
+.cbPasswordTextGood_tablet
+{
+	
+}
+
+.cbPasswordTextGood_mobile
+{
+	
+}
+
+.cbPasswordTextStrong
+{
+	/*Password Strength Strong Field Attributes*/
+	color: #00B500;
+}
+
+.cbPasswordTextStrong_tablet
+{
+	
+}
+
+.cbPasswordTextStrong_mobile
+{
+	
+}
+
+.cbPasswordBarWeak
+{
+	/*Password Strength Week Bar Attributes*/
+	background-color: #E91111;
+	height: 100%;
+	width: 25%;
+}
+
+.cbPasswordBarWeak_tablet
+{
+	
+}
+
+.cbPasswordBarWeak_mobile
+{
+	
+}
+
+.cbPasswordBarFair
+{
+	/*Password Strength Fair Bar Attributes*/
+	background-color: #FFAD00;
+	height: 100%;
+	width: 50%;
+}
+
+.cbPasswordBarFair_tablet
+{
+	
+}
+
+.cbPasswordBarFair_mobile
+{
+	
+}
+
+.cbPasswordBarGood
+{
+	/*Password Strength Good Bar Attributes*/
+	background-color: #9CC159;
+	height: 100%;
+	width: 75%;
+}
+
+.cbPasswordBarGood_tablet
+{
+	
+}
+
+.cbPasswordBarGood_mobile
+{
+	
+}
+
+.cbPasswordBarStrong
+{
+	/*Password Strength Strong Bar Attributes*/
+	background-color: #00B500;
+	height: 100%;
+	width: 100%;
+}
+
+.cbPasswordBarStrong_tablet
+{
+	
+}
+
+.cbPasswordBarStrong_mobile
+{
+	
+}
+
+.cbPasswordStrengthBarContainer
+{
+	/*Password Strength Bar Container Field Attributes*/
+	background-color: #EDEDED;
+	height: 4px;
+	margin: 0px 0px 2px 0px;
+	width: 100%;
+}
+
+.cbPasswordStrengthBarContainer_tablet
+{
+	
+}
+
+.cbPasswordStrengthBarContainer_mobile
+{
+	
+}
+
+.cbPasswordStrengthBar
+{
+	/*Password Strength Bar Field Attributes*/
+	height: 100%;
+}
+
+.cbPasswordStrengthBar_tablet
+{
+	
+}
+
+.cbPasswordStrengthBar_mobile
+{
+	
+}
+
+.cbFormPassword
+{
+	/*Form Password Field Attributes*/
+	-moz-border-radius: 1px;
+	-moz-box-sizing: border-box;
+	-webkit-border-radius: 1px;
+	-webkit-box-sizing: border-box;
+	border-color: #002866;
+	border-radius: 1px;
+	border-style: solid;
+	border-width: 1px;
+	box-sizing: border-box;
+	color: #191D22;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 7px 10px;
+	background-color: #FFFFFF;
+}
+
+.cbFormPassword_tablet
+{
+	font-size: 17px;
+	width: 100%;
+}
+
+.cbFormPassword_mobile
+{
+	font-size: 17px;
+	width: 100%;
+}
+
+.cbFormSelect
+{
+	/*Form Selects Attributes*/
+	-moz-border-radius: 1px;
+	-moz-box-sizing: border-box;
+	-webkit-border-radius: 1px;
+	-webkit-box-sizing: border-box;
+	border-color: #002a4e;
+	border-radius: 1px;
+	border-style: solid;
+	border-width: 1px;
+	box-sizing: border-box;
+	color: #000000;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 7px 10px;
+	background-color: #FFFFFF;
+	height:auto;
+}
+
+.cbFormSelect_tablet
+{
+	font-size: 17px;
+	width: 100%;
+}
+
+.cbFormSelect_mobile
+{
+	font-size: 17px;
+	width: 100%;
+}
+
+.cbFormMultiSelect
+{
+	/*Form Multiselect Dropdown or Listbox Attributes*/
+	-moz-border-radius: 1px;
+	-moz-box-sizing: border-box;
+	-webkit-border-radius: 1px;
+	-webkit-box-sizing: border-box;
+	border-color: #002866;
+	border-radius: 1px;
+	border-style: solid;
+	border-width: 1px;
+	box-sizing: border-box;
+}
+
+.cbFormMultiSelect_tablet
+{
+	
+}
+
+.cbFormMultiSelect_mobile
+{
+	
+}
+
+.cbFormMultiSelectField
+{
+	color:#000000;
+	font-size:12px;
+	font-family:Sans-serif;
+	font-weight:400;
+	padding:7px 10px;
+	height:auto!important;
+}
+
+.cbFormMultiSelectField_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormMultiSelectField_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormMultiSelectText
+{
+	/*Form Multiselect Dropdown or Listbox Item Attributes*/
+	color: #333333;
+	cursor: pointer;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 4px 10px;
+	background-color: #ffffff;
+}
+
+.cbFormMultiSelectText_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormMultiSelectText_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormMultiSelectText_hover
+{
+	/*Form Multiselect Dropdown or Listbox Item Hover Attributes*/
+	color: #333333;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	background-color: #f2f2f2;
+}
+
+.cbFormMultiSelectText_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormMultiSelectText_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormFile
+{
+	/*Form File Field Attributes*/
+	color: #FFFFFF;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 7px 10px;
+	background-color: #667388;
+}
+
+.cbFormFile_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormFile_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormRadioButtonLabelDisabled
+{
+	color: #CCCCCC;
+}
+
+.cbFormRadioButtonLabelDisabled_tablet
+{
+	
+}
+
+.cbFormRadioButtonLabelDisabled_mobile
+{
+	
+}
+
+.cbFormFieldCell
+{
+	/*Form Field Container Attributes*/
+	padding: 5px 15px;
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.cbFormFieldCell_tablet
+{
+	
+}
+
+.cbFormFieldCell_mobile
+{
+	
+}
+
+.cbFormData
+{
+	/*Form Data Text Attributes*/
+	color: #000000;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.cbFormData_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormData_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormDataLink
+{
+	/*Form Data Link Text Attributes*/
+	color: #002a4e;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbFormDataLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormDataLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormDataLink_hover
+{
+	/*Form Data Link Text Hover Attributes*/
+	color: #FFFFFF;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.cbFormDataLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormDataLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormUnorderedList
+{
+	margin: 0px 4px 0px 7px;
+	padding-left: 10px;
+	white-space: nowrap;
+}
+
+.cbFormUnorderedList_tablet
+{
+	
+}
+
+.cbFormUnorderedList_mobile
+{
+	
+}
+
+.cbFormOrderedList
+{
+	margin: 0px 4px 0px 7px;
+	padding-left: 10px;
+	white-space: nowrap;
+}
+
+.cbFormOrderedList_tablet
+{
+	
+}
+
+.cbFormOrderedList_mobile
+{
+	
+}
+
+.cbFormListItem
+{
+	margin: 0px 0px 1px 0px;
+}
+
+.cbFormListItem_tablet
+{
+	
+}
+
+.cbFormListItem_mobile
+{
+	
+}
+
+.cbFormDataCell
+{
+	/*Form Data Container Attributes*/
+	padding: 2px 15px 0px 15px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	width: auto;
+}
+
+.cbFormDataCell_tablet
+{
+	
+}
+
+.cbFormDataCell_mobile
+{
+	
+}
+
+.cbFormDataCellNumberDate
+{
+	/*Form Data Container Attributes*/
+	padding: 2px 13px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	width: auto;
+}
+
+.cbFormDataCellNumberDate_tablet
+{
+	
+}
+
+.cbFormDataCellNumberDate_mobile
+{
+	
+}
+
+.cbFormExpandLink
+{
+	/*Show/Hide Collapsed Text Attributes*/
+	color: #002a4e;
+	cursor: pointer;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbFormExpandLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormExpandLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormExpandLink_hover
+{
+	/*Show/Hide Collapsed Text Attributes*/
+	color: #FFFFFF;
+	cursor: pointer;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbFormExpandLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormExpandLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormTable
+{
+	/*Form Table Attributes*/
+	background: #FFFFFF;
+	margin: 0px;
+	width: 100%;
+	white-space: nowrap;
+}
+
+.cbFormTable_tablet
+{
+	
+}
+
+.cbFormTable_mobile
+{
+	
+}
+
+.cbFormTableRow
+{
+	/*Form Table Row Attributes*/
+	background-color: #FFFFFF;
+}
+
+.cbFormTableRow_tablet
+{
+	
+}
+
+.cbFormTableRow_mobile
+{
+	
+}
+
+.cbFormTableRow_hover
+{
+	/*Form Table Row Hover Attributes*/
+	background-color: #FFFFFF;
+}
+
+.cbFormTableRow_hover_tablet
+{
+	
+}
+
+.cbFormTableRow_hover_mobile
+{
+	
+}
+
+.cbFormTableEvenRow
+{
+	/*Form Table Alternate Row Attributes*/
+	background-color: #FFFFFF;
+}
+
+.cbFormTableEvenRow_tablet
+{
+	
+}
+
+.cbFormTableEvenRow_mobile
+{
+	
+}
+
+.cbFormTableEvenRow_hover
+{
+	/*Form Table Alternate Row Hover Attributes*/
+	background-color: #FFFFFF;
+}
+
+.cbFormTableEvenRow_hover_tablet
+{
+	
+}
+
+.cbFormTableEvenRow_hover_mobile
+{
+	
+}
+
+.cbFormNestedTable
+{
+	/*Nested Table Attributes*/
+	border: none;
+	border-collapse: collapse;
+	padding: 0px;
+}
+
+.cbFormNestedTable_tablet
+{
+	
+}
+
+.cbFormNestedTable_mobile
+{
+	
+}
+
+.cbFormNestedTableContainer
+{
+	/*Nested Table Container Cell Attributes*/
+	padding: 0px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.cbFormNestedTableContainer_tablet
+{
+	
+}
+
+.cbFormNestedTableContainer_mobile
+{
+	
+}
+
+.cbFormCalendar
+{
+	/*Calendar Container Attributes */
+	padding-left: 5px;
+}
+
+.cbFormCalendar_tablet
+{
+	
+}
+
+.cbFormCalendar_mobile
+{
+	
+}
+
+.cbFormCalendarPickerNavBar
+{
+	/*Calendar Picker Attributes */
+	background: #027FAA;
+	color: #fff;
+	fill: #fff;
+}
+
+.cbFormCalendarPickerNavBar_tablet
+{
+	
+}
+
+.cbFormCalendarPickerNavBar_mobile
+{
+	
+}
+
+.cbFormCalendarPickerNavBarItem
+{
+	/*Calendar Picker Attributes */
+	font-family: Sans-serif;
+	font-size: 13px;
+}
+
+.cbFormCalendarPickerNavBarItem_tablet
+{
+	font-size: 16px;
+}
+
+.cbFormCalendarPickerNavBarItem_mobile
+{
+	font-size: 16px;
+}
+
+.cbFormCalendarPickerNavBarItem_hover
+{
+	/*Calendar Picker Attributes */
+	background: rgba(0,0,0,0.05);
+}
+
+.cbFormCalendarPickerNavBarItem_hover_tablet
+{
+	font-size: 16px;
+}
+
+.cbFormCalendarPickerNavBarItem_hover_mobile
+{
+	font-size: 16px;
+}
+
+.cbFormCalendarPickerMonthItem
+{
+	/*Calendar Picker Attributes */
+	background-color: transparent;
+	color: #000000;
+}
+
+.cbFormCalendarPickerMonthItem_tablet
+{
+	font-size: 16px;
+}
+
+.cbFormCalendarPickerMonthItem_mobile
+{
+	font-size: 16px;
+}
+
+.cbFormCalendarPickerWeekDayContainer
+{
+	/*Calendar Picker Attributes */
+	background: transparent;
+	border-bottom: 1px solid rgba(151, 151, 151, 0.26);
+	color: #777777;
+	font-size: 10px;
+}
+
+.cbFormCalendarPickerWeekDayContainer_tablet
+{
+	font-size: 13px;
+}
+
+.cbFormCalendarPickerWeekDayContainer_mobile
+{
+	font-size: 13px;
+}
+
+.cbFormCalendarPickerWeekDayItem
+{
+	/*Calendar Picker Attributes */
+}
+
+.cbFormCalendarPickerWeekDayItem_tablet
+{
+	font-size: 13px;
+}
+
+.cbFormCalendarPickerWeekDayItem_mobile
+{
+	font-size: 13px;
+}
+
+.cbFormCalendarPickerDate
+{
+	/*Calendar Picker Attributes */
+	background: #fff;
+	font-family: Sans-serif;
+	font-size: 13px;
+}
+
+.cbFormCalendarPickerDate_tablet
+{
+	font-size: 16px;
+}
+
+.cbFormCalendarPickerDate_mobile
+{
+	font-size: 16px;
+}
+
+.cbFormCalendarPickerTodayDate
+{
+	/*Calendar Picker Attributes */
+	border: 1px solid #027FAA;
+	color: #333333;
+}
+
+.cbFormCalendarPickerTodayDate_tablet
+{
+	font-size: 16px;
+}
+
+.cbFormCalendarPickerTodayDate_mobile
+{
+	font-size: 16px;
+}
+
+.cbFormCalendarPickerSelectedDate
+{
+	/*Calendar Picker Attributes */
+	background: #027FAA;
+	color: #fff;
+}
+
+.cbFormCalendarPickerSelectedDate_tablet
+{
+	font-size: 16px;
+}
+
+.cbFormCalendarPickerSelectedDate_mobile
+{
+	font-size: 16px;
+}
+
+.cbFormCalendarPickerMonthDay
+{
+	/*Calendar Picker Attributes */
+	color: #333333;
+}
+
+.cbFormCalendarPickerMonthDay_tablet
+{
+	font-size: 16px;
+	height: 32px;
+	line-height: 32px;
+	min-width: 32px;
+	color: #333333;
+}
+
+.cbFormCalendarPickerMonthDay_mobile
+{
+	font-size: 16px;
+	height: 32px;
+	line-height: 32px;
+	min-width: 32px;
+	color: #333333;
+}
+
+.cbFormCalendarPickerMonthDay_hover
+{
+	/*Calendar Picker Attributes */
+	background-color: #e8e8e8;
+	color: #333333;
+}
+
+.cbFormCalendarPickerMonthDay_hover_tablet
+{
+	font-size: 16px;
+	height: 32px;
+	color: #333333;
+}
+
+.cbFormCalendarPickerMonthDay_hover_mobile
+{
+	font-size: 16px;
+	height: 32px;
+	color: #333333;
+}
+
+.cbFormCalendarPickerPrevMonthDay
+{
+	/*Calendar Picker Attributes */
+	color: #C6C6C6;
+}
+
+.cbFormCalendarPickerPrevMonthDay_tablet
+{
+	
+}
+
+.cbFormCalendarPickerPrevMonthDay_mobile
+{
+	
+}
+
+.cbFormCalendarPickerNextMonthDay
+{
+	/*Calendar Picker Attributes */
+	color: #C6C6C6;
+}
+
+.cbFormCalendarPickerNextMonthDay_tablet
+{
+	
+}
+
+.cbFormCalendarPickerNextMonthDay_mobile
+{
+	
+}
+
+.cbFormCalendarPickerTodaySection
+{
+	/*Calendar Picker Attributes */
+	background: #fff;
+	border-top: 1px solid rgba(151, 151, 151, 0.26);
+	color: #777777;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.cbFormCalendarPickerTodaySection_tablet
+{
+	font-size: 16px;
+}
+
+.cbFormCalendarPickerTodaySection_mobile
+{
+	font-size: 16px;
+}
+
+.cbFormCalendarPickerTodaySection_hover
+{
+	/*Calendar Picker Attributes */
+	color: #027FAA;
+}
+
+.cbFormCalendarPickerTodaySection_hover_tablet
+{
+	font-size: 16px;
+}
+
+.cbFormCalendarPickerTodaySection_hover_mobile
+{
+	font-size: 16px;
+}
+
+.cbFormCalendarPickerTodayLabel
+{
+	/*Calendar Picker Attributes */
+	color: #027FAA;
+}
+
+.cbFormCalendarPickerTodayLabel_tablet
+{
+	font-size: 16px;
+}
+
+.cbFormCalendarPickerTodayLabel_mobile
+{
+	font-size: 16px;
+}
+
+.cbFormAudioCaptcha
+{
+	/*Audio Captcha Container Attributes */
+	padding-left: 2px;
+	vertical-align: top;
+}
+
+.cbFormAudioCaptcha_tablet
+{
+	
+}
+
+.cbFormAudioCaptcha_mobile
+{
+	
+}
+
+.cbFormAudioPlugin
+{
+	/*Audio Plugin Container Attributes */
+	padding-left: 2px;
+	vertical-align: top;
+}
+
+.cbFormAudioPlugin_tablet
+{
+	
+}
+
+.cbFormAudioPlugin_mobile
+{
+	
+}
+
+.cbSubmitButton
+{
+	/*Submit Button Attributes*/
+	border-radius: 1px;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: auto;
+	margin: 0px 0px;
+	min-width: 100%;
+	padding: 12px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #002a4e;
+	transition:all 0.3s ease-in-out;
+	border:1px solid #002a4e;
+}
+
+.cbSubmitButton_tablet
+{
+	font-size: 18px;
+	height: 46px;
+}
+
+.cbSubmitButton_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	width: 100%;
+}
+
+.cbInlineAddFormButton
+{
+	/*Submit Button Attributes*/
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border: none;
+	border-radius: 1px;
+	color: #FFFFFF;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	height: 40px;
+	margin: 0px 10px;
+	min-width: 180px;
+	padding: 0px 20px;
+	text-align: center;
+	text-transform: capitalize;
+	background-color: #002866;
+}
+
+.cbInlineAddFormButton_tablet
+{
+	font-size: 18px;
+	height: 46px;
+}
+
+.cbInlineAddFormButton_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	width: 100%;
+}
+
+.cbBackButton
+{
+	/*Back Button Attributes*/
+	border-radius: 1px;
+	color: #002a4e;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: auto;
+	margin: 0px 0px;
+	min-width: 130px;
+	padding: 12px 20px;
+	text-align: center;
+	text-transform: capitalize;
+	background-color: #f2f3f5;
+	transition:all 0.3s ease-in-out;
+	border:1px solid #f2f3f5;
+}
+
+.cbBackButton_tablet
+{
+	font-size: 18px;
+	height: 46px;
+}
+
+.cbBackButton_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	width: 100%;
+}
+
+.cbDeleteButton
+{
+	/*Delete Button Attributes*/
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border: 1px solid #3B6AD2;
+	border-radius: 1px;
+	color: #3B6AD2;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	height: 40px;
+	margin: 0px 10px;
+	min-width: 180px;
+	padding: 0px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #002866;
+}
+
+.cbDeleteButton_tablet
+{
+	font-size: 18px;
+	height: 46px;
+}
+
+.cbDeleteButton_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	width: 100%;
+}
+
+.cbSearchButton
+{
+	/*Search Button Attributes*/
+	border-radius: 1px;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: auto;
+	margin: 0px 0px;
+	min-width: 100%;
+	padding: 12px 20px;
+	text-align: center;
+	background-color: #002a4e;
+	transition:all 0.3s ease-in-out;
+	border:1px solid #002a4e;
+}
+
+.cbSearchButton_tablet
+{
+	font-size: 18px;
+	height: 46px;
+}
+
+.cbSearchButton_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	width: 100%;
+}
+
+.cbPasswordRecoveryButton
+{
+	/*Password Recovery Button Attributes*/
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border: none;
+	border-radius: 1px;
+	color: #FFFFFF;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	height: 40px;
+	margin: 0px 10px;
+	min-width: 180px;
+	padding: 0px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #002866;
+}
+
+.cbPasswordRecoveryButton_tablet
+{
+	font-size: 18px;
+	height: 46px;
+}
+
+.cbPasswordRecoveryButton_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	width: 100%;
+}
+
+.cbPasswordResetButton
+{
+	/*Password Reset Button Attributes*/
+	border-radius: 1px;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: auto;
+	margin: 0px 0px;
+	min-width: 100%;
+	padding: 12px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #002a4e;
+	transition:all 0.3s ease-in-out;
+	border:1px solid #002a4e;
+}
+
+.cbPasswordResetButton_tablet
+{
+	font-size: 18px;
+	height: 46px;
+}
+
+.cbPasswordResetButton_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	width: 100%;
+}
+
+.cbLoginButton
+{
+	border-radius: 1px;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: auto;
+	margin: 0px 0px;
+	min-width: 100%;
+	padding: 12px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #002a4e;
+	transition:all 0.3s ease-in-out;
+	border:1px solid #002a4e;
+}
+
+.cbLoginButton_tablet
+{
+	font-size: 18px;
+	height: 46px;
+}
+
+.cbLoginButton_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	width: 100%;
+}
+
+.cbUpdateButton
+{
+	/*Update Button Attributes - public button*/
+	border-radius: 1px;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: auto;
+	margin: 0px 0px;
+	min-width: 100%;
+	padding: 12px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #002a4e;
+	transition:all 0.3s ease-in-out;
+	border:1px solid #002a4e;
+}
+
+.cbUpdateButton_tablet
+{
+	font-size: 18px;
+	height: 46px;
+}
+
+.cbUpdateButton_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	width: 100%;
+}
+
+.cbSubmitButton_hover
+{
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border: 1px solid #002a4e;
+	border-radius: 1px;
+	color: #002a4e;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: auto;
+	margin: 0px 0px;
+	min-width: 100%;
+	padding: 12px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #FFFFFF;
+	box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.cbSubmitButton_hover_tablet
+{
+	font-size: 18px;
+	height: 46px;
+}
+
+.cbSubmitButton_hover_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	width: 100%;
+}
+
+.cbInlineAddFormButton_hover
+{
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border: none;
+	border-radius: 1px;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	height: 40px;
+	margin: 0px 10px;
+	min-width: 180 px;
+	padding: 0px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #335DA0;
+}
+
+.cbInlineAddFormButton_hover_tablet
+{
+	font-size: 18px;
+	height: 46px;
+}
+
+.cbInlineAddFormButton_hover_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	width: 100%;
+}
+
+.cbBackButton_hover
+{
+	/*Back Button Hover Attributes*/
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border: 1px solid #002a4e;
+	border-radius: 1px;
+	color: #002a4e;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: auto;
+	margin: 0px 0px;
+	min-width: 130px!important;
+	padding: 12px 20px;
+	text-align: center;
+	text-transform: capitalize;
+	background-color: #e1e4e7ad;
+	box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.cbBackButton_hover_tablet
+{
+	font-size: 18px;
+	height: 46px;
+}
+
+.cbBackButton_hover_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	width: 100%;
+}
+
+.cbDeleteButton_hover
+{
+	/*Delete Button Hover Attributes*/
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border: 1px solid #3B6AD2;
+	border-radius: 1px;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Metropolis;
+	font-size: 15px;
+	font-weight: 400;
+	height: 40px;
+	margin: 0px 10px;
+	min-width: 180 px;
+	padding: 0px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #335DA0;
+}
+
+.cbDeleteButton_hover_tablet
+{
+	font-size: 18px;
+	height: 46px;
+}
+
+.cbDeleteButton_hover_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	width: 100%;
+}
+
+.cbSearchButton_hover
+{
+	/*Search Button Hover Attributes*/
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border: 1px solid #002a4e;
+	border-radius: 1px;
+	color: #002a4e;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: auto;
+	margin: 0px 0px;
+	min-width: 100%;
+	padding: 12px 20px;
+	text-align: center;
+	background-color: #FFFFFF;
+	box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.cbSearchButton_hover_tablet
+{
+	font-size: 18px;
+	height: 46px;
+}
+
+.cbSearchButton_hover_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	width: 100%;
+}
+
+.cbLoginButton_hover
+{
+	/*Login Button Hover Attributes*/
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border: 1px solid #002a4e;
+	border-radius: 1px;
+	color: #002a4e;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: auto;
+	margin: 0px 0px;
+	min-width: 100%;
+	padding: 12px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #FFFFFF;
+	box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.cbLoginButton_hover_tablet
+{
+	font-size: 18px;
+	height: 46px;
+}
+
+.cbLoginButton_hover_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	width: 100%;
+}
+
+.cbUpdateButton_hover
+{
+	/*Update Button Hover Attributes*/
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border: 1px solid #002a4e;
+	border-radius: 1px;
+	color: #002a4e;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: auto;
+	margin: 0px 0px;
+	min-width: 100%;
+	padding: 12px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #FFFFFF;
+	box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.cbUpdateButton_hover_tablet
+{
+	font-size: 18px;
+	height: 46px;
+}
+
+.cbUpdateButton_hover_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	width: 100%;
+}
+
+.cbPasswordRecoveryButton_hover
+{
+	/*Password Recovery Button Hover Attributes*/
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border: none;
+	border-radius: 1px;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Metropolis;
+	font-size: 15px;
+	font-weight: 400;
+	height: 40px;
+	margin: 0px 10px;
+	min-width: 180 px;
+	padding: 0px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #335DA0;
+}
+
+.cbPasswordRecoveryButton_hover_tablet
+{
+	font-size: 18px;
+	height: 46px;
+}
+
+.cbPasswordRecoveryButton_hover_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	width: 100%;
+}
+
+.cbPasswordResetButton_hover
+{
+	/*Password Reset Button Hover Attributes*/
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border: 1px solid #002a4e;
+	border-radius: 1px;
+	color: #002a4e;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: auto;
+	margin: 0px 0px;
+	min-width: 100%;
+	padding: 12px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #FFFFFF;
+	box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.cbPasswordResetButton_hover_tablet
+{
+	font-size: 18px;
+	height: 46px;
+}
+
+.cbPasswordResetButton_hover_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	width: 100%;
+}
+
+.cbSubmitButtonContainer
+{
+	/*Submit Button Container Cell Attributes*/
+	background: #FFFFFF;
+	padding: 40px 15px;
+	text-align: left;
+	vertical-align: middle;
+	display: flex;
+}
+
+.cbSubmitButtonContainer_tablet
+{
+	
+}
+
+.cbSubmitButtonContainer_mobile
+{
+	
+}
+
+.cbInlineAddFormButtonContainer
+{
+	/*Submit Button Container Cell Attributes*/
+	background: #FFFFFF;
+	padding: 40px 15px 40px 15px;
+	text-align: left;
+	vertical-align: middle;
+	display: flex;
+}
+
+.cbInlineAddFormButtonContainer_tablet
+{
+	
+}
+
+.cbInlineAddFormButtonContainer_mobile
+{
+	
+}
+
+.cbBackButtonContainer
+{
+	/*Back Button Container Cell Attributes*/
+	background: #FFFFFF;
+	padding: 40px 15px;
+	text-align: left;
+	vertical-align: middle;
+	display:flex;
+	width: auto!important;
+}
+
+.cbBackButtonContainer_tablet
+{
+	display:grid;
+}
+
+.cbBackButtonContainer_mobile
+{
+	text-align: center;
+	display:grid;
+}
+
+.cbDeleteButtonContainer
+{
+	/*Delete Button Container Cell Attributes*/
+	background: #FFFFFF;
+	padding: 40px 15px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cbDeleteButtonContainer_tablet
+{
+	
+}
+
+.cbDeleteButtonContainer_mobile
+{
+	
+}
+
+.cbSearchButtonContainer
+{
+	background: #FFFFFF;
+	padding: 40px 15px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cbSearchButtonContainer_tablet
+{
+	border-bottom: 2px solid #d1d3e2a3;
+}
+
+.cbSearchButtonContainer_mobile
+{
+	border-bottom: 2px solid #d1d3e2a3;
+}
+
+.cbLoginButtonContainer
+{
+	/*Login Button Container Cell Attributes*/
+	background: #FFFFFF;
+	padding: 40px 15px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cbLoginButtonContainer_tablet
+{
+	
+}
+
+.cbLoginButtonContainer_mobile
+{
+	
+}
+
+.cbUpdateButtonContainer
+{
+	/*Update Button Container Cell Attributes*/
+	background: #FFFFFF;
+	padding: 40px 15px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.cbUpdateButtonContainer_tablet
+{
+	
+}
+
+.cbUpdateButtonContainer_mobile
+{
+	
+}
+
+.cbPasswordRecoveryButtonContainer
+{
+	/*Password Recovery Button Container Cell Attributes*/
+	background: #FFFFFF;
+	padding: 40px 15px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.cbPasswordRecoveryButtonContainer_tablet
+{
+	
+}
+
+.cbPasswordRecoveryButtonContainer_mobile
+{
+	
+}
+
+.cbPasswordResetButtonContainer
+{
+	/*Password Reset Button Container Cell Attributes*/
+	background: #FFFFFF;
+	padding: 40px 15px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cbPasswordResetButtonContainer_tablet
+{
+	
+}
+
+.cbPasswordResetButtonContainer_mobile
+{
+	
+}
+
+.cbFormAutoCompleteList
+{
+	/*Auto Complete Container Attributes*/
+	-moz-border-radius: 0px 0px 3px 3px;
+	-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+	-webkit-border-radius: 0px 0px 3px 3px;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+	background: #FFFFFF;
+	border-color: #ACB7BB;
+	border-radius: 0px 0px 3px 3px;
+	border-style: solid;
+	border-width: 0px 1px 1px 1px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+	padding: 2px 0px;
+}
+
+.cbFormAutoCompleteList_tablet
+{
+	
+}
+
+.cbFormAutoCompleteList_mobile
+{
+	
+}
+
+.cbFormAutoCompleteOption
+{
+	/*Auto Complete Row Attributes*/
+	background-color: #FFFFFF;
+	padding: 3px 10px;
+}
+
+.cbFormAutoCompleteOption_tablet
+{
+	
+}
+
+.cbFormAutoCompleteOption_mobile
+{
+	
+}
+
+.cbFormAutoCompleteOption_hover
+{
+	/*Auto Complete Container Hover Attributes*/
+	background-color: #6D8199;
+	cursor: pointer;
+	padding: 3px 10px;
+}
+
+.cbFormAutoCompleteOption_hover_tablet
+{
+	
+}
+
+.cbFormAutoCompleteOption_hover_mobile
+{
+	
+}
+
+.cbFormAutoCompleteOptionText
+{
+	/*Auto Complete Text Attributes*/
+	color: #6A7275;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.cbFormAutoCompleteOptionText_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormAutoCompleteOptionText_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormAutoCompleteOptionText_hover
+{
+	/*Auto Complete Text Hover Attributes*/
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.cbFormAutoCompleteOptionText_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormAutoCompleteOptionText_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormAutoCompleteOptionRemainder
+{
+	/*Auto Complete Remain Text Attributes*/
+	color: #20282B;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.cbFormAutoCompleteOptionRemainder_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormAutoCompleteOptionRemainder_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormAutoCompleteOptionRemainder_hover
+{
+	/*Auto Complete Remain Text Hover Attributes*/
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.cbFormAutoCompleteOptionRemainder_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormAutoCompleteOptionRemainder_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbHTMLBlockContainer
+{
+	/*HTML Block Container Cell*/
+	background: #FFFFFF;
+	color: #333333;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 15px 15px 0px 15px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.cbHTMLBlockContainer_tablet
+{
+	font-size: 17px;
+}
+
+.cbHTMLBlockContainer_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormActionsContainer
+{
+	/*Details Page Actions Root Container Attributes*/
+	padding: 5px 0px;
+	white-space: nowrap;
+	width: 100%;
+}
+
+.cbFormActionsContainer_tablet
+{
+	
+}
+
+.cbFormActionsContainer_mobile
+{
+	
+}
+
+.cbGenerateTemplatesLink
+{
+	color: #027FAA;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 0px;
+	text-decoration: none;
+}
+
+.cbGenerateTemplatesLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbGenerateTemplatesLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbGenerateTemplatesLink_hover
+{
+	color: #1196BA;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 0px;
+	text-decoration: underline;
+}
+
+.cbGenerateTemplatesLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbGenerateTemplatesLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbGenerateTemplatesLinkOpen
+{
+	
+}
+
+.cbGenerateTemplatesLinkOpen_tablet
+{
+	
+}
+
+.cbGenerateTemplatesLinkOpen_mobile
+{
+	
+}
+
+.cbFormSearchAgainContainer
+{
+	/*Details Page Search Again Container Attributes*/
+	padding: 0px;
+	padding-left: 10px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.cbFormSearchAgainContainer_tablet
+{
+	
+}
+
+.cbFormSearchAgainContainer_mobile
+{
+	
+}
+
+.cbFormSearchAgainLink
+{
+	/*Details Page Search Again Link Attributes*/
+	color: #002866;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbFormSearchAgainLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormSearchAgainLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormSearchAgainLink_hover
+{
+	/*Details Page Search Again Link Hover Attributes*/
+	color: #335DA0;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.cbFormSearchAgainLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormSearchAgainLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormDownloadDetailsContainer
+{
+	/*Details Page Download Message Div Attributes*/
+	border: none;
+	margin: 0px;
+	padding: 0px 3px 0px 3px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	width: auto;
+}
+
+.cbFormDownloadDetailsContainer_tablet
+{
+	
+}
+
+.cbFormDownloadDetailsContainer_mobile
+{
+	
+}
+
+.cbFormDownloadDetailsLink
+{
+	/*Details Page Download Message Link Attributes*/
+	color: #3B6AD2;
+	font-family: Metropolis;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbFormDownloadDetailsLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormDownloadDetailsLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormDownloadDetailsLink_hover
+{
+	/*Details Page Download Message Link Hover Attributes*/
+	color: #477FFF;
+	font-family: Metropolis;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.cbFormDownloadDetailsLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormDownloadDetailsLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormBackToPivotActionContainer
+{
+	/*Details Page Back To Pivot Container Attributes*/
+	padding: 0px;
+	padding-left: 10px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.cbFormBackToPivotActionContainer_tablet
+{
+	
+}
+
+.cbFormBackToPivotActionContainer_mobile
+{
+	
+}
+
+.cbFormBackToPivotActionLink
+{
+	/*Details Page Back To Pivot Link Attributes*/
+	color: #002866;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbFormBackToPivotActionLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormBackToPivotActionLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormBackToPivotActionLink_hover
+{
+	/*Details Page Back To Pivot Link Hover Attributes*/
+	color: #335DA0;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.cbFormBackToPivotActionLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormBackToPivotActionLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormBackToReportActionContainer
+{
+	/*Details Page Back To Report Container Attributes*/
+	padding: 0px;
+	padding-left: 10px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.cbFormBackToReportActionContainer_tablet
+{
+	
+}
+
+.cbFormBackToReportActionContainer_mobile
+{
+	
+}
+
+.cbFormBackToReportActionLink
+{
+	/*Details Page Back To Report Link Attributes*/
+	color: #002866;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbFormBackToReportActionLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormBackToReportActionLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormBackToReportActionLink_hover
+{
+	/*Details Page Back To Report Link Hover Attributes*/
+	color: #335DA0;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.cbFormBackToReportActionLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormBackToReportActionLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormNavigationTable
+{
+	/*Details Page Navigation Table Attributes*/
+	margin: 0px;
+	white-space: nowrap;
+	width: 100%;
+}
+
+.cbFormNavigationTable_tablet
+{
+	
+}
+
+.cbFormNavigationTable_mobile
+{
+	
+}
+
+.cbFormNavigationCell
+{
+	/*Details Page Navigation Cell Attributes*/
+	border: none;
+	padding: 4px 8px;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	width: auto;
+}
+
+.cbFormNavigationCell_tablet
+{
+	
+}
+
+.cbFormNavigationCell_mobile
+{
+	
+}
+
+.cbFormNavigationMessage
+{
+	/*Details Page Navigation Message Attributes*/
+	color: #002A4E;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.cbFormNavigationMessage_tablet
+{
+	font-size: 15px;
+}
+
+.cbFormNavigationMessage_mobile
+{
+	font-size: 15px;
+}
+
+.cbFormNavigationLinks
+{
+	/*Details Page Navigation Links Text Attributes*/
+	/* Forced by default to add space between navigation links */
+	color: #002866;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0 5px;
+	text-decoration: none;
+}
+
+.cbFormNavigationLinks_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormNavigationLinks_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormNavigationLinks_hover
+{
+	/* Forced by default to add space between navigation links */
+	color: #477FFF;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0 5px;
+	text-decoration: underline;
+}
+
+.cbFormNavigationLinks_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormNavigationLinks_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormJumpToTextField
+{
+	/*Details Page Navigation Message Attributes*/
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	background: #648BAF;
+	border-color: #648BAF;
+	border-radius: 1px;
+	border-style: solid;
+	border-width: 1px;
+	color: #FFFFFF;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 3px;
+	text-align: right;
+}
+
+.cbFormJumpToTextField_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormJumpToTextField_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetJumpToTextField
+{
+	/*Paging Message Text Attributes*/
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	background: #648BAF;
+	border-color: #648BAF;
+	border-radius: 1px;
+	border-style: solid;
+	border-width: 1px;
+	color: #FFFFFF;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 3px;
+	text-align: right;
+}
+
+.cbResultSetJumpToTextField_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetJumpToTextField_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormNavigationDDown
+{
+	/*Details Page Navigation Dropdown Text Attributes*/
+	color: #002a4e;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbFormNavigationDDown_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormNavigationDDown_mobile
+{
+	font-size: 15px;
+}
+
+.cbFormOuterTable
+{
+	/*Form Outer Table Attributes*/
+}
+
+.cbFormOuterTable_tablet
+{
+	
+}
+
+.cbFormOuterTable_mobile
+{
+	
+}
+
+.cbResultSetOuterTable
+{
+	/*Results Page Outer Table Attributes*/
+	width: 100%;
+}
+
+.cbResultSetOuterTable_tablet
+{
+	
+}
+
+.cbResultSetOuterTable_mobile
+{
+	
+}
+
+.cbResultSetRANestedTable
+{
+	/*Result Set Record Action Nested Table Attributes*/
+	border: none;
+	border-collapse: collapse;
+	height: 100%;
+	padding: 0px;
+}
+
+.cbResultSetRANestedTable_tablet
+{
+	
+}
+
+.cbResultSetRANestedTable_mobile
+{
+	
+}
+
+.cbAuthIconsProviderLink
+{
+	color: #027FAA;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	margin-right: 10px;
+	padding: 2px;
+	text-decoration: none;
+}
+
+.cbAuthIconsProviderLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbAuthIconsProviderLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbAuthIconsProviderLink_hover
+{
+	color: #1196BA;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	margin-right: 10px;
+	padding: 2px;
+	text-decoration: none;
+}
+
+.cbAuthIconsProviderLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbAuthIconsProviderLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbAuthSimpleProviderLink
+{
+	color: #027FAA;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 0px;
+	text-decoration: none;
+}
+
+.cbAuthSimpleProviderLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbAuthSimpleProviderLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbAuthSimpleProviderLink_hover
+{
+	color: #1196BA;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 0px;
+	text-decoration: underline;
+}
+
+.cbAuthSimpleProviderLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbAuthSimpleProviderLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbAuthSidebarProviderLink
+{
+	color: #027FAA;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	padding: 8px;
+	text-decoration: none;
+}
+
+.cbAuthSidebarProviderLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbAuthSidebarProviderLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbAuthSidebarProviderLink_hover
+{
+	color: #1196BA;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	padding: 8px;
+	text-decoration: none;
+}
+
+.cbAuthSidebarProviderLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbAuthSidebarProviderLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbAuthIconsOuterTable
+{
+	border: none;
+	margin: 10px 0px;
+	padding: 0px;
+}
+
+.cbAuthIconsOuterTable_tablet
+{
+	
+}
+
+.cbAuthIconsOuterTable_mobile
+{
+	
+}
+
+.cbAuthIconsProviderContainer
+{
+	padding: 10px 15px;
+	text-align: left;
+	vertical-align: middle;
+	width: auto;
+}
+
+.cbAuthIconsProviderContainer_tablet
+{
+	
+}
+
+.cbAuthIconsProviderContainer_mobile
+{
+	
+}
+
+.cbAuthIconsProviderLinkImage
+{
+	margin: 5px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cbAuthIconsProviderLinkImage_tablet
+{
+	
+}
+
+.cbAuthIconsProviderLinkImage_mobile
+{
+	
+}
+
+.cbAuthSimpleOuterTable
+{
+	background: #FFFFFF;
+	border-collapse: collapse;
+	border-color: #F2F2F2;
+	border-style: solid;
+	border-width: 1px;
+	margin: 10px 0px;
+}
+
+.cbAuthSimpleOuterTable_tablet
+{
+	
+}
+
+.cbAuthSimpleOuterTable_mobile
+{
+	
+}
+
+.cbAuthSimpleProviderInnerTable
+{
+	margin: 0px;
+	width: auto;
+}
+
+.cbAuthSimpleProviderInnerTable_tablet
+{
+	
+}
+
+.cbAuthSimpleProviderInnerTable_mobile
+{
+	
+}
+
+.cbAuthSimpleProviderContainerRight
+{
+	background: #F2F2F2;
+	border-color: #F2F2F2;
+	border-style: solid;
+	border-width: 0px 0px 0px 2px;
+	padding-bottom: 8px;
+	vertical-align: middle;
+}
+
+.cbAuthSimpleProviderContainerRight_tablet
+{
+	
+}
+
+.cbAuthSimpleProviderContainerRight_mobile
+{
+	
+}
+
+.cbAuthSimpleProviderContainerLeft
+{
+	background: #F2F2F2;
+	border-color: #F2F2F2;
+	border-style: solid;
+	border-width: 0px 0px 0px 2px;
+	padding-bottom: 8px;
+	vertical-align: middle;
+}
+
+.cbAuthSimpleProviderContainerLeft_tablet
+{
+	
+}
+
+.cbAuthSimpleProviderContainerLeft_mobile
+{
+	
+}
+
+.cbAuthSimpleProviderContainerTop
+{
+	background: #F2F2F2;
+	border-color: #F2F2F2;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	vertical-align: middle;
+}
+
+.cbAuthSimpleProviderContainerTop_tablet
+{
+	
+}
+
+.cbAuthSimpleProviderContainerTop_mobile
+{
+	
+}
+
+.cbAuthSimpleProviderContainerBottom
+{
+	background: #F2F2F2;
+	border-color: #F2F2F2;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	vertical-align: middle;
+}
+
+.cbAuthSimpleProviderContainerBottom_tablet
+{
+	
+}
+
+.cbAuthSimpleProviderContainerBottom_mobile
+{
+	
+}
+
+.cbAuthSimpleProviderContainerVertical
+{
+	background: #F2F2F2;
+	border-color: #F2F2F2;
+	border-style: solid;
+	border-width: 0px 0px 0px 2px;
+	vertical-align: middle;
+}
+
+.cbAuthSimpleProviderContainerVertical_tablet
+{
+	
+}
+
+.cbAuthSimpleProviderContainerVertical_mobile
+{
+	
+}
+
+.cbAuthSimpleProviderContainerHorizontal
+{
+	background: #F2F2F2;
+	border-color: #F2F2F2;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	vertical-align: middle;
+}
+
+.cbAuthSimpleProviderContainerHorizontal_tablet
+{
+	
+}
+
+.cbAuthSimpleProviderContainerHorizontal_mobile
+{
+	
+}
+
+.cbAuthSimpleCaspioContainer
+{
+	background: #FFFFFF;
+	padding: 5px 30px;
+	text-align: left;
+	vertical-align: middle;
+	width: auto;
+}
+
+.cbAuthSimpleCaspioContainer_tablet
+{
+	
+}
+
+.cbAuthSimpleCaspioContainer_mobile
+{
+	
+}
+
+.cbAuthSimpleProviderPrompt
+{
+	color: #20282B;
+	font-family: Metropolis;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 20px 0px 15px;
+	text-transform: uppercase;
+}
+
+.cbAuthSimpleProviderPrompt_tablet
+{
+	font-size: 17px;
+}
+
+.cbAuthSimpleProviderPrompt_mobile
+{
+	font-size: 17px;
+}
+
+.cbAuthSimpleSignInWithPrompt
+{
+	color: #333333;
+	font-family: Metropolis;
+	font-size: 11px;
+	font-weight: 400;
+	margin: 0px 8px;
+	text-transform: uppercase;
+}
+
+.cbAuthSimpleSignInWithPrompt_tablet
+{
+	font-size: 17px;
+}
+
+.cbAuthSimpleSignInWithPrompt_mobile
+{
+	font-size: 17px;
+}
+
+.cbAuthSimpleProviderLinkImage
+{
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cbAuthSimpleProviderLinkImage_tablet
+{
+	
+}
+
+.cbAuthSimpleProviderLinkImage_mobile
+{
+	
+}
+
+.cbAuthSimpleActionCell
+{
+	border: 0px none;
+	margin: 0px;
+	padding: 7px;
+	text-align: center;
+	vertical-align: middle;
+	white-space: normal;
+}
+
+.cbAuthSimpleActionCell_tablet
+{
+	
+}
+
+.cbAuthSimpleActionCell_mobile
+{
+	
+}
+
+.cbAuthSimpleActionCell_hover
+{
+	border: 0px none;
+	margin: 0px;
+	padding: 7px;
+	text-align: center;
+	vertical-align: middle;
+	white-space: normal;
+}
+
+.cbAuthSimpleActionCell_hover_tablet
+{
+	
+}
+
+.cbAuthSimpleActionCell_hover_mobile
+{
+	
+}
+
+.cbAuthSimpleCaspioOuterTable
+{
+	margin: auto;
+	width: 100%;
+}
+
+.cbAuthSimpleCaspioOuterTable_tablet
+{
+	
+}
+
+.cbAuthSimpleCaspioOuterTable_mobile
+{
+	
+}
+
+.cbAuthSidebarHeader
+{
+	-khtml-border-radius: 2px 2px 0px 0px;
+	-moz-border-radius: 2px 2px 0px 0px;
+	-ms-border-radius: 2px 2px 0px 0px;
+	-o-border-radius: 2px 2px 0px 0px;
+	-webkit-border-radius: 2px 2px 0px 0px;
+	background: #444444;
+	border-bottom: 3px solid grey;
+	border-radius: 2px 2px 0px 0px;
+	color: #FFFFFF;
+	font-family: Metropolis;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 8px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cbAuthSidebarHeader_tablet
+{
+	
+}
+
+.cbAuthSidebarHeader_mobile
+{
+	
+}
+
+.cbAuthSidebarFooter
+{
+	-khtml-border-radius: 0px 0px 2px 2px;
+	-moz-border-radius: 0px 0px 2px 2px;
+	-ms-border-radius: 0px 0px 2px 2px;
+	-o-border-radius: 0px 0px 2px 2px;
+	-webkit-border-radius: 0px 0px 2px 2px;
+	border: 2px solid grey;
+	border-radius: 0px 0px 2px 2px;
+	border-top-width: 1px;
+	color: #20282B;
+	font-family: Metropolis;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 8px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.cbAuthSidebarFooter_tablet
+{
+	
+}
+
+.cbAuthSidebarFooter_mobile
+{
+	
+}
+
+.cbAuthSidebarLoginButtonContainer
+{
+	padding: 0 6px 0 6px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.cbAuthSidebarLoginButtonContainer_tablet
+{
+	
+}
+
+.cbAuthSidebarLoginButtonContainer_mobile
+{
+	
+}
+
+.cbAuthSidebarOuterTable
+{
+	background: #FFFFFF;
+	border-color: #F2F2F2;
+	border-style: solid;
+	border-width: 1px;
+	margin: 10px 0px 10px 0px;
+	min-height: 280px;
+	padding: 0;
+}
+
+.cbAuthSidebarOuterTable_tablet
+{
+	
+}
+
+.cbAuthSidebarOuterTable_mobile
+{
+	
+}
+
+.cbAuthSidebarProviderContainer
+{
+	background-color: #F2F2F2;
+	padding: 0px;
+	text-align: left;
+	vertical-align: top;
+	width: 135px;
+}
+
+.cbAuthSidebarProviderContainer_tablet
+{
+	
+}
+
+.cbAuthSidebarProviderContainer_mobile
+{
+	
+}
+
+.cbAuthSidebarProviderContentWrapper
+{
+	background: #FFFFFF;
+	padding: 13px 30px 15px 30px;
+	vertical-align: top;
+}
+
+.cbAuthSidebarProviderContentWrapper_tablet
+{
+	
+}
+
+.cbAuthSidebarProviderContentWrapper_mobile
+{
+	
+}
+
+.cbAuthSidebarCaspioOuterTable
+{
+	background: #FFFFFF;
+	border-color: #F2F2F2;
+	border-style: solid;
+	border-width: 1px;
+	height: 280px;
+	margin: 10px 0px 10px 0px;
+	padding: 0px;
+}
+
+.cbAuthSidebarCaspioOuterTable_tablet
+{
+	
+}
+
+.cbAuthSidebarCaspioOuterTable_mobile
+{
+	
+}
+
+.cbAuthSidebarActionCell
+{
+	background-color: #F2F2F2;
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.cbAuthSidebarActionCell_tablet
+{
+	
+}
+
+.cbAuthSidebarActionCell_mobile
+{
+	
+}
+
+.cbAuthSidebarActionCell_hover
+{
+	background-color: #F7F7F7;
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.cbAuthSidebarActionCell_hover_tablet
+{
+	
+}
+
+.cbAuthSidebarActionCell_hover_mobile
+{
+	
+}
+
+.cbAuthSidebarProviderActiveLink
+{
+	color: #027FAA;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	padding: 8px;
+	text-decoration: none;
+}
+
+.cbAuthSidebarProviderActiveLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbAuthSidebarProviderActiveLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbAuthSidebarProviderActiveLink_hover
+{
+	color: #1196BA;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	padding: 8px;
+	text-decoration: none;
+}
+
+.cbAuthSidebarProviderActiveLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbAuthSidebarProviderActiveLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbAuthSidebarActiveActionCell
+{
+	background-color: #FFFFFF;
+	color: #027FAA;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.cbAuthSidebarActiveActionCell_tablet
+{
+	
+}
+
+.cbAuthSidebarActiveActionCell_mobile
+{
+	
+}
+
+.cbAuthSidebarActiveActionCell_hover
+{
+	background-color: #FFFFFF;
+	color: #477FFF;
+	font-family: Metropolis;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.cbAuthSidebarActiveActionCell_hover_tablet
+{
+	
+}
+
+.cbAuthSidebarActiveActionCell_hover_mobile
+{
+	
+}
+
+.cbAuthSidebarProviderContent
+{
+	width: 100%;
+}
+
+.cbAuthSidebarProviderContent_tablet
+{
+	
+}
+
+.cbAuthSidebarProviderContent_mobile
+{
+	
+}
+
+.cbAuthSidebarProviderPrompt
+{
+	color: #20282B;
+	font-family: Metropolis;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 8px 0px 12px;
+	text-transform: uppercase;
+}
+
+.cbAuthSidebarProviderPrompt_tablet
+{
+	
+}
+
+.cbAuthSidebarProviderPrompt_mobile
+{
+	
+}
+
+.cbAuthSidebarProviderInstruction
+{
+	color: #20282B;
+	font-family: Metropolis;
+	font-size: 12px;
+	font-weight: 400;
+	margin: 20px 0px 20px 0px;
+	text-align: left;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.cbAuthSidebarProviderInstruction_tablet
+{
+	
+}
+
+.cbAuthSidebarProviderInstruction_mobile
+{
+	
+}
+
+.cbAuthSidebarProviderWarning
+{
+	color: #20282B;
+	font-family: Metropolis;
+	font-size: 11px;
+	font-weight: 400;
+	margin-top: 20px;
+	text-align: left;
+}
+
+.cbAuthSidebarProviderWarning_tablet
+{
+	
+}
+
+.cbAuthSidebarProviderWarning_mobile
+{
+	
+}
+
+.cbAuthSidebarProviderWaitingMessage
+{
+	
+}
+
+.cbAuthSidebarProviderWaitingMessage_tablet
+{
+	
+}
+
+.cbAuthSidebarProviderWaitingMessage_mobile
+{
+	
+}
+
+.cbAuthSidebarProviderLoginButton
+{
+	color: #20282B;
+	font-family: Metropolis;
+	font-size: 11px;
+	font-weight: 400;
+}
+
+.cbAuthSidebarProviderLoginButton_tablet
+{
+	
+}
+
+.cbAuthSidebarProviderLoginButton_mobile
+{
+	
+}
+
+.cbAuthSidebarProviderLinkImage
+{
+	margin: 0px 5px 0px 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cbAuthSidebarProviderLinkImage_tablet
+{
+	
+}
+
+.cbAuthSidebarProviderLinkImage_mobile
+{
+	
+}
+
+.cbAuthOpenIDTable
+{
+	margin: 0 auto;
+	width: auto;
+}
+
+.cbAuthOpenIDTable_tablet
+{
+	
+}
+
+.cbAuthOpenIDTable_mobile
+{
+	
+}
+
+.cbAuthLightbox
+{
+	-moz-border-radius: 3px;
+	-moz-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3);
+	background-color: #FFFFFF;
+	border-color: #ACB7BB;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.3);
+	padding: 12px 8px 8px 8px;
+}
+
+.cbAuthLightbox_tablet
+{
+	
+}
+
+.cbAuthLightbox_mobile
+{
+	
+}
+
+.cbAuthOpenIdLightboxArrow
+{
+	background: url("<cb:BridgeServer/>/images/dp/authLightboxArrow.png") no-repeat scroll 0 0 transparent;
+	height: 25px;
+	left: 15px;
+	position: relative;
+	top: 11px;
+	width: 30px;
+}
+
+.cbAuthOpenIdLightboxArrow_tablet
+{
+	
+}
+
+.cbAuthOpenIdLightboxArrow_mobile
+{
+	
+}
+
+.cbAuthCaspioLightboxArrow
+{
+	background: url("<cb:BridgeServer/>/images/dp/authLightboxArrow.png") no-repeat scroll 0 0 transparent;
+	height: 25px;
+	left: 15px;
+	position: relative;
+	top: 11px;
+	width: 30px;
+}
+
+.cbAuthCaspioLightboxArrow_tablet
+{
+	
+}
+
+.cbAuthCaspioLightboxArrow_mobile
+{
+	
+}
+
+.cbAuthLightboxCloseButton
+{
+	cursor: pointer;
+	line-height: 0px;
+	position: absolute;
+	right: 11px;
+}
+
+.cbAuthLightboxCloseButton_tablet
+{
+	
+}
+
+.cbAuthLightboxCloseButton_mobile
+{
+	
+}
+
+.cbAuthLightboxHeader
+{
+	color: #000;
+	text-align: left;
+}
+
+.cbAuthLightboxHeader_tablet
+{
+	
+}
+
+.cbAuthLightboxHeader_mobile
+{
+	
+}
+
+.cbAuthLightboxDivider
+{
+	border-top: 1px solid #ACB7BB;
+	height: 1px;
+	line-height: 0px;
+	margin-bottom: 4px;
+	margin-top: 4px;
+	width: 100%;
+}
+
+.cbAuthLightboxDivider_tablet
+{
+	
+}
+
+.cbAuthLightboxDivider_mobile
+{
+	
+}
+
+.cbAuthHorizontalBlockSeparator
+{
+	display: none;
+}
+
+.cbAuthHorizontalBlockSeparator_tablet
+{
+	
+}
+
+.cbAuthHorizontalBlockSeparator_mobile
+{
+	
+}
+
+.cbAuthVerticalBlockSeparator
+{
+	display: none;
+}
+
+.cbAuthVerticalBlockSeparator_tablet
+{
+	
+}
+
+.cbAuthVerticalBlockSeparator_mobile
+{
+	
+}
+
+.cbAuthButtonSeparator
+{
+	width: 6px;
+}
+
+.cbAuthButtonSeparator_tablet
+{
+	
+}
+
+.cbAuthButtonSeparator_mobile
+{
+	
+}
+
+.cbAuthDeferredOuterContainer
+{
+	background-color: #FFFFFF;
+	left: -10000px;
+	opacity: 0.5;
+	position: fixed;
+	top: -10000px;
+}
+
+.cbAuthDeferredOuterContainer_tablet
+{
+	
+}
+
+.cbAuthDeferredOuterContainer_mobile
+{
+	
+}
+
+.cbAuthDeferredInnerContainer
+{
+	-moz-box-shadow: 0px 0px 3px 3px #dedede;
+	-webkit-box-shadow: 0px 0px 3px 3px #dedede;
+	background-color: #FFFFFF;
+	border: 1px solid #ACB7BB;
+	box-shadow: 0px 0px 3px 3px #dedede;
+	min-width: 400px;
+	overflow: visible;
+	position: fixed;
+}
+
+.cbAuthDeferredInnerContainer_tablet
+{
+	
+}
+
+.cbAuthDeferredInnerContainer_mobile
+{
+	
+}
+
+.cbAuthDeferredTitle
+{
+	background-color: #F2F2F2;
+	border-bottom: 1px solid #ACB7BB;
+	height: 30px;
+	left: 0px;
+	overflow: hidden;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.cbAuthDeferredTitle_tablet
+{
+	
+}
+
+.cbAuthDeferredTitle_mobile
+{
+	
+}
+
+.cbAuthDeferredTitleText
+{
+	color: #20282B;
+	cursor: default;
+	font-family: Metropolis;
+	font-size: 14px;
+	height: 30px;
+	left: 10px;
+	line-height: 30px;
+	overflow: hidden;
+	position: absolute;
+	right: 46px;
+	top: 2px;
+}
+
+.cbAuthDeferredTitleText_tablet
+{
+	
+}
+
+.cbAuthDeferredTitleText_mobile
+{
+	
+}
+
+.cbAuthDeferredClsBtnContainer
+{
+	cursor: pointer;
+	line-height: 0px;
+	position: absolute;
+	right: 11px;
+	top: 11px;
+}
+
+.cbAuthDeferredClsBtnContainer_tablet
+{
+	
+}
+
+.cbAuthDeferredClsBtnContainer_mobile
+{
+	
+}
+
+.cbAuthDeferredClsBtn
+{
+	height: 11px;
+	right: 10px;
+	top: 10px;
+	width: 11px;
+}
+
+.cbAuthDeferredClsBtn_tablet
+{
+	
+}
+
+.cbAuthDeferredClsBtn_mobile
+{
+	
+}
+
+.cbAuthDeferredBody
+{
+	margin: 50px 20px;
+}
+
+.cbAuthDeferredBody_tablet
+{
+	
+}
+
+.cbAuthDeferredBody_mobile
+{
+	
+}
+
+.cbAuthDeferredBodyInnerContainer
+{
+	margin: 0 auto;
+}
+
+.cbAuthDeferredBodyInnerContainer_tablet
+{
+	
+}
+
+.cbAuthDeferredBodyInnerContainer_mobile
+{
+	
+}
+
+.cbAuthDeferredButtonsCtnr
+{
+	background-color: #F2F2F2;
+	border-top: 1px solid #ACB7BB;
+	bottom: 0px;
+	height: 30px;
+	left: 0px;
+	line-height: 30px;
+	position: absolute;
+	right: 0px;
+	text-align: right;
+}
+
+.cbAuthDeferredButtonsCtnr_tablet
+{
+	
+}
+
+.cbAuthDeferredButtonsCtnr_mobile
+{
+	
+}
+
+.cbFormAuthTable
+{
+	/*Authentication Form Table Attributes*/
+	border-collapse: collapse;
+	width: auto;
+}
+
+.cbFormAuthTable_tablet
+{
+	
+}
+
+.cbFormAuthTable_mobile
+{
+	
+}
+
+.cbFormAuthLabelCell
+{
+	/*Authentication Form Label Cell Attributes*/
+	padding: 9px 15px 0px 15px;
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+	width: auto;
+}
+
+.cbFormAuthLabelCell_tablet
+{
+	
+}
+
+.cbFormAuthLabelCell_mobile
+{
+	
+}
+
+.cbFormAuthFieldCell
+{
+	/*Authentication Form Field Container Attributes*/
+	padding: 7px 15px 7px 15px;
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.cbFormAuthFieldCell_tablet
+{
+	
+}
+
+.cbFormAuthFieldCell_mobile
+{
+	
+}
+
+.cbFormAuthDataCell
+{
+	/*Authentication Form Data Container Attributes*/
+	padding: 7px 15px 7px 15px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: normal;
+	width: auto;
+}
+
+.cbFormAuthDataCell_tablet
+{
+	
+}
+
+.cbFormAuthDataCell_mobile
+{
+	
+}
+
+.cbResultSetLabel
+{
+	/*Results Page Label Text Attributes*/
+	color: #000000;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.cbResultSetLabel_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetLabel_mobile
+{
+	/*Results Page Label Text Attributes, used in mobile view*/
+	color: #000000;
+	font-family: Sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	margin-right: 5px;
+}
+
+.cbResultSetLabelLink
+{
+	/*Results Page Label Link Text Attributes*/
+	color: #000000;
+	font-family: Sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.cbResultSetLabelLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetLabelLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetLabelLink_hover
+{
+	/*Results Page Label Link Text Hover Attributes*/
+	color: #000000;
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	text-decoration: underline;
+	vertical-align: middle;
+}
+
+.cbResultSetLabelLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetLabelLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetSortText
+{
+	/* Results Page Sorting Markers Attributes */
+	/* Forced by default to add space before the marker */
+	margin-left: 3px;
+}
+
+.cbResultSetSortText_tablet
+{
+	
+}
+
+.cbResultSetSortText_mobile
+{
+	
+}
+
+.cbResultSetTableHeader
+{
+	border-bottom: 2px solid #e8e8e8;
+}
+
+.cbResultSetTableHeader_tablet
+{
+	
+}
+
+.cbResultSetTableHeader_mobile
+{
+	
+}
+
+.cbResultSetTableHeader_hover
+{
+	/*Results Page Table Header Hover Attributes*/
+	background-color: #F5F5FA;
+}
+
+.cbResultSetTableHeader_hover_tablet
+{
+	
+}
+
+.cbResultSetTableHeader_hover_mobile
+{
+	
+}
+
+.cbResultSetData
+{
+	/*Results Page Data Text Attributes*/
+	color: #000000;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.cbResultSetData_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetData_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetDataLink
+{
+	/*Results Page Data Link Text Attributes*/
+	color: #335DA0;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbResultSetDataLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetDataLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetDataLink_hover
+{
+	/*Results Page Data Link Text Hover Attributes*/
+	color: #6686B8;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.cbResultSetDataLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetDataLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetExpandLink
+{
+	/*Show/Hide Collapsed Text Attributes*/
+	color: #335DA0;
+	cursor: pointer;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbResultSetExpandLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetExpandLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetExpandLink_hover
+{
+	/*Show/Hide Collapsed Text Attributes*/
+	color: #6686B8;
+	cursor: pointer;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbResultSetExpandLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetExpandLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetUnorderedList
+{
+	margin: 0px 4px 0px 7px;
+	padding-left: 10px;
+	white-space: nowrap;
+}
+
+.cbResultSetUnorderedList_tablet
+{
+	
+}
+
+.cbResultSetUnorderedList_mobile
+{
+	
+}
+
+.cbResultSetOrderedList
+{
+	margin: 0px 4px 0px 7px;
+	padding-left: 10px;
+	white-space: nowrap;
+}
+
+.cbResultSetOrderedList_tablet
+{
+	
+}
+
+.cbResultSetOrderedList_mobile
+{
+	
+}
+
+.cbResultSetListItem
+{
+	margin: 0px 0px 1px 0px;
+}
+
+.cbResultSetListItem_tablet
+{
+	
+}
+
+.cbResultSetListItem_mobile
+{
+	
+}
+
+.cbResultSetAddButton
+{
+	/*Inline Add Button Attributes*/
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: capitalize;
+	min-width: 70px;
+	padding: 4px 12px;
+	margin: 0px 3px;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	vertical-align: middle;
+	border-color: #002a4e;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #002a4e;
+	height: 100%;
+	transition: all 0.3s ease-in-out;
+}
+
+.cbResultSetAddButton_tablet
+{
+	font-size: 15px;
+	height: 36px;
+}
+
+.cbResultSetAddButton_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	margin: 1em 0;
+	width: 100%;
+}
+
+.cbResultSetAddButton_hover
+{
+	/*Inline Add Button Hover Attributes*/
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: capitalize;
+	min-width: 70px;
+	padding: 4px 12px;
+	margin: 0px 3px;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	vertical-align: middle;
+	border-color: #002a4e;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #002a4e;
+	height: 100%;
+	box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.cbResultSetAddButton_hover_tablet
+{
+	font-size: 15px;
+	height: 36px;
+}
+
+.cbResultSetAddButton_hover_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	margin: 1em 0;
+	width: 100%;
+}
+
+.cbResultSetModifyButton
+{
+	/*Inline Modify Button Attributes*/
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: capitalize;
+	min-width: 70px;
+	padding: 4px 12px;
+	margin: 0px 3px;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	vertical-align: middle;
+	border-color: #002a4e;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #002a4e;
+	height: 100%;
+	transition:all 0.3s ease-in-out;
+}
+
+.cbResultSetModifyButton_tablet
+{
+	font-size: 15px;
+	height: 36px;
+}
+
+.cbResultSetModifyButton_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	margin: 1em 0;
+	width: 100%;
+}
+
+.cbResultSetModifyButton_hover
+{
+	/*Inline Modify Button Hover Attributes*/
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: capitalize;
+	min-width: 70px;
+	padding: 4px 12px;
+	margin: 0px 3px;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	vertical-align: middle;
+	border-color: #002a4e;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #002a4e;
+	height: 100%;
+	box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.cbResultSetModifyButton_hover_tablet
+{
+	font-size: 15px;
+	height: 36px;
+}
+
+.cbResultSetModifyButton_hover_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	margin: 1em 0;
+	width: 100%;
+}
+
+.cbResultSetCancelButton
+{
+	/*Inline Cancel Button Attributes*/
+	color: #c9302c;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: capitalize;
+	min-width: 70px;
+	padding: 4px 12px;
+	margin: 0px 3px;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	vertical-align: middle;
+	border-color: #c9302c;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #FFFFFF;
+	height: 100%;
+	transition:all 0.3s ease-in-out;
+}
+
+.cbResultSetCancelButton_tablet
+{
+	font-size: 15px;
+	height: 36px;
+}
+
+.cbResultSetCancelButton_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	margin: 1em 0;
+	width: 100%;
+}
+
+.cbResultSetCancelButton_hover
+{
+	/*Inline Cancel Button Hover Attributes*/
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: capitalize;
+	min-width: 70px;
+	padding: 4px 12px;
+	margin: 0px 3px;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	vertical-align: middle;
+	border-color: #c9302c;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #c9302c;
+	height: 100%;
+	box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.cbResultSetCancelButton_hover_tablet
+{
+	font-size: 15px;
+	height: 36px;
+}
+
+.cbResultSetCancelButton_hover_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	margin: 1em 0;
+	width: 100%;
+}
+
+.cbResultSetErrorMarker
+{
+	
+}
+
+.cbResultSetErrorMarker_tablet
+{
+	
+}
+
+.cbResultSetErrorMarker_mobile
+{
+	
+}
+
+.cbResultSetCommonError
+{
+	/*Results Page Error Text Attributes*/
+	/* Forced by default to add space before the marker */
+	color: #333A44;
+	font-family: Sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	margin-left: 5px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.cbResultSetCommonError_tablet
+{
+	font-size: 15px;
+}
+
+.cbResultSetCommonError_mobile
+{
+	font-size: 15px;
+}
+
+.cbResultSetError
+{
+	/*Results Page Error Text Attributes*/
+	/* Forced by default to add space before the marker */
+	color: #333A44;
+	font-family: Sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	margin-left: 5px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.cbResultSetError_tablet
+{
+	font-size: 15px;
+}
+
+.cbResultSetError_mobile
+{
+	font-size: 15px;
+}
+
+.cbResultSetRecordMessage
+{
+	/*Results Count Message Text Attributes*/
+	color: #002A4E;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	min-height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #002a4e !important;
+}
+
+.cbResultSetRecordMessage_tablet
+{
+	font-size: 17px;
+	margin-bottom: 50px;
+}
+
+.cbResultSetRecordMessage_mobile
+{
+	font-size: 17px;
+	margin-top: 50px;
+}
+
+.cbResultSetNavigationMessages
+{
+	/*Paging Message Text Attributes*/
+	color: #002A4E;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.cbResultSetNavigationMessages_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetNavigationMessages_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetNavigationDDown
+{
+	/*Paging Dropdown Text Attributes*/
+	color: #027FAA;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbResultSetNavigationDDown_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetNavigationDDown_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetActionsLinks
+{
+	/*Results Page Action Links Text Attributes*/
+	color: #002a4e;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbResultSetActionsLinks_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetActionsLinks_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetHeaderCheckBoxCell
+{
+	background-color: #002a4e;
+	padding: 12px 10px;
+	text-align: center;
+	width: 10px;
+}
+
+.cbResultSetHeaderCheckBoxCell_tablet
+{
+	
+}
+
+.cbResultSetHeaderCheckBoxCell_mobile
+{
+	
+}
+
+.cbResultSetCheckBoxCell
+{
+	background-color: #transparent;
+	border-bottom: 1px solid #e2e3ec;
+	padding: 12px 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cbResultSetCheckBoxCell_tablet
+{
+	
+}
+
+.cbResultSetCheckBoxCell_mobile
+{
+	
+}
+
+.cbResultSetGroup1HeaderCheckBoxCell
+{
+	padding: 8px 10px;
+	text-align: center;
+}
+
+.cbResultSetGroup1HeaderCheckBoxCell_tablet
+{
+	
+}
+
+.cbResultSetGroup1HeaderCheckBoxCell_mobile
+{
+	
+}
+
+.cbResultSetGroup2HeaderCheckBoxCell
+{
+	padding: 8px 10px;
+	text-align: center;
+}
+
+.cbResultSetGroup2HeaderCheckBoxCell_tablet
+{
+	
+}
+
+.cbResultSetGroup2HeaderCheckBoxCell_mobile
+{
+	
+}
+
+.cbResultSetGroup3HeaderCheckBoxCell
+{
+	padding: 8px 10px;
+	text-align: center;
+}
+
+.cbResultSetGroup3HeaderCheckBoxCell_tablet
+{
+	
+}
+
+.cbResultSetGroup3HeaderCheckBoxCell_mobile
+{
+	
+}
+
+.cbResultSetGroup4HeaderCheckBoxCell
+{
+	padding: 8px 10px;
+	text-align: center;
+}
+
+.cbResultSetGroup4HeaderCheckBoxCell_tablet
+{
+	
+}
+
+.cbResultSetGroup4HeaderCheckBoxCell_mobile
+{
+	
+}
+
+.cbResultSetActionsLinks_hover
+{
+	/*Results Page Action Links Text Hover Attributes*/
+	color: #002a4e;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.cbResultSetActionsLinks_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetActionsLinks_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetNavigationLinks
+{
+	/*Paging Links Text Attributes*/
+	/* Forced by default to add space between navigation links */
+	color: #3B6AD2;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0 5px;
+	text-decoration: none;
+}
+
+.cbResultSetNavigationLinks_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetNavigationLinks_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetNavigationLinks_hover
+{
+	/*Paging Links Text Hover Attributes*/
+	/* Forced by default to add space between navigation links */
+	color: #477FFF;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0 5px;
+	text-decoration: underline;
+}
+
+.cbResultSetNavigationLinks_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetNavigationLinks_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetCalendarNavigationLinks
+{
+	/*Paging Links Text Attributes*/
+	/* Forced by default to add space between navigation links */
+	color: #3B6AD2;
+	font-family: Metropolis;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0 5px;
+	text-decoration: none;
+}
+
+.cbResultSetCalendarNavigationLinks_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetCalendarNavigationLinks_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetCalendarNavigationLinks_hover
+{
+	/*Paging Links Text Hover Attributes*/
+	/* Forced by default to add space between navigation links */
+	color: #477FFF;
+	font-family: Metropolis;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0 5px;
+	text-decoration: underline;
+}
+
+.cbResultSetCalendarNavigationLinks_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetCalendarNavigationLinks_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetNavigationCell
+{
+	/*Paging Links Table Cell Attributes*/
+	border: none;
+	margin: 0px;
+	padding: 5px;
+	text-align: right;
+	vertical-align: middle;
+	white-space: nowrap;
+	width: auto;
+}
+
+.cbResultSetNavigationCell_tablet
+{
+	
+}
+
+.cbResultSetNavigationCell_mobile
+{
+	
+}
+
+.cbResultSetRecordCell
+{
+	/*Results Count Table Cell Attributes*/
+	border: none;
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cbResultSetRecordCell_tablet
+{
+	
+}
+
+.cbResultSetRecordCell_mobile
+{
+	
+}
+
+.cbResultSetSelectRecordCheckBoxCell
+{
+	/*Results Page Select Record Checkbox Cell Attributes*/
+	width: 25px;
+}
+
+.cbResultSetSelectRecordCheckBoxCell_tablet
+{
+	
+}
+
+.cbResultSetSelectRecordCheckBoxCell_mobile
+{
+	
+}
+
+.cbResultSetEvenRow
+{
+	/*Results Page Table Even Rows Attributes*/
+	background-color: #f4f7fa;
+	border-bottom: 1px solid #d1d3e2a3;
+}
+
+.cbResultSetEvenRow_tablet
+{
+	
+}
+
+.cbResultSetEvenRow_mobile
+{
+	padding: 15px 0px 15px 0px;
+}
+
+.cbResultSetOddRow
+{
+	/*Results Page Table Odd Rows Attributes*/
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #d1d3e2a3;
+}
+
+.cbResultSetOddRow_tablet
+{
+	
+}
+
+.cbResultSetOddRow_mobile
+{
+	padding: 15px 0px 15px 0px;
+}
+
+.cbResultSetEvenRow_hover
+{
+	/*Results Page Table Even Rows Hover Attributes*/
+	background-color: #f4f7fa;
+}
+
+.cbResultSetEvenRow_hover_tablet
+{
+	
+}
+
+.cbResultSetEvenRow_hover_mobile
+{
+	
+}
+
+.cbResultSetOddRow_hover
+{
+	/*Results Page Table Odd Rows Hover Attributes*/
+	background-color: #FFFFFF;
+}
+
+.cbResultSetOddRow_hover_tablet
+{
+	
+}
+
+.cbResultSetOddRow_hover_mobile
+{
+	
+}
+
+.cbResultSetDataRow_selected
+{
+	/*Results Page Table Selected Rows Attributes*/
+	background-color: #FFFFFF;
+}
+
+.cbResultSetDataRow_selected_tablet
+{
+	
+}
+
+.cbResultSetDataRow_selected_mobile
+{
+	
+}
+
+.cbResultSetTable
+{
+	/*Results Page Table Attributes*/
+	background: #FFFFFF;
+	border-collapse: collapse;
+	margin: 0px;
+	width: 100%;
+}
+
+.cbResultSetTable_tablet
+{
+	
+}
+
+.cbResultSetTable_mobile
+{
+	
+}
+
+.cbResultSetTableCell
+{
+	/*Results Page Table Cell Attributes*/
+	padding: 16px 12px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-width: 0px;
+	border-style: solid;
+}
+
+.cbResultSetTableCell_tablet
+{
+	
+}
+
+.cbResultSetTableCell_mobile
+{
+	
+}
+
+.cbResultSetTableCellNumberDate
+{
+	/*Results Page Table Cell Attributes*/
+	padding: 16px 12px;
+	text-align: right;
+	vertical-align: top;
+	white-space: nowrap;
+	border-width: 0px;
+	border-style: solid;
+}
+
+.cbResultSetTableCellNumberDate_tablet
+{
+	
+}
+
+.cbResultSetTableCellNumberDate_mobile
+{
+	
+}
+
+.cbResultSetActionCell
+{
+	/*Results Page Action Links Cell Attributes*/
+	padding: 9px 12px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.cbResultSetActionCell_tablet
+{
+	
+}
+
+.cbResultSetActionCell_mobile
+{
+	
+}
+
+.cbResultSetHeaderCell
+{
+	/*Results Page Table Header Cell Attributes*/
+	padding: 16px 12px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: #F5F5FA;
+}
+
+.cbResultSetHeaderCell_tablet
+{
+	
+}
+
+.cbResultSetHeaderCell_mobile
+{
+	
+}
+
+.cbResultSetHeaderCellNumberDate
+{
+	/*Results Page Table Header Cell Attributes*/
+	padding: 16px 12px;
+	text-align: right;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: #F5F5FA;
+}
+
+.cbResultSetHeaderCellNumberDate_tablet
+{
+	
+}
+
+.cbResultSetHeaderCellNumberDate_mobile
+{
+	
+}
+
+.cbResultSetGridOddRow
+{
+	/*Grid Odd Rows Attributes*/
+	background-color: transparent;
+}
+
+.cbResultSetGridOddRow_tablet
+{
+	
+}
+
+.cbResultSetGridOddRow_mobile
+{
+	
+}
+
+.cbResultSetGridEvenRow
+{
+	/*Grid Even Rows Attributes*/
+	background-color: #f4f7fa;
+}
+
+.cbResultSetGridEvenRow_tablet
+{
+	
+}
+
+.cbResultSetGridEvenRow_mobile
+{
+	
+}
+
+.cbResultSetGridOddRow_hover
+{
+	/*Grid Odd Row Hover Attributes*/
+	background-color: transparent;
+}
+
+.cbResultSetGridOddRow_hover_tablet
+{
+	
+}
+
+.cbResultSetGridOddRow_hover_mobile
+{
+	
+}
+
+.cbResultSetGridEvenRow_hover
+{
+	/*Grid Even Row Hover Attributes*/
+	background-color: #f4f7fa;
+}
+
+.cbResultSetGridEvenRow_hover_tablet
+{
+	
+}
+
+.cbResultSetGridEvenRow_hover_mobile
+{
+	
+}
+
+.cbResultSetGridDataRow_selected
+{
+	/*Grid Selected Rows Attributes*/
+	background-color: #E2E8EA;
+}
+
+.cbResultSetGridDataRow_selected_tablet
+{
+	
+}
+
+.cbResultSetGridDataRow_selected_mobile
+{
+	
+}
+
+.cbResultSetGridDataCell
+{
+	/*Grid Data Cell Attributes*/
+	border-color: #F2F2F2;
+	border-style: solid;
+	border-width: 0px 1px 1px 0px;
+	padding: 9px 12px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.cbResultSetGridDataCell_tablet
+{
+	
+}
+
+.cbResultSetGridDataCell_mobile
+{
+	
+}
+
+.cbResultSetGridDataCellNumberDate
+{
+	/*Grid Data Cell Attributes*/
+	border-color: #F2F2F2;
+	border-style: solid;
+	border-width: 0px 1px 1px 0px;
+	padding: 9px 12px;
+	text-align: right;
+	vertical-align: top;
+}
+
+.cbResultSetGridDataCellNumberDate_tablet
+{
+	
+}
+
+.cbResultSetGridDataCellNumberDate_mobile
+{
+	
+}
+
+.cbResultSetGridSeletedDataCell
+{
+	/*Grid Selected Data Cell Attributes */
+	background: #FFFFFF;
+	border-color: #ACB7BB;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	padding: 9px 12px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.cbResultSetGridSeletedDataCell_tablet
+{
+	
+}
+
+.cbResultSetGridSeletedDataCell_mobile
+{
+	
+}
+
+.cbResultSetGridSeletedDataCellNumberDate
+{
+	/*Grid Selected Data Cell Attributes */
+	background: #FFFFFF;
+	border-color: #ACB7BB;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	padding: 9px 12px;
+	text-align: right;
+	vertical-align: top;
+}
+
+.cbResultSetGridSeletedDataCellNumberDate_tablet
+{
+	
+}
+
+.cbResultSetGridSeletedDataCellNumberDate_mobile
+{
+	
+}
+
+.cbResultSetGridErrorDataCell
+{
+	/*Grid Error Data Cell Attributes*/
+	background-color: #FFE5E5;
+	border-color: #EB2A00;
+}
+
+.cbResultSetGridErrorDataCell_tablet
+{
+	
+}
+
+.cbResultSetGridErrorDataCell_mobile
+{
+	
+}
+
+.cbResultSetGridCheckBoxCell
+{
+	/*Results Page Grid CheckBox Cell Attributes*/
+	background-color: transparent;
+	border-color: #F2F2F2;
+	border-style: solid;
+	border-width: 0px 1px 1px 1px;
+	padding: 8px 10px 0px 10px;
+	text-align: center;
+	vertical-align: top;
+	width: 10px;
+}
+
+.cbResultSetGridCheckBoxCell_tablet
+{
+	
+}
+
+.cbResultSetGridCheckBoxCell_mobile
+{
+	
+}
+
+.cbResultSetGridActionCell
+{
+	/*Results Page Grid Action Links Cell Attributes*/
+	border-color: #F2F2F2;
+	border-style: solid;
+	border-width: 0px 1px 1px 1px;
+	padding: 9px;
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.cbResultSetGridActionCell_tablet
+{
+	
+}
+
+.cbResultSetGridActionCell_mobile
+{
+	
+}
+
+.cbResultSetGridHeaderCheckBoxCell
+{
+	/*Results Page Grid Table Header Checkbox Cell Attributes*/
+	background: #027FAA;
+	padding: 8px 12px;
+	text-align: middle;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.cbResultSetGridHeaderCheckBoxCell_tablet
+{
+	
+}
+
+.cbResultSetGridHeaderCheckBoxCell_mobile
+{
+	
+}
+
+.cbResultSetGridHeaderCell
+{
+	/*Results Page Grid Table Header Cell Attributes*/
+	padding: 11px 12px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: #FFFFFF;
+}
+
+.cbResultSetGridHeaderCell_tablet
+{
+	
+}
+
+.cbResultSetGridHeaderCell_mobile
+{
+	
+}
+
+.cbResultSetGridHeaderCellNumberDate
+{
+	/*Results Page Grid Table Header Cell Attributes*/
+	padding: 11px 12px;
+	text-align: right;
+	text-transform: uppercase;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: #FFFFFF;
+}
+
+.cbResultSetGridHeaderCellNumberDate_tablet
+{
+	
+}
+
+.cbResultSetGridHeaderCellNumberDate_mobile
+{
+	
+}
+
+.cbResultSetGridTableHeader
+{
+	/*Results Page Grid Table Header Attributes*/
+	background-color: transparent;
+}
+
+.cbResultSetGridTableHeader_tablet
+{
+	
+}
+
+.cbResultSetGridTableHeader_mobile
+{
+	
+}
+
+.cbResultSetGridTableHeader_hover
+{
+	/*Results Page Grid Table Header Hover Attributes*/
+	background-color: transparent;
+}
+
+.cbResultSetGridTableHeader_hover_tablet
+{
+	
+}
+
+.cbResultSetGridTableHeader_hover_mobile
+{
+	
+}
+
+.cbResultSetGridNonEditableColumn
+{
+	/*Grid Non Editable Data Cell Attributes*/
+	-khtml-opacity: 0.5;
+	-moz-opacity: 0.5;
+	background-color: #F7F7F7;
+	opacity: 0.5;
+}
+
+.cbResultSetGridNonEditableColumn_tablet
+{
+	
+}
+
+.cbResultSetGridNonEditableColumn_mobile
+{
+	
+}
+
+.cbResultSetGridNonEditableColumnNumberDate
+{
+	/*Grid Non Editable Data Cell Attributes*/
+	-khtml-opacity: 0.5;
+	-moz-opacity: 0.5;
+	background-color: #F7F7F7;
+	opacity: 0.5;
+}
+
+.cbResultSetGridNonEditableColumnNumberDate_tablet
+{
+	
+}
+
+.cbResultSetGridNonEditableColumnNumberDate_mobile
+{
+	
+}
+
+.cbResultSetNavigationTable
+{
+	/*Results Page Table Attributes*/
+	border: none;
+	margin: 3px 0px;
+	white-space: nowrap;
+	width: 100%;
+}
+
+.cbResultSetNavigationTable_tablet
+{
+	
+}
+
+.cbResultSetNavigationTable_mobile
+{
+	
+}
+
+.cbResultSetActionsContainer
+{
+	/*Results Page Actions Container Attributes*/
+	/* Forced to match results table */
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 6px 0px;
+	width: 100%;
+	margin-top: 15px;
+}
+
+.cbResultSetActionsContainer_tablet
+{
+	
+}
+
+.cbResultSetActionsContainer_mobile
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.cbResultSetDownloadMessage
+{
+	/*Results Page Download Message Div Attributes*/
+	margin: 0px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	width: auto;
+	padding: 5px;
+	border: 1px solid #002a4e;
+	transition: all 0.3s ease-in-out;
+}
+
+.cbResultSetDownloadMessage_tablet
+{
+	
+}
+
+.cbResultSetDownloadMessage_mobile
+{
+	
+}
+
+.cbResultSetDownloadLink
+{
+	/*Results Page Download Message Link Attributes*/
+	color: #3B6AD2;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbResultSetDownloadLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetDownloadLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetDownloadLink_hover
+{
+	/*Results Page Download Message Link Hover Attributes*/
+	color: #1196BA;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.cbResultSetDownloadLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetDownloadLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetListView
+{
+	/*Results Page Table List View Attributes*/
+	border-collapse: separate;
+	border-spacing: 8px 10px;
+	margin: 0px;
+	width: 100%;
+}
+
+.cbResultSetListView_tablet
+{
+	
+}
+
+.cbResultSetListView_mobile
+{
+	
+}
+
+.cbResultSetListViewRow
+{
+	/*Results Page List View Table Row Attributes*/
+}
+
+.cbResultSetListViewRow_tablet
+{
+	
+}
+
+.cbResultSetListViewRow_mobile
+{
+	
+}
+
+.cbResultSetListViewTableOddCell
+{
+	/*Results Page List View Table Odd Cell Attributes*/
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: #FFFFFF;
+	border: 1px solid #ACB7BB;
+	border-radius: 3px;
+	padding: 0px;
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.cbResultSetListViewTableOddCell_tablet
+{
+	
+}
+
+.cbResultSetListViewTableOddCell_mobile
+{
+	
+}
+
+.cbResultSetListViewTableEvenCell
+{
+	/*Results Page List View Table Even Cell Attributes*/
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: #FFFFFF;
+	border: 1px solid #ACB7BB;
+	border-radius: 3px;
+	padding: 0px;
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.cbResultSetListViewTableEvenCell_tablet
+{
+	
+}
+
+.cbResultSetListViewTableEvenCell_mobile
+{
+	
+}
+
+.cbResultSetListViewTableOddCell_hover
+{
+	/*Results Page List View Table Odd Cell Hover Attributes*/
+	padding: 0px;
+	white-space: nowrap;
+	text-align: left;
+	vertical-align: top;
+}
+
+.cbResultSetListViewTableOddCell_hover_tablet
+{
+	
+}
+
+.cbResultSetListViewTableOddCell_hover_mobile
+{
+	
+}
+
+.cbResultSetListViewTableEvenCell_hover
+{
+	/*Results Page List View Table Even Cell Hover Attributes*/
+	padding: 0px;
+	white-space: nowrap;
+	text-align: left;
+	vertical-align: top;
+}
+
+.cbResultSetListViewTableEvenCell_hover_tablet
+{
+	
+}
+
+.cbResultSetListViewTableEvenCell_hover_mobile
+{
+	
+}
+
+.cbResultSetListViewHeaderCheckBoxCell
+{
+	background-color: #F7F7F7;
+	border-color: #E2E8EA;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	padding: 5px 6px 4px 6px;
+}
+
+.cbResultSetListViewHeaderCheckBoxCell_tablet
+{
+	
+}
+
+.cbResultSetListViewHeaderCheckBoxCell_mobile
+{
+	
+}
+
+.cbResultSetListViewHeaderCheckBoxCell_hover
+{
+	/*Results Page List View Header CheckBox Cell Attributes*/
+}
+
+.cbResultSetListViewHeaderCheckBoxCell_hover_tablet
+{
+	
+}
+
+.cbResultSetListViewHeaderCheckBoxCell_hover_mobile
+{
+	
+}
+
+.cbResultSetListViewHeaderCheckBoxCell_selected
+{
+	/*Results Page List View Header CheckBox Cell Attributes*/
+	background-color: #E2E8EA;
+}
+
+.cbResultSetListViewHeaderCheckBoxCell_selected_tablet
+{
+	
+}
+
+.cbResultSetListViewHeaderCheckBoxCell_selected_mobile
+{
+	
+}
+
+.cbResultSetListViewDataLabel
+{
+	color: #333333;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.cbResultSetListViewDataLabel_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetListViewDataLabel_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetCalendar
+{
+	/*Results Page Calendar Attributes*/
+	background: #FFFFFF;
+	border-collapse: collapse;
+	border-color: #667388;
+	border-style: solid;
+	border-width: 0px 1px 1px 1px;
+	margin: 0px;
+	width: 100%;
+}
+
+.cbResultSetCalendar_tablet
+{
+	
+}
+
+.cbResultSetCalendar_mobile
+{
+	
+}
+
+.cbResultSetCalendarCaptionTable
+{
+	/*Results Page Calendar Caption Table Attributes*/
+	margin: 0px;
+	width: 100%;
+	border-color: #667388;
+}
+
+.cbResultSetCalendarCaptionTable_tablet
+{
+	
+}
+
+.cbResultSetCalendarCaptionTable_mobile
+{
+	
+}
+
+.cbResultSetCalendarCaptionCell
+{
+	/*Results Page Calendar Caption Cell Attributes*/
+	background: #002886;
+	padding: 12px 10px 12px 10px;
+	text-align: center;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.cbResultSetCalendarCaptionCell_tablet
+{
+	
+}
+
+.cbResultSetCalendarCaptionCell_mobile
+{
+	
+}
+
+.cbResultSetCalendarCaption
+{
+	/*Results Page Calendar Caption Attributes*/
+	color: #FFFFFF;
+	font-family: Metropolis;
+	font-size: 14px;
+	font-weight: 700;
+	vertical-align: top;
+}
+
+.cbResultSetCalendarCaption_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetCalendarCaption_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetCalendarHeader
+{
+	/*Results Page Calendar Header Attributes*/
+	background-color: #FFFFFF;
+}
+
+.cbResultSetCalendarHeader_tablet
+{
+	
+}
+
+.cbResultSetCalendarHeader_mobile
+{
+	
+}
+
+.cbResultSetCalendarHeader_hover
+{
+	/*Results Page Calendar Header Hover Attributes*/
+	background-color: #FFFFFF;
+}
+
+.cbResultSetCalendarHeader_hover_tablet
+{
+	
+}
+
+.cbResultSetCalendarHeader_hover_mobile
+{
+	
+}
+
+.cbResultSetCalendarHeaderCell
+{
+	/*Results Page Calendar Header Cell Attributes*/
+	border-color: #858FA0;
+	border-style: solid;
+	border-width: 1px;
+	padding: 10px 12px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cbResultSetCalendarHeaderCell_tablet
+{
+	
+}
+
+.cbResultSetCalendarHeaderCell_mobile
+{
+	
+}
+
+.cbResultSetCalendarHeaderCellDaily
+{
+	/*Results Page Calendar Header Cell Attributes*/
+	border-color: #ffffff;
+	border-style: solid;
+	border-width: 1px;
+	padding: 7px 10px 7px 10px;
+	text-align: right;
+	vertical-align: top;
+	white-space: nowrap;
+	width: 15%;
+}
+
+.cbResultSetCalendarHeaderCellDaily_tablet
+{
+	
+}
+
+.cbResultSetCalendarHeaderCellDaily_mobile
+{
+	
+}
+
+.cbResultSetCalendarLabel
+{
+	color: #191D22;
+	font-family: Metropolis;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.cbResultSetCalendarLabel_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetCalendarLabel_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetCalendarDataLabel
+{
+	color: #191D22;
+	font-family: Metropolis;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.cbResultSetCalendarDataLabel_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetCalendarDataLabel_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetCalendarTableRow
+{
+	/*Results Page Calendar Odd Rows Attributes*/
+}
+
+.cbResultSetCalendarTableRow_tablet
+{
+	
+}
+
+.cbResultSetCalendarTableRow_mobile
+{
+	
+}
+
+.cbResultSetCalendarOddCell
+{
+	/*Results Page Calendar Odd Cell Attributes*/
+	border-color: #858FA0;
+	border-style: solid;
+	border-width: 1px;
+	padding: 6px 8px;
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.cbResultSetCalendarOddCell_tablet
+{
+	padding: 10px 8px;
+}
+
+.cbResultSetCalendarOddCell_mobile
+{
+	padding: 10px 8px;
+}
+
+.cbResultSetCalendarEvenCell
+{
+	/*Results Page Calendar Even Cell Attributes*/
+	border-color: #858FA0;
+	border-style: solid;
+	border-width: 1px;
+	padding: 6px 8px;
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.cbResultSetCalendarEvenCell_tablet
+{
+	padding: 10px 8px;
+}
+
+.cbResultSetCalendarEvenCell_mobile
+{
+	padding: 10px 8px;
+}
+
+.cbResultSetCalendarOddCell_hover
+{
+	/*Results Page Calendar Odd Cell Hover Attributes*/
+	padding: 6px 8px;
+	border-color: #858FA0;
+}
+
+.cbResultSetCalendarOddCell_hover_tablet
+{
+	
+}
+
+.cbResultSetCalendarOddCell_hover_mobile
+{
+	
+}
+
+.cbResultSetCalendarEvenCell_hover
+{
+	/*Results Page Calendar Even Cell Hover Attributes*/
+	padding: 6px 8px;
+	border-color: #858FA0;
+}
+
+.cbResultSetCalendarEvenCell_hover_tablet
+{
+	
+}
+
+.cbResultSetCalendarEvenCell_hover_mobile
+{
+	
+}
+
+.cbResultSetCalendarTableNowCell
+{
+	/*Results Page Calendar Today Cell Attributes*/
+	background: #F2F2F2;
+	border-color: #A3ABB8;
+	border-style: solid;
+	border-width: 1px;
+	font-weight: 700;
+	padding: 6px 8px;
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.cbResultSetCalendarTableNowCell_tablet
+{
+	padding: 10px 8px;
+}
+
+.cbResultSetCalendarTableNowCell_mobile
+{
+	padding: 10px 8px;
+}
+
+.cbResultSetCalendarField
+{
+	/*Results Page Calendar Data Attributes*/
+	color: #191D22;
+	font-family: Metropolis;
+	font-size: 12px;
+	font-weight: 400;
+	padding: 0px;
+	text-align: right;
+}
+
+.cbResultSetCalendarField_tablet
+{
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.cbResultSetCalendarField_mobile
+{
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.cbResultSetCalendarFieldInactiveDate
+{
+	/*Results Page Calendar Inactive Data Attributes*/
+	color: #858FA0;
+	font-family: Metropolis;
+	font-size: 12px;
+	font-weight: 400;
+	padding: 0px;
+	text-align: right;
+}
+
+.cbResultSetCalendarFieldInactiveDate_tablet
+{
+	font-size: 17px;
+	text-align: center;
+}
+
+.cbResultSetCalendarFieldInactiveDate_mobile
+{
+	font-size: 17px;
+	text-align: center;
+}
+
+.cbResultSetCalendarField_before
+{
+	
+}
+
+.cbResultSetCalendarField_before_tablet
+{
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.cbResultSetCalendarField_before_mobile
+{
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.cbChartContainer
+{
+	font-family: Metropolis;
+	margin: 15px 0px;
+}
+
+.cbChartContainer_tablet
+{
+	
+}
+
+.cbChartContainer_mobile
+{
+	
+}
+
+.cbChartOptions
+{
+	
+}
+
+.cbChartOptions_tablet
+{
+	
+}
+
+.cbChartOptions_mobile
+{
+	
+}
+
+.cbChartTitle
+{
+	
+}
+
+.cbChartTitle_tablet
+{
+	
+}
+
+.cbChartTitle_mobile
+{
+	
+}
+
+.cbChartSubTitle
+{
+	
+}
+
+.cbChartSubTitle_tablet
+{
+	
+}
+
+.cbChartSubTitle_mobile
+{
+	
+}
+
+.cbChartLegendTitle
+{
+	
+}
+
+.cbChartLegendTitle_tablet
+{
+	
+}
+
+.cbChartLegendTitle_mobile
+{
+	
+}
+
+.cbChartCategoriesTitle
+{
+	
+}
+
+.cbChartCategoriesTitle_tablet
+{
+	
+}
+
+.cbChartCategoriesTitle_mobile
+{
+	
+}
+
+.cbChartCategoriesLabel
+{
+	
+}
+
+.cbChartCategoriesLabel_tablet
+{
+	
+}
+
+.cbChartCategoriesLabel_mobile
+{
+	
+}
+
+.cbChartValuesTitle
+{
+	
+}
+
+.cbChartValuesTitle_tablet
+{
+	
+}
+
+.cbChartValuesTitle_mobile
+{
+	
+}
+
+.cbChartValuesLabel
+{
+	
+}
+
+.cbChartValuesLabel_tablet
+{
+	
+}
+
+.cbChartValuesLabel_mobile
+{
+	
+}
+
+.cbChartValuesData
+{
+	
+}
+
+.cbChartValuesData_tablet
+{
+	
+}
+
+.cbChartValuesData_mobile
+{
+	
+}
+
+.cbChartValuesArea
+{
+	
+}
+
+.cbChartValuesArea_tablet
+{
+	
+}
+
+.cbChartValuesArea_mobile
+{
+	
+}
+
+.cbChartLegend
+{
+	
+}
+
+.cbChartLegend_tablet
+{
+	
+}
+
+.cbChartLegend_mobile
+{
+	
+}
+
+.cbResultSetGroup1Row
+{
+	border-bottom: 1px solid #d1d3e2a3;
+	border-left: 2px solid #036C84;
+}
+
+.cbResultSetGroup1Row_tablet
+{
+	
+}
+
+.cbResultSetGroup1Row_mobile
+{
+	
+}
+
+.cbResultSetGroup1Row_hover
+{
+	/*1-st Group Header Hover Row Attributes*/
+}
+
+.cbResultSetGroup1Row_hover_tablet
+{
+	
+}
+
+.cbResultSetGroup1Row_hover_mobile
+{
+	
+}
+
+.cbResultSetGroup1LabelCell
+{
+	/*1-st Group Header Label Cell Attributes*/
+	background: #036c841a;
+	padding: 16px 12px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.cbResultSetGroup1LabelCell_tablet
+{
+	
+}
+
+.cbResultSetGroup1LabelCell_mobile
+{
+	
+}
+
+.cbResultSetGroup1LabelCellNumberDate
+{
+	/*1-st Group Header Data Cell Attributes (for Number or Date/Time data types)*/
+	background: #036c841a;
+	padding: 16px 12px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.cbResultSetGroup1LabelCellNumberDate_tablet
+{
+	
+}
+
+.cbResultSetGroup1LabelCellNumberDate_mobile
+{
+	
+}
+
+.cbResultSetGroup1Label
+{
+	/*1-st Group Header Label Attributes*/
+	color: #036C84;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.cbResultSetGroup1Label_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup1Label_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup1SubTotalCell
+{
+	/*1-st Group Header SubTotal Cell Attributes*/
+	border-top: 1px solid #F7F7F7;
+	padding: 9px 12px;
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.cbResultSetGroup1SubTotalCell_tablet
+{
+	
+}
+
+.cbResultSetGroup1SubTotalCell_mobile
+{
+	
+}
+
+.cbResultSetGroup1SubTotal
+{
+	/*1-st Group Header SubTotal Attributes*/
+	color: #20282B;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.cbResultSetGroup1SubTotal_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup1SubTotal_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup1DataCell
+{
+	/*1-st Group Header Data Cell Attributes*/
+	border-top: 1px solid #F7F7F7;
+	padding: 9px 12px;
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.cbResultSetGroup1DataCell_tablet
+{
+	
+}
+
+.cbResultSetGroup1DataCell_mobile
+{
+	
+}
+
+.cbResultSetGroup1DataCellNumberDate
+{
+	/*1-st Group Header Data Cell Attributes (for Number or Date/Time data types)*/
+	border-top: 1px solid #F7F7F7;
+	padding: 9px 12px;
+	text-align: right;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.cbResultSetGroup1DataCellNumberDate_tablet
+{
+	
+}
+
+.cbResultSetGroup1DataCellNumberDate_mobile
+{
+	
+}
+
+.cbResultSetGroup1Data
+{
+	/*1-st Group Header Data Attributes*/
+	color: #20282B;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.cbResultSetGroup1Data_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup1Data_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup1Left
+{
+	/*1-st Group Left Side Attributes*/
+	border-bottom: 1px solid #d1d3e2a3;
+	border-top: 1px solid #d1d3e2a3;
+}
+
+.cbResultSetGroup1Left_tablet
+{
+	
+}
+
+.cbResultSetGroup1Left_mobile
+{
+	
+}
+
+.cbResultSetGroup1Right
+{
+	/*1-st Group Right Side Attributes*/
+	border-bottom: 1px solid #F7F7F7;
+	border-top: 1px solid #F7F7F7;
+}
+
+.cbResultSetGroup1Right_tablet
+{
+	
+}
+
+.cbResultSetGroup1Right_mobile
+{
+	
+}
+
+.cbResultSetGroup2Row
+{
+	/*2-nd Group Header Row Attributes*/
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.cbResultSetGroup2Row_tablet
+{
+	
+}
+
+.cbResultSetGroup2Row_mobile
+{
+	
+}
+
+.cbResultSetGroup2Row_hover
+{
+	/*2-nd Group Header Hover Row Attributes*/
+}
+
+.cbResultSetGroup2Row_hover_tablet
+{
+	
+}
+
+.cbResultSetGroup2Row_hover_mobile
+{
+	
+}
+
+.cbResultSetGroup2LabelCell
+{
+	/*2-nd Group Header Label Cell Attributes*/
+	background: #F2F2F2;
+	padding: 16px 12px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.cbResultSetGroup2LabelCell_tablet
+{
+	
+}
+
+.cbResultSetGroup2LabelCell_mobile
+{
+	
+}
+
+.cbResultSetGroup2LabelCellNumberDate
+{
+	/*2-nd Group Header Data Cell Attributes (for Number or Date/Time data types)*/
+	background: #F2F2F2;
+	padding: 16px 12px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.cbResultSetGroup2LabelCellNumberDate_tablet
+{
+	
+}
+
+.cbResultSetGroup2LabelCellNumberDate_mobile
+{
+	
+}
+
+.cbResultSetGroup2Label
+{
+	/*2-nd Group Header Label Attributes*/
+	color: #002a4e;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	border-bottom: 1px solid #dddee7;
+}
+
+.cbResultSetGroup2Label_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup2Label_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup2SubTotalCell
+{
+	/*2-nd Group Header SubTotal Cell Attributes*/
+	background: #FFFFFF;
+	border-top: 1px solid #F7F7F7;
+	padding: 9px 12px;
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.cbResultSetGroup2SubTotalCell_tablet
+{
+	
+}
+
+.cbResultSetGroup2SubTotalCell_mobile
+{
+	
+}
+
+.cbResultSetGroup2SubTotal
+{
+	/*2-nd Group Header SubTotal Attributes*/
+	color: #20282B;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.cbResultSetGroup2SubTotal_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup2SubTotal_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup2DataCell
+{
+	/*2-nd Group Header Data Cell Attributes*/
+	background-color: #FFFFFF;
+	border-top: 1px solid #F7F7F7;
+	padding: 9px 12px;
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.cbResultSetGroup2DataCell_tablet
+{
+	
+}
+
+.cbResultSetGroup2DataCell_mobile
+{
+	
+}
+
+.cbResultSetGroup2DataCellNumberDate
+{
+	/*2-nd Group Header Data Cell Attributes (for Number or Date/Time data types)*/
+	background-color: #FFFFFF;
+	border-top: 1px solid #F7F7F7;
+	padding: 9px 12px;
+	text-align: right;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.cbResultSetGroup2DataCellNumberDate_tablet
+{
+	
+}
+
+.cbResultSetGroup2DataCellNumberDate_mobile
+{
+	
+}
+
+.cbResultSetGroup2Data
+{
+	/*2-nd Group Header Data Attributes*/
+	color: #20282B;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.cbResultSetGroup2Data_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup2Data_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup2Left
+{
+	/*2-nd Group Left Side Attributes*/
+	border-bottom: 1px solid #d1d3e2a3;
+	border-top: 1px solid #d1d3e2a3;
+}
+
+.cbResultSetGroup2Left_tablet
+{
+	
+}
+
+.cbResultSetGroup2Left_mobile
+{
+	
+}
+
+.cbResultSetGroup2Right
+{
+	/*2-nd Group Right Side Attributes*/
+	border-bottom: 1px solid #F7F7F7;
+	border-top: 1px solid #F7F7F7;
+}
+
+.cbResultSetGroup2Right_tablet
+{
+	
+}
+
+.cbResultSetGroup2Right_mobile
+{
+	
+}
+
+.cbResultSetGroup3Row
+{
+	/*3-rd Group Header Row Attributes*/
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.cbResultSetGroup3Row_tablet
+{
+	
+}
+
+.cbResultSetGroup3Row_mobile
+{
+	
+}
+
+.cbResultSetGroup3Row_hover
+{
+	/*3-rd Group Header Hover Row Attributes*/
+}
+
+.cbResultSetGroup3Row_hover_tablet
+{
+	
+}
+
+.cbResultSetGroup3Row_hover_mobile
+{
+	
+}
+
+.cbResultSetGroup3LabelCell
+{
+	/*3-rd Group Header Label Cell Attributes*/
+	background: #F2F2F2;
+	padding: 9px 12px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.cbResultSetGroup3LabelCell_tablet
+{
+	
+}
+
+.cbResultSetGroup3LabelCell_mobile
+{
+	
+}
+
+.cbResultSetGroup3LabelCellNumberDate
+{
+	/*3-rd Group Header Data Cell Attributes (for Number or Date/Time data types)*/
+	background: #F2F2F2;
+	padding: 9px 12px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.cbResultSetGroup3LabelCellNumberDate_tablet
+{
+	
+}
+
+.cbResultSetGroup3LabelCellNumberDate_mobile
+{
+	
+}
+
+.cbResultSetGroup3Label
+{
+	/*3-rd Group Header Label Attributes*/
+	color: #20282B;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.cbResultSetGroup3Label_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup3Label_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup3SubTotalCell
+{
+	/*3-rd Group Header SubTotal Cell Attributes*/
+	border-top: 1px solid #F7F7F7;
+	padding: 9px 12px;
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.cbResultSetGroup3SubTotalCell_tablet
+{
+	
+}
+
+.cbResultSetGroup3SubTotalCell_mobile
+{
+	
+}
+
+.cbResultSetGroup3SubTotal
+{
+	/*3-rd Group Header SubTotal Attributes*/
+	color: #20282B;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.cbResultSetGroup3SubTotal_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup3SubTotal_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup3DataCell
+{
+	/*3-rd Group Header Data Cell Attributes*/
+	border-top: 1px solid #F7F7F7;
+	padding: 9px 12px;
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.cbResultSetGroup3DataCell_tablet
+{
+	
+}
+
+.cbResultSetGroup3DataCell_mobile
+{
+	
+}
+
+.cbResultSetGroup3DataCellNumberDate
+{
+	/*3-rd Group Header Data Cell Attributes (for Number or Date/Time data types)*/
+	border-top: 1px solid #F7F7F7;
+	padding: 9px 12px;
+	text-align: right;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.cbResultSetGroup3DataCellNumberDate_tablet
+{
+	
+}
+
+.cbResultSetGroup3DataCellNumberDate_mobile
+{
+	
+}
+
+.cbResultSetGroup3Data
+{
+	/*3-rd Group Header Data Attributes*/
+	color: #20282B;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.cbResultSetGroup3Data_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup3Data_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup3Left
+{
+	/*3-rd Group Left Side Attributes*/
+	border-bottom: 1px solid #F7F7F7;
+	border-top: 1px solid #F7F7F7;
+}
+
+.cbResultSetGroup3Left_tablet
+{
+	
+}
+
+.cbResultSetGroup3Left_mobile
+{
+	
+}
+
+.cbResultSetGroup3Right
+{
+	/*3-rd Group Right Side Attributes*/
+	border-bottom: 1px solid #F7F7F7;
+	border-top: 1px solid #F7F7F7;
+}
+
+.cbResultSetGroup3Right_tablet
+{
+	
+}
+
+.cbResultSetGroup3Right_mobile
+{
+	
+}
+
+.cbResultSetGroup4Row
+{
+	/*4-th Group Header Row Attributes*/
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.cbResultSetGroup4Row_tablet
+{
+	
+}
+
+.cbResultSetGroup4Row_mobile
+{
+	
+}
+
+.cbResultSetGroup4Row_hover
+{
+	/*4-th Group Header Hover Row Attributes*/
+}
+
+.cbResultSetGroup4Row_hover_tablet
+{
+	
+}
+
+.cbResultSetGroup4Row_hover_mobile
+{
+	
+}
+
+.cbResultSetGroup4LabelCell
+{
+	/*4-th Group Header Label Cell Attributes*/
+	background: #F2F2F2;
+	padding: 9px 12px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.cbResultSetGroup4LabelCell_tablet
+{
+	
+}
+
+.cbResultSetGroup4LabelCell_mobile
+{
+	
+}
+
+.cbResultSetGroup4LabelCellNumberDate
+{
+	/*4-th Group Header Data Cell Attributes (for Number or Date/Time data types)*/
+	background: #F2F2F2;
+	padding: 9px 12px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.cbResultSetGroup4LabelCellNumberDate_tablet
+{
+	
+}
+
+.cbResultSetGroup4LabelCellNumberDate_mobile
+{
+	
+}
+
+.cbResultSetGroup4Label
+{
+	/*4-th Group Header Label Attributes*/
+	color: #20282B;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.cbResultSetGroup4Label_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup4Label_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup4SubTotalCell
+{
+	/*4-th Group Header SubTotal Cell Attributes*/
+	border-top: 1px solid #F7F7F7;
+	padding: 9px 12px;
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.cbResultSetGroup4SubTotalCell_tablet
+{
+	
+}
+
+.cbResultSetGroup4SubTotalCell_mobile
+{
+	
+}
+
+.cbResultSetGroup4SubTotal
+{
+	/*4-th Group Header SubTotal Attributes*/
+	color: #20282B;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.cbResultSetGroup4SubTotal_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup4SubTotal_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup4DataCell
+{
+	/*4-th Group Header Data Cell Attributes*/
+	border-top: 1px solid #F7F7F7;
+	padding: 9px 12px;
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.cbResultSetGroup4DataCell_tablet
+{
+	
+}
+
+.cbResultSetGroup4DataCell_mobile
+{
+	
+}
+
+.cbResultSetGroup4DataCellNumberDate
+{
+	/*4-th Group Header Data Cell Attributes (for Number or Date/Time data types)*/
+	border-top: 1px solid #F7F7F7;
+	padding: 9px 12px;
+	text-align: right;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.cbResultSetGroup4DataCellNumberDate_tablet
+{
+	
+}
+
+.cbResultSetGroup4DataCellNumberDate_mobile
+{
+	
+}
+
+.cbResultSetGroup4Data
+{
+	/*4-th Group Header Data Attributes*/
+	color: #20282B;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.cbResultSetGroup4Data_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup4Data_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetGroup4Left
+{
+	/*4-th Group Left Side Attributes*/
+	border-bottom: 1px solid #F7F7F7;
+	border-top: 1px solid #F7F7F7;
+}
+
+.cbResultSetGroup4Left_tablet
+{
+	
+}
+
+.cbResultSetGroup4Left_mobile
+{
+	
+}
+
+.cbResultSetGroup4Right
+{
+	/*4-th Group Right Side Attributes*/
+	border-bottom: 1px solid #F7F7F7;
+	border-top: 1px solid #F7F7F7;
+}
+
+.cbResultSetGroup4Right_tablet
+{
+	
+}
+
+.cbResultSetGroup4Right_mobile
+{
+	
+}
+
+.cbResultSetTotalsRow
+{
+	/*Aggregated Row Attributes*/
+	background: #FFFFFF;
+	border-bottom: 3px solid #036C84;
+	border-top: 3px solid #036C84;
+}
+
+.cbResultSetTotalsRow_tablet
+{
+	
+}
+
+.cbResultSetTotalsRow_mobile
+{
+	
+}
+
+.cbResultSetTotalsRow_hover
+{
+	/*Aggregated Hover Row Attributes*/
+}
+
+.cbResultSetTotalsRow_hover_tablet
+{
+	
+}
+
+.cbResultSetTotalsRow_hover_mobile
+{
+	
+}
+
+.cbResultSetTotalsLabelCell
+{
+	/*Aggregated Label Cell Attributes*/
+	background: #e5f0f2;
+	padding: 16px 12px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.cbResultSetTotalsLabelCell_tablet
+{
+	
+}
+
+.cbResultSetTotalsLabelCell_mobile
+{
+	
+}
+
+.cbResultSetTotalsLabel
+{
+	/*Aggregated Label Attributes*/
+	color: #036c84;
+	font-family: Sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.cbResultSetTotalsLabel_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetTotalsLabel_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetTotalsDataCell
+{
+	/*Aggregated Data Cell Attributes*/
+	background: #e5f0f2;
+	padding: 16px 12px;
+	text-align: right;
+	vertical-align: top;
+}
+
+.cbResultSetTotalsDataCell_tablet
+{
+	
+}
+
+.cbResultSetTotalsDataCell_mobile
+{
+	
+}
+
+.cbResultSetTotalsDataCellNumberDate
+{
+	/*Aggregated Data Cell Attributes*/
+	background: #e5f0f2;
+	padding: 16px 12px;
+	text-align: right;
+	vertical-align: top;
+}
+
+.cbResultSetTotalsDataCellNumberDate_tablet
+{
+	
+}
+
+.cbResultSetTotalsDataCellNumberDate_mobile
+{
+	
+}
+
+.cbResultSetTotalsData
+{
+	/*Aggregated Data Attributes*/
+	color: #036c84;
+	font-family: Sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.cbResultSetTotalsData_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetTotalsData_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetShowHideGroupText
+{
+	/*Show/Hide Goups Link Text Attributes*/
+	color: #027FAA;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	margin-right: 5px;
+	text-decoration: none;
+}
+
+.cbResultSetShowHideGroupText_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetShowHideGroupText_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetShowHideGroupText_hover
+{
+	/*Show/Hide Goups Link Text Hover Attributes*/
+	color: #1196BA;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	margin-right: 5px;
+	text-decoration: none;
+}
+
+.cbResultSetShowHideGroupText_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetShowHideGroupText_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetCollapsedSubTotalLabel
+{
+	/*1-st Group Collapsed SubTotal Label Attributes*/
+	color: #20282B;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.cbResultSetCollapsedSubTotalLabel_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetCollapsedSubTotalLabel_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetCollapsedSubTotalLabelCell
+{
+	/*1-st Group Collapsed SubTotal Label Cell Attributes*/
+	background-color: #FFFFFF;
+	padding: 9px 12px;
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.cbResultSetCollapsedSubTotalLabelCell_tablet
+{
+	
+}
+
+.cbResultSetCollapsedSubTotalLabelCell_mobile
+{
+	
+}
+
+.cbResultSetCollapsedSubTotalLabelCellNumberDate
+{
+	/*1-st Group Collapsed SubTotal Label Cell Attributes*/
+	background-color: #FFFFFF;
+	padding: 9px 12px;
+	text-align: right;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.cbResultSetCollapsedSubTotalLabelCellNumberDate_tablet
+{
+	
+}
+
+.cbResultSetCollapsedSubTotalLabelCellNumberDate_mobile
+{
+	
+}
+
+.cbResultSetPanelBaseContainer
+{
+	
+}
+
+.cbResultSetPanelBaseContainer_tablet
+{
+	
+}
+
+.cbResultSetPanelBaseContainer_mobile
+{
+	
+}
+
+.cbResultSetPanelDataContainer
+{
+	padding: 15px 20px 40px 15px;
+}
+
+.cbResultSetPanelDataContainer_tablet
+{
+	
+}
+
+.cbResultSetPanelDataContainer_mobile
+{
+	
+}
+
+.cbResultSetPanelColumnarRAContainer
+{
+	/*Results Page Record Action Container Attributes*/
+	-khtml-opacity: 0.8;
+	-moz-opacity: 0.8;
+	background: #E2E8EA;
+	opacity: 0.8;
+	overflow: hidden;
+	padding: 5px 15px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.cbResultSetPanelColumnarRAContainer_tablet
+{
+	
+}
+
+.cbResultSetPanelColumnarRAContainer_mobile
+{
+	
+}
+
+.cbResultSetPanelColumnarRAContainer_hover
+{
+	/*Results Page Record Action Container Hover Attributes*/
+	-khtml-opacity: 1;
+	-moz-opacity: 1;
+	background: #E2E8EA;
+	opacity: 1;
+	overflow: hidden;
+	padding: 5px 15px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.cbResultSetPanelColumnarRAContainer_hover_tablet
+{
+	
+}
+
+.cbResultSetPanelColumnarRAContainer_hover_mobile
+{
+	
+}
+
+.cbResultSetPanelCalendarRAContainer
+{
+	/*Results Page Record Action Container Attributes*/
+	-khtml-opacity: 0.8;
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+	overflow: hidden;
+	padding: 5px 15px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: #333A44;
+}
+
+.cbResultSetPanelCalendarRAContainer_tablet
+{
+	
+}
+
+.cbResultSetPanelCalendarRAContainer_mobile
+{
+	
+}
+
+.cbResultSetPanelCalendarRAContainer_hover
+{
+	/*Results Page Record Action Container Attributes*/
+	-khtml-opacity: 1;
+	-moz-opacity: 1;
+	background: #E2E8EA;
+	opacity: 1;
+	overflow: hidden;
+	padding: 5px 15px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.cbResultSetPanelCalendarRAContainer_hover_tablet
+{
+	
+}
+
+.cbResultSetPanelCalendarRAContainer_hover_mobile
+{
+	
+}
+
+.cbResultSetSortContainer
+{
+	/*Results Page Advanced Sorting Div Attributes*/
+	border: none;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: right;
+	white-space: nowrap;
+}
+
+.cbResultSetSortContainer_tablet
+{
+	
+}
+
+.cbResultSetSortContainer_mobile
+{
+	
+}
+
+.cbResultSetSortControl
+{
+	/*Results Page Advanced Sorting Select Attributes*/
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	background: #FFFFFF;
+	border-color: #DDDDDD;
+	border-radius: 1px;
+	border-style: solid;
+	border-width: 1px;
+	color: #333333;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 3px;
+}
+
+.cbResultSetSortControl_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetSortControl_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetSortLabel
+{
+	/*Results Page Advanced Sorting Text Attributes*/
+	color: #20282B;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	padding: 0px 7px 0px 0px;
+}
+
+.cbResultSetSortLabel_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetSortLabel_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetSearchAgainContainer
+{
+	/*Results Page Search Again Container Attributes*/
+	border: none;
+	margin: 0px;
+	padding: 0px 3px 0px 3px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.cbResultSetSearchAgainContainer_tablet
+{
+	
+}
+
+.cbResultSetSearchAgainContainer_mobile
+{
+	
+}
+
+.cbResultSetSearchAgainLink
+{
+	/*Results Page Search Again Link Attributes*/
+	color: #3B6AD2;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbResultSetSearchAgainLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetSearchAgainLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetSearchAgainLink_hover
+{
+	/*Results Page Search Again Link Hover Attributes*/
+	color: #1196BA;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.cbResultSetSearchAgainLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetSearchAgainLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetBackToPivotActionContainer
+{
+	/*Results Page Back To Pivot Container Attributes*/
+	padding: 0px;
+	padding-left: 10px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.cbResultSetBackToPivotActionContainer_tablet
+{
+	
+}
+
+.cbResultSetBackToPivotActionContainer_mobile
+{
+	
+}
+
+.cbResultSetBackToPivotActionLink
+{
+	/*Results Page Back To Pivot Link Attributes*/
+	color: #3B6AD2;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbResultSetBackToPivotActionLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetBackToPivotActionLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetBackToPivotActionLink_hover
+{
+	/*Results Page Back To Pivot Link Hover Attributes*/
+	color: #1196BA;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.cbResultSetBackToPivotActionLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetBackToPivotActionLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetBulkDeleteActionContainer
+{
+	/*Results Page Bulk Delete Container Attributes*/
+	border: none;
+	margin: 0px;
+	padding: 0px 3px 0px 3px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	width: auto;
+}
+
+.cbResultSetBulkDeleteActionContainer_tablet
+{
+	
+}
+
+.cbResultSetBulkDeleteActionContainer_mobile
+{
+	
+}
+
+.cbResultSetBulkDeleteActionLink
+{
+	/*Results Page Delete Link Attributes*/
+	color: #002a4e ;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbResultSetBulkDeleteActionLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetBulkDeleteActionLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetBulkDeleteActionLink_hover
+{
+	/*Results Page Delete Link Hover Attributes*/
+	color: #1196BA;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbResultSetBulkDeleteActionLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetBulkDeleteActionLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetBulkEditActionContainer
+{
+	/*Results Page Bulk Edit Action Container Attributes*/
+	border: none;
+	margin: 0px;
+	padding: 0px 3px 0px 3px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	width: auto;
+}
+
+.cbResultSetBulkEditActionContainer_tablet
+{
+	
+}
+
+.cbResultSetBulkEditActionContainer_mobile
+{
+	
+}
+
+.cbResultSetBulkEditActionLink
+{
+	/*Results Page Bulk Edit ActionLink Attributes (For Gallery And List Pages)*/
+	color: #3B6AD2;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbResultSetBulkEditActionLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetBulkEditActionLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetBulkEditActionLink_hover
+{
+	/*Results Page Bulk Edit Action Link Attributes */
+	color: #1196BA;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.cbResultSetBulkEditActionLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetBulkEditActionLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetGridEditActionContainer
+{
+	/*Results Page Grid Edit Action Container Attributes*/
+	border: none;
+	margin: 0px;
+	padding: 0px 3px 0px 3px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	width: auto;
+}
+
+.cbResultSetGridEditActionContainer_tablet
+{
+	
+}
+
+.cbResultSetGridEditActionContainer_mobile
+{
+	
+}
+
+.cbResultSetGridEditActionLink
+{
+	/*Results Page Grid Edit ActionLink Attributes (For Gallery And List Pages)*/
+	color: #002a4e ;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbResultSetGridEditActionLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetGridEditActionLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetGridEditActionLink_hover
+{
+	/*Results Page Grid Edit Action Link Attributes */
+	color: #1196BA;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cbResultSetGridEditActionLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetGridEditActionLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetListGallerySelectAllActionContainer
+{
+	/*Results Page Select All CheckBox (List, Gallery) Container Attributes*/
+	border: none;
+	margin: 0px;
+	padding: 0px 3px 0px 3px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	width: auto;
+}
+
+.cbResultSetListGallerySelectAllActionContainer_tablet
+{
+	
+}
+
+.cbResultSetListGallerySelectAllActionContainer_mobile
+{
+	
+}
+
+.cbResultSetListGallerySelectAllActionLink
+{
+	/*Results Page Select All Link Attributes (For Gallery And List Pages)*/
+	color: #002a4e;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+	margin-left: 5px;
+}
+
+.cbResultSetListGallerySelectAllActionLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetListGallerySelectAllActionLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetListGallerySelectAllActionLink_hover
+{
+	/*Results Page Select All Link Attributes (For Gallery And List Pages)*/
+	color: #fff;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.cbResultSetListGallerySelectAllActionLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetListGallerySelectAllActionLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetPageActionsCell
+{
+	/*Results Page Actions Table Cell Attributes*/
+	vertical-align: bottom;
+}
+
+.cbResultSetPageActionsCell_tablet
+{
+	
+}
+
+.cbResultSetPageActionsCell_mobile
+{
+	
+}
+
+.cbResultSetRecordPerPageCell
+{
+	/*Page Control Table Cell Attributes*/
+	border: none;
+	margin: 0px;
+	padding: 6px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.cbResultSetRecordPerPageCell_tablet
+{
+	
+}
+
+.cbResultSetRecordPerPageCell_mobile
+{
+	
+}
+
+.cbResultSetRecordPerPageMessage
+{
+	/*Paging Message Text Attributes*/
+	border: 0px;
+	color: #20282B;
+	font-family: Metropolis;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0px;
+}
+
+.cbResultSetRecordPerPageMessage_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetRecordPerPageMessage_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetRecordPerPageControl
+{
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	background: #FFFFFF;
+	border-color: #A3ABB8;
+	border-radius: 1px;
+	border-style: solid;
+	border-width: 1px;
+	color: #191D22;
+	font-family: Metropolis;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 3px;
+}
+
+.cbResultSetRecordPerPageControl_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetRecordPerPageControl_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetInlineCalendarWrapper
+{
+	/*Results Page Inline Add/Edit calendar*/
+	white-space: nowrap;
+}
+
+.cbResultSetInlineCalendarWrapper_tablet
+{
+	
+}
+
+.cbResultSetInlineCalendarWrapper_mobile
+{
+	
+}
+
+.cbResultSetNestedAlign
+{
+	vertical-align: top;
+}
+
+.cbResultSetNestedAlign_tablet
+{
+	
+}
+
+.cbResultSetNestedAlign_mobile
+{
+	
+}
+
+.cbResultSetRecordIndex
+{
+	/*Results Page Record Index Text Attributes*/
+	color: #191D22;
+	font-family: Sans-serif;
+	font-size: 14px;
+	padding: 9px 12px;
+}
+
+.cbResultSetRecordIndex_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetRecordIndex_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetTextField
+{
+	/*Inline Text Field Attributes*/
+	-moz-border-radius: 1px;
+	-moz-box-sizing: border-box;
+	-webkit-border-radius: 1px;
+	-webkit-box-sizing: border-box;
+	border-color: #002a4e;
+	border-radius: 1px;
+	border-style: solid;
+	border-width: 1px;
+	box-sizing: border-box;
+	color: #000000;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 7px 10px;
+	background-color: transparent;
+}
+
+.cbResultSetTextField_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetTextField_mobile
+{
+	font-size: 17px;
+	width: 100%;
+}
+
+.cbResultSetTextArea
+{
+	/*Inline Text Area Attributes*/
+	-moz-border-radius: 1px;
+	-moz-box-sizing: border-box;
+	-webkit-border-radius: 1px;
+	-webkit-box-sizing: border-box;
+	border-color: #002a4e;
+	border-radius: 1px;
+	border-style: solid;
+	border-width: 1px;
+	box-sizing: border-box;
+	color: #000000;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 7px 10px;
+	background-color: #transparent;
+}
+
+.cbResultSetTextArea_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetTextArea_mobile
+{
+	font-size: 17px;
+	width: 100%;
+}
+
+.cbResultSetSelect
+{
+	/*Inline Selects Attributes*/
+	-moz-border-radius: 1px;
+	-moz-box-sizing: border-box;
+	-webkit-border-radius: 1px;
+	-webkit-box-sizing: border-box;
+	border-color: #A3ABB8;
+	border-radius: 1px;
+	border-style: solid;
+	border-width: 1px;
+	box-sizing: border-box;
+	color: #002a4e;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 3px 6px;
+	width: auto;
+	background-color: transparent;
+}
+
+.cbResultSetSelect_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetSelect_mobile
+{
+	font-size: 17px;
+	width: 100%;
+	padding: 7px 6px;
+}
+
+.cbResultSetFile
+{
+	color:#FFFFFF;
+	font-size:14px;
+	font-family: Sans-serif;
+	font-weight:400;
+	padding: 7px 10px;
+	background-color:#667388;
+}
+
+.cbResultSetFile_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetFile_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetMultiSelect
+{
+	-webkit-box-sizing:border-box;
+	-webkit-border-radius:1px;
+	border-style:solid;
+	-moz-border-radius:1px;
+	-moz-box-sizing:border-box;
+	border-radius:1px;
+	border-color: #002a4e;
+	border-width: 1px;
+	box-sizing:border-box;
+}
+
+.cbResultSetMultiSelect_tablet
+{
+	
+}
+
+.cbResultSetMultiSelect_mobile
+{
+	
+}
+
+.cbResultSetMultiSelectField
+{
+	
+}
+
+.cbResultSetMultiSelectField_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetMultiSelectField_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetMultiSelectText
+{
+	/*Inline Multiselect Dropdown or Listbox Item Attributes*/
+	color: #000000;
+	cursor: pointer;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 2px 6px;
+	background-color: #FFFFFF;
+}
+
+.cbResultSetMultiSelectText_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetMultiSelectText_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetMultiSelectText_hover
+{
+	color:#FFFFFF;
+	font-size:14px;
+	font-family:Metropolis;
+	font-weight:400;
+	background-color: #667388;
+}
+
+.cbResultSetMultiSelectText_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetMultiSelectText_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetAutoCompleteList
+{
+	/*Inline Auto Complete Container Attributes*/
+	-moz-border-radius: 0px 0px 3px 3px;
+	-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+	-webkit-border-radius: 0px 0px 3px 3px;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+	background: #FFFFFF;
+	border-color: #ACB7BB;
+	border-radius: 0px 0px 3px 3px;
+	border-style: solid;
+	border-width: 0px 1px 1px 1px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+	padding: 2px 0px;
+}
+
+.cbResultSetAutoCompleteList_tablet
+{
+	
+}
+
+.cbResultSetAutoCompleteList_mobile
+{
+	
+}
+
+.cbResultSetAutoCompleteOption
+{
+	/*Inline Auto Complete Row Attributes*/
+	background-color: #FFFFFF;
+	padding: 3px 8px;
+}
+
+.cbResultSetAutoCompleteOption_tablet
+{
+	
+}
+
+.cbResultSetAutoCompleteOption_mobile
+{
+	
+}
+
+.cbResultSetAutoCompleteOption_hover
+{
+	/*Inline Auto Complete Container Hover Attributes*/
+	background-color: #6D8199;
+	cursor: pointer;
+	padding: 3px 8px;
+}
+
+.cbResultSetAutoCompleteOption_hover_tablet
+{
+	
+}
+
+.cbResultSetAutoCompleteOption_hover_mobile
+{
+	
+}
+
+.cbResultSetAutoCompleteOptionText
+{
+	/*Inline Auto Complete Text Attributes*/
+	color: #333333;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.cbResultSetAutoCompleteOptionText_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetAutoCompleteOptionText_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetAutoCompleteOptionText_hover
+{
+	/*Inline Auto Complete Text Hover Attributes*/
+	color: #FFFFFF;
+	font-family: Metropolis;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.cbResultSetAutoCompleteOptionText_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetAutoCompleteOptionText_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetAutoCompleteOptionRemainder
+{
+	/*Inline Auto Complete Remain Text Attributes*/
+	color: #333333;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.cbResultSetAutoCompleteOptionRemainder_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetAutoCompleteOptionRemainder_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetAutoCompleteOptionRemainder_hover
+{
+	/*Inline Auto Complete Remain Text Hover Attributes*/
+	color: #FFFFFF;
+	font-family: Metropolis;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.cbResultSetAutoCompleteOptionRemainder_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultSetAutoCompleteOptionRemainder_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultGenerateTemplatesLink
+{
+	color: #002a4e;
+	cursor: pointer;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 0px;
+	text-decoration: none;
+}
+
+.cbResultGenerateTemplatesLink_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultGenerateTemplatesLink_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultGenerateTemplatesLink_hover
+{
+	color: #fff;
+	cursor: pointer;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 0px;
+	text-decoration: underline;
+}
+
+.cbResultGenerateTemplatesLink_hover_tablet
+{
+	font-size: 17px;
+}
+
+.cbResultGenerateTemplatesLink_hover_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultGenerateTemplatesLinkOpen
+{
+	
+}
+
+.cbResultGenerateTemplatesLinkOpen_tablet
+{
+	
+}
+
+.cbResultGenerateTemplatesLinkOpen_mobile
+{
+	
+}
+
+.h1
+{
+	/*Heading 1 Text Attributes*/
+	color: #191D22;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	margin: 0px;
+	padding: 15px 0px 7px 0px;
+}
+
+.h1_tablet
+{
+	
+}
+
+.h1_mobile
+{
+	
+}
+
+.h2
+{
+	/*Heading 2 Text Attributes*/
+	color: #191D22;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0px;
+	padding: 10px 0px 5px 0px;
+}
+
+.h2_tablet
+{
+	
+}
+
+.h2_mobile
+{
+	
+}
+
+.h3
+{
+	/*Heading 3 Text Attributes*/
+	color: #335DA0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0px;
+	padding: 8px 0px 4px 0px;
+}
+
+.h3_tablet
+{
+	
+}
+
+.h3_mobile
+{
+	
+}
+
+.p
+{
+	/*Paragraph Text Attributes*/
+	color: #191D22;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 130%;
+	margin: 7px 3px 2px 0px;
+}
+
+.p_tablet
+{
+	
+}
+
+.p_mobile
+{
+	
+}
+
+.ul
+{
+	/*List Attributes*/
+	/* zero by default for browsers consistency */
+	list-style-position: inside;
+	list-style-type: square;
+	margin: 7px 3px 2px 0px;
+	padding: 0px;
+}
+
+.ul_tablet
+{
+	
+}
+
+.ul_mobile
+{
+	
+}
+
+.li
+{
+	/*List Item Text Attributes*/
+	/* zero by default browsers consistency */
+	color: #191D22;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 1px 0px;
+	padding: 0px;
+}
+
+.li_tablet
+{
+	
+}
+
+.li_mobile
+{
+	
+}
+
+.a
+{
+	/*General Link Attributes*/
+	color: #335DA0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.a_tablet
+{
+	
+}
+
+.a_mobile
+{
+	
+}
+
+.a_hover
+{
+	/*Link Hover Attributes*/
+	color: #6686B8;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.a_hover_tablet
+{
+	
+}
+
+.a_hover_mobile
+{
+	
+}
+
+.cbTableAlignLeft
+{
+	/*Margin Value, Replacement of td align left*/
+	margin: 0px auto 0px 0px;
+}
+
+.cbTableAlignLeft_tablet
+{
+	
+}
+
+.cbTableAlignLeft_mobile
+{
+	
+}
+
+.cbTableAlignCenter
+{
+	/*Margin Value, Replacement of td align center*/
+	margin: 0px auto;
+}
+
+.cbTableAlignCenter_tablet
+{
+	
+}
+
+.cbTableAlignCenter_mobile
+{
+	
+}
+
+.cbTableAlignRight
+{
+	/*Margin Value, Replacement of td align left*/
+	margin: 0px 0px 0px auto;
+}
+
+.cbTableAlignRight_tablet
+{
+	
+}
+
+.cbTableAlignRight_mobile
+{
+	
+}
+
+.cbContainerTextAlignLeft
+{
+	/*Text-align left, Replacement of align*/
+	text-align: left;
+}
+
+.cbContainerTextAlignLeft_tablet
+{
+	
+}
+
+.cbContainerTextAlignLeft_mobile
+{
+	
+}
+
+.cbContainerTextAlignRight
+{
+	/*Text-align right, Replacement of align*/
+	text-align: right;
+}
+
+.cbContainerTextAlignRight_tablet
+{
+	
+}
+
+.cbContainerTextAlignRight_mobile
+{
+	
+}
+
+.cbContainerTextAlignCenter
+{
+	/*Text-align center, Replacement of align*/
+	text-align: center;
+}
+
+.cbContainerTextAlignCenter_tablet
+{
+	
+}
+
+.cbContainerTextAlignCenter_mobile
+{
+	
+}
+
+.cbTableCellPadding
+{
+	/*Padding for td, Replacement of table cellpadding*/
+	padding: 0px;
+}
+
+.cbTableCellPadding_tablet
+{
+	
+}
+
+.cbTableCellPadding_mobile
+{
+	
+}
+
+.cbTableBorderAttribute
+{
+	/*Border-width for table and img, Replacement of table and img border*/
+	border-width: 0px;
+}
+
+.cbTableBorderAttribute_tablet
+{
+	
+}
+
+.cbTableBorderAttribute_mobile
+{
+	
+}
+
+.cbTableDefaultCellspacing
+{
+	/*Border-spacing, Replacement of table cellspacing*/
+	border-spacing: 0px;
+}
+
+.cbTableDefaultCellspacing_tablet
+{
+	
+}
+
+.cbTableDefaultCellspacing_mobile
+{
+	
+}
+
+.cbFormTableCellspacing
+{
+	border-spacing: 0px;
+}
+
+.cbFormTableCellspacing_tablet
+{
+	
+}
+
+.cbFormTableCellspacing_mobile
+{
+	
+}
+
+.cbFormNestedTableCellspacing
+{
+	border-spacing: 0px;
+}
+
+.cbFormNestedTableCellspacing_tablet
+{
+	
+}
+
+.cbFormNestedTableCellspacing_mobile
+{
+	
+}
+
+.cbFormActionsContainerCellspacing
+{
+	border-spacing: 0px;
+}
+
+.cbFormActionsContainerCellspacing_tablet
+{
+	
+}
+
+.cbFormActionsContainerCellspacing_mobile
+{
+	
+}
+
+.cbFormNavigationTableCellspacing
+{
+	border-spacing: 0px;
+}
+
+.cbFormNavigationTableCellspacing_tablet
+{
+	
+}
+
+.cbFormNavigationTableCellspacing_mobile
+{
+	
+}
+
+.cbResultSetRANestedTableCellspacing
+{
+	border-spacing: 0px;
+}
+
+.cbResultSetRANestedTableCellspacing_tablet
+{
+	
+}
+
+.cbResultSetRANestedTableCellspacing_mobile
+{
+	
+}
+
+.cbResultSetTableCellspacing
+{
+	border-spacing: 0px;
+}
+
+.cbResultSetTableCellspacing_tablet
+{
+	
+}
+
+.cbResultSetTableCellspacing_mobile
+{
+	
+}
+
+.cbResultSetNavigationTableCellspacing
+{
+	border-spacing: 0px;
+}
+
+.cbResultSetNavigationTableCellspacing_tablet
+{
+	
+}
+
+.cbResultSetNavigationTableCellspacing_mobile
+{
+	
+}
+
+.cbResultSetDownloadTableCellspacing
+{
+	border-spacing: 0px;
+}
+
+.cbResultSetDownloadTableCellspacing_tablet
+{
+	
+}
+
+.cbResultSetDownloadTableCellspacing_mobile
+{
+	
+}
+
+.cbResultSetListViewCellspacing
+{
+	border-spacing: 8px 10px;
+}
+
+.cbResultSetListViewCellspacing_tablet
+{
+	
+}
+
+.cbResultSetListViewCellspacing_mobile
+{
+	
+}
+
+.cbResultSetCalendarCellspacing
+{
+	border-spacing: 0px;
+}
+
+.cbResultSetCalendarCellspacing_tablet
+{
+	
+}
+
+.cbResultSetCalendarCellspacing_mobile
+{
+	
+}
+
+.cbResultSetCalendarCaptionTableCellspacing
+{
+	border-spacing: 0px;
+}
+
+.cbResultSetCalendarCaptionTableCellspacing_tablet
+{
+	
+}
+
+.cbResultSetCalendarCaptionTableCellspacing_mobile
+{
+	
+}
+
+.cbFormAuthTableCellspacing
+{
+	border-spacing: 0px;
+}
+
+.cbFormAuthTableCellspacing_tablet
+{
+	
+}
+
+.cbFormAuthTableCellspacing_mobile
+{
+	
+}
+
+.cbResultSetActionsContainerCellspacing
+{
+	border-spacing: 0px;
+}
+
+.cbResultSetActionsContainerCellspacing_tablet
+{
+	
+}
+
+.cbResultSetActionsContainerCellspacing_mobile
+{
+	
+}
+
+.cbSystemMessageContainer
+{
+	background-color: #faf7e4;
+	border: 1px solid #dedede;
+	display: table;
+	margin: 0px auto;
+	width: auto;
+}
+
+.cbSystemMessageContainer_tablet
+{
+	
+}
+
+.cbSystemMessageContainer_mobile
+{
+	
+}
+
+.cbSystemMessageContainerContent
+{
+	color: #686868;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	padding: 10px 30px 10px 15px;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cbSystemMessageContainerContent_tablet
+{
+	font-size: 17px;
+}
+
+.cbSystemMessageContainerContent_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetFreezeColumnsDivider
+{
+	/*Results Page Freeze Controls Attributes*/
+	border-color: #cccccc;
+	border-right-color: #cccccc;
+	border-right-style: solid;
+	border-right-width: 1px;
+}
+
+.cbResultSetFreezeColumnsDivider_tablet
+{
+	
+}
+
+.cbResultSetFreezeColumnsDivider_mobile
+{
+	
+}
+
+.cbFormComputedFieldPreloader
+{
+	/*Computed field preloader Attributes*/
+	border-color: #F3F3F3;
+	border-radius: 50%;
+	border-style: solid;
+	border-top-color: #757575;
+	border-width: 2px;
+	height: 15px;
+	position: absolute;
+	width: 15px;
+}
+
+.cbFormComputedFieldPreloader_tablet
+{
+	
+}
+
+.cbFormComputedFieldPreloader_mobile
+{
+	
+}
+
+.cbFormCalculatedField
+{
+	/*Form calculated field Attributes*/
+	color: #000000;
+	font-family: sANS-SERIF;
+	font-size: 14px;
+	font-weight: 400;
+	white-space: pre-wrap;
+}
+
+.cbFormCalculatedField_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormCalculatedField_mobile
+{
+	font-size: 17px;
+}
+
+.cbResultSetCalculatedField
+{
+	/*Results Page calculated field Attributes*/
+	white-space: pre-wrap;
+}
+
+.cbResultSetCalculatedField_tablet
+{
+	
+}
+
+.cbResultSetCalculatedField_mobile
+{
+	
+}
+
+.cbPayPalButton
+{
+	
+}
+
+.cbPayPalButton_tablet
+{
+	
+}
+
+.cbPayPalButton_mobile
+{
+	
+}
+
+.cbFormPaymentProcessorCreditCard
+{
+	
+}
+
+.cbFormPaymentProcessorCreditCard_tablet
+{
+	
+}
+
+.cbFormPaymentProcessorCreditCard_mobile
+{
+	
+}
+
+.cbFormPaymentProcessorPaypal
+{
+	
+}
+
+.cbFormPaymentProcessorPaypal_tablet
+{
+	
+}
+
+.cbFormPaymentProcessorPaypal_mobile
+{
+	
+}
+
+.cbFormPaymentProcessor
+{
+	/*Form Payment Processors Label Text Attributes*/
+	color: #20282B;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.cbFormPaymentProcessor_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormPaymentProcessor_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormChargeOffConfirmation
+{
+	color: #333333;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 5px 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cbFormChargeOffConfirmation_tablet
+{
+	font-size: 17px;
+}
+
+.cbFormChargeOffConfirmation_mobile
+{
+	font-size: 17px;
+}
+
+.cbFormFieldSet
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	min-inline-size: unset;
+}
+
+.cbFormFieldSet_tablet
+{
+	
+}
+
+.cbFormFieldSet_mobile
+{
+	
+}
+.cbResultGenerateTemplatesLink_image
+{
+	
+}
+.cbResultGenerateTemplatesLink_image_tablet
+{
+	
+}
+.cbResultGenerateTemplatesLink_image_mobile
+{
+	
+}
+:not(.custom-search-report) form#caspioform > div > section
+{
+	grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+	width: 100%;
+	grid-column-gap: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.custom-search-report form#caspioform > div > section
+{
+	grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+	width: 100%;
+	grid-column-gap: 10px;
+	margin-top: 15px;
+	margin-bottom: 1px;
+}
+form#caspioform > div:not(.cbFormCommonError)
+{
+	width: 100%;
+}
+.login-cont
+{
+	max-width: 500px;
+}
+.login-cont .divider, .section-divider
+{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.custom-link
+{
+	text-decoration: none;
+	color: #002a4e!important;
+}
+.custom-link:hover
+{
+	text-decoration: underline;
+	font-size: 16px;
+}
+::placeholder
+{
+	color: #000000db;
+	opacity: 1;
+	/* Firefox */
+}
+::-ms-input-placeholder
+{
+	/* Edge 12 -18 */
+	color: #000000db;
+}
+.login-note, .registration-note
+{
+	font-size: 1rem;
+	color: #736858;
+	text-align: left;
+}
+.login-note
+{
+	margin: 60px 15px 50px 15px;
+}
+.registration-note
+{
+	margin: 20px 0px 30px 0px
+}
+.login-link
+{
+	text-align:center;
+	margin-top:30px;
+	margin-bottom: 50px;
+}
+.section-header, .section-sub-header
+{
+	color: #002A4E;
+	margin: 30px 0px  10px 0px;
+	white-space: break-spaces;
+	font-family: Sans-serif;
+}
+.section-header
+{
+	font-size: 18px;
+	border-bottom: 1px solid #002A4E;
+}
+.section-sub-header
+{
+	font-size: 16px;
+	padding: 14px;
+	background-color: #f0f2f5;
+}
+.section-sub-header:nth-of-type(1):not('.mb-0')
+{
+	margin: 10px 0px  10px 0px!important;
+}
+.section-sub-header.mb-0:nth-of-type(1)
+{
+	margin: 10px 0px  0px 0px!important;
+}
+.sub-cont
+{
+	width:100%!important;
+}
+:not(.custom-search-report) form div:nth-of-type(n+2)
+{
+	/*padding-left: 50px;
+	*/
+}
+.mt-0
+{
+	margin-top:0px;
+}
+.custom-search-container
+{
+	width: 100%;
+	text-align: left;
+	padding-top:15px;
+}
+.custom-search-container .custom-btn-filter
+{
+	margin-right: 7px;
+	margin-bottom: 10px;
+}
+.custom-btn-filter, .custom-btn-reset
+{
+	border-radius: 1px;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	height: auto;
+	margin: 0px 0px;
+	min-width: auto;
+	padding: 10px 20px;
+	text-align: center;
+	transition: all 0.3s ease-in-out;
+}
+.custom-btn-filter
+{
+	background-color: #002a4e;
+	border: 1px solid #002a4e;
+}
+.custom-btn-reset
+{
+	background-color: #E02D1B;
+	border: 1px solid #E02D1B;
+}
+.custom-btn-filter:hover
+{
+	background-color: #FFFFFF;
+	border: 1px solid #002a4e;
+	color: #002a4e;
+	box-shadow: 0 3px 5px -3px #000000, 0 1px 1px -4px #000000;
+}
+.custom-btn-reset:hover
+{
+	background-color: #FFFFFF;
+	border: 1px solid #E02D1B;
+	color: #E02D1B;
+	box-shadow: 0 3px 5px -3px #000000, 0 1px 1px -4px #000000;
+}
+.search-top-space
+{
+	padding-top: 30px;
+}
+#SearchFormLightBox .cbSearchButtonContainer
+{
+	//display:none;
+}
+.custom-search-report
+{
+	padding: 30px;
+	background: #fff;
+	margin-top: 20px;
+	//overflow: auto!important;
+}
+.cbResultSetSortText img
+{
+	filter: sepia(100%) hue-rotate(120deg) brightness(40%) saturate(500%);
+}
+.custom-search-report .cbResultSetActionCell > a[data-cb-name="InlineEdit"]:nth-of-type(1), .custom-search-report .cbResultSetActionCell > a[data-cb-name="InlineDelete"]:not(:last-of-type)
+{
+	display:none;
+}
+.cbReportNavBarPanel .cbNavBarCtnt.cbFlex.Right
+{
+	margin-top: 15px;
+}
+.custom-orange
+{
+	color: #FB8C00!important;
+}
+.custom-pink
+{
+	color: #EC407A!important;
+}
+div[data-status="true"] td[class*="custom-color-shade"]
+{
+	width:50px;
+}
+.custom-search-report .cbUpdateButton, .custom-form .cbSubmitButton, .custom-form .cbUpdateButton, .custom-form .cbPasswordResetButton
+{
+	/*Update Button Attributes*/
+	border-radius: 1px;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: auto;
+	margin: 0px 10px 0px 0px;
+	min-width: 130px;
+	padding: 12px 20px;
+	text-align: center;
+	text-transform: capitalize;
+	background-color: #002a4e;
+	transition:all 0.3s ease-in-out;
+	border:1px solid #002a4e;
+}
+.custom-search-report .cbUpdateButton_tablet, .custom-form .cbSubmitButton_tablet, .custom-form .cbUpdateButton_tablet,.custom-form .cbPasswordResetButton_tablet
+{
+	font-size: 18px;
+	height: 46px;
+}
+.custom-search-report .cbUpdateButton_mobile,.custom-form .cbSubmitButton_mobile, .custom-form .cbUpdateButton_mobile, .custom-form .cbPasswordResetButton_mobile
+{
+	font-size: 18px;
+	height: 46px;
+	width: 100%;
+}
+.custom-search-report .cbUpdateButton:hover,.custom-form .cbSubmitButton:hover, .custom-form .cbUpdateButton:hover, .custom-form .cbPasswordResetButton:hover
+{
+	/*Update Button Hover Attributes*/
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border: 1px solid #002a4e;
+	border-radius: 1px;
+	color: #002a4e;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: auto;
+	margin: 0px 10px 0px 0px;
+	min-width: 130px!important;
+	padding: 12px 20px;
+	text-align: center;
+	text-transform: capitalize;
+	background-color: #FFFFFF;
+	box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+.custom-search-report .cbBackButtonContainer
+{
+	text-align:left;
+}
+.custom-form-link
+{
+	text-align:right;
+}
+.cbFormNavBarPanel
+{
+	text-align:right;
+}
+.custom-pl-0
+{
+	padding-left:0px!important;
+}
+.custom-list-content
+{
+	align-items:baseline;
+	margin-top: 8px;
+}
+.custom-list-content h6
+{
+	font-weight: 400;
+}
+.custom-list-content h5,.custom-list-content h6
+{
+	white-space: break-spaces;
+}
+.px-0
+{
+	padding-left:0px;
+	padding-right:0px;
+}
+.pt-20
+{
+	padding-top:20px!important;
+}
+.mt-20
+{
+	margin-top:20px!important;
+}
+.mb-30
+{
+	margin-bottom:30px!important;
+}
+.list-view-cont [class*="cbReportSection"]
+{
+	margin-top: 30px;
+}
+.cbResultSetActionsContainerCellspacing.cbResultSetActionsContainer.cbActionPanel input[type="checkbox"]
+{
+	vertical-align: text-top;
+}
+section[class^="cbFormSection"] .cbFormData .reset-mobile a
+{
+	color: #E02D1B;
+	text-decoration: underline;
+}
+.mx-auto
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+.m-10
+{
+	margin:10px!important;
+}
+.mb-0
+{
+	margin-bottom: 0px !important;
+}
+.cbActionPanel ul li
+{
+	min-width: 80px;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.custom-search-report.custom-d-flex-date [id^="cbOuterAjaxCtnr"]:nth-of-type(1) [class*="cbFormBlock4"]
+{
+	display:flex!important
+}
+.d-none-search-cont .cbSearchButtonContainer:first-of-type
+{
+	display:none!important;
+}
+.data-cont-pb-0 .cbResultSetPanelDataContainer
+{
+	padding-bottom:10px!important;
+}
+.cbResultSetDownloadMessage:hover
+{
+	/*Results Page Download Message Div Attributes*/
+	margin: 0px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	width: auto;
+	padding: 5px;
+	border: 1px solid #002a4e;
+	background-color: #002a4e;
+}
+.cbResultSetDownloadMessage:hover .cbResultSetDownloadLink, .cbResultSetDownloadLink:hover
+{
+	color: #fff!important;
+}
+.cbResultSetDownloadMessage:hover .cbResultSetDownloadLink img, .cbResultSetDownloadLink:hover img
+{
+	filter: brightness(80)!important;
+}
+.cbResultSetActionsLinks[data-cb-name="DetailsLink"]
+{
+	color: #276e8f!important;
+	font-weight: 600!important;
+	text-decoration: underline!important;
+}
+.cbResultSetActionsLinks[data-cb-name="DetailsLink"]:hover
+{
+	color: #276e8fd9!important;
+	font-weight: 600!important;
+}
+table[class*="cbResultSetActionsContainer"]
+{
+	margin-bottom: 15px!important;
+}
+.cbTableDefaultCellspacing.cbTableBorderAttribute
+{
+	width: 100%;
+}
+.cbFormCommonError:before
+{
+	font-family: 'Font Awesome\ 5 Free';
+	content: "\f057";
+	display: inline;
+	color: #842029;
+	margin-right: 10px;
+	font-size: 30px;
+}
+.cbConfirmationMessages:before
+{
+	font-family: 'Font Awesome\ 5 Free';
+	content: "\f058";
+	display: inline;
+	color: #155724;
+	margin-right: 10px;
+	font-size: 30px;
+}
+#caspioform > div.cbFormCommonError
+{
+	display:flex!important;
+}
+.alert i
+{
+	font-size: 30px;
+	margin-right: 10px;
+}
+.alert
+{
+	display: flex;
+	align-items: center;
+}
+#caspioform > div > .cbResultSetRecordMessage:before
+{
+	font-family: 'Font Awesome\ 5 Free';
+	content: "\f07c";
+	display: inline;
+	color: #bd5c27;
+	margin-right: 10px;
+	font-size: 30px;
+}
+#caspioform > div > .cbConfirmationMessages
+{
+	margin-top: 50px;
+	background: #d4edda;
+	margin-bottom: 50px;
+}
+#caspioform > div > .cbResultSetRecordMessage
+{
+	margin-top: 50px;
+	background: #bd5c270f;
+	margin-bottom: 50px;
+}
+[id^="cbOuterAjaxCtnr"]:nth-of-type(1) #caspioform > div > .cbResultSetRecordMessage
+{
+	margin-top: 50px;
+}
+[id^="cbOuterAjaxCtnr"]:nth-of-type(2) #caspioform > div > .cbResultSetRecordMessage
+{
+	margin-top: 30px;
+}
+#SearchFormLightBox, #InlineAddFormLightBox
+{
+	z-index:3000!important;
+}
+.custom-search-report dd .view-details-btn
+{
+	float:left!important;
+	padding: 10px 0px;
+}

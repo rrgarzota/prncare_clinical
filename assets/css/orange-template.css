@@ -1,0 +1,24 @@
+[class*=sidebar-light] .brand-link,
+.sidebar-light-orange .nav-sidebar>.nav-item>.nav-link.active {
+    color: rgba(255,255,255,1);
+}
+
+.nav-pills .nav-link:not(.active):hover,
+.nav-sidebar .nav-item>.nav-link:not(.active):hover{
+    /* color: #fd7e14; */
+    background-color: rgba(255, 118, 16, .07);
+}
+
+.navbar-orange{
+    background-color: rgba(255, 118, 16, 0.90);
+}
+
+.nav-sidebar .nav-item>.nav-link:not(.active):hover i,
+[class*=sidebar-light-] .nav-treeview>.nav-item>.nav-link.active i{
+    color: #fd7e14;
+}
+.nav-pills .nav-link:not(.active):hover{
+    color: inherit;
+}
+
+

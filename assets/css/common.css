@@ -1,0 +1,497 @@
+/* adminLTE CSS override */
+
+.layout-top-nav:not(.text-sm) .dropdown-menu,
+.layout-top-nav .main-header:not(.text-sm) .dropdown-menu{
+    margin-top: .6rem;
+}
+.layout-top-nav.text-sm .dropdown-menu,
+.layout-top-nav .main-header.text-sm .dropdown-menu{
+    margin-top: .8rem;
+}
+
+.main-header .navbar-nav .nav-item {
+    font-size: 1rem;
+}
+
+.main-header{
+    z-index: 99!important;
+}
+
+.card-deck .card-title {
+    margin-bottom: .75rem!important;
+    font-weight: 600!important;
+}
+h5{
+    font-size: 1.25rem;
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .main-header .navbar-nav .nav-item {
+        font-size: 15px;
+    }
+}
+
+/** tabular report **/
+
+    /* search form */
+        .cb-tabular-report.cb-search-gray-bg form#caspioform > div > section{
+            background-color: #f9f9fb;
+        }
+
+        .cb-tabular-report form#caspioform > div > section{
+            padding: 0px;
+        }
+
+        .cb-tabular-report .cbResultSetTableCellspacing{
+            width: 100%;
+        }
+
+        #SearchFormLightBox form#caspioform > div > section,
+        #InlineAddFormLightBox form#caspioform > div > section{
+            padding: 15px;
+        }
+        
+        #InlineAddFormLightBox .cbFormLabelCell:not(:first-of-type),
+        #SearchFormLightBox .cbFormNestedTableContainer:not(:first-of-type){
+            padding-top: 10px;
+        }
+
+    /* end of search form */
+
+    /* search buttons */
+
+        /* Desc: Make buttons vertically and horizontally center */
+        .cb-search-button-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            /* border: 2px dashed red; */
+            flex-wrap: wrap; /*when button overflow, auto new line*/
+        }
+        .cb-search-button-container button{
+            margin-right: 10px;
+        }
+
+        /* Desc: Hide standard search button on screen greater than 576 pixels */
+        .cb-tabular-report.cb-hide-search .cbSearchButtonContainer{
+            display: none!important;
+        }
+
+    /* end of search buttons */
+
+    /* Tabular report */
+        .cb-tabular-report.cb-tabular-header-bg-white [id*="cbOuterAjaxCtnr"]:nth-of-type(2) [data-cb-name="cbTable"]{
+            margin-top: 0px;
+        }
+
+        .cb-tabular-report.cb-tabular-header-bg-white .cbResultSetTableHeader th{
+            border-bottom: 2px solid #dee2e6;
+            border-top: 2px solid #dee2e6;
+        }
+
+        .cb-tabular-report.cb-tabular-header-bg-white .cbResultSetTableHeader,
+        .cb-tabular-report.cb-tabular-header-bg-white .cbResultSetHeaderCell{
+            background-color: #f9f9fb!important;
+        }
+
+        .cb-tabular-report .cbResultSetTableHeader th{
+            padding: 0.25rem .75rem;
+            text-align: left!important;
+        }
+
+        /* Yes/No field result styles */
+        .cb-config-status .cbResultSetTableCell .cb-bg-success,
+        .cb-config-status .cbResultSetTableCell .cb-bg-danger {
+            display: inline-block; /* keep the background color wrapped tight */
+            padding:1px 0px!important;
+            font-size:12px;
+            border-radius: 25% 10%;
+            min-width: 40px;
+            text-align: center!important;
+            color: #fff;
+        }
+
+        /* background colors */
+        .cb-config-status .cbResultSetTableCell .cb-bg-success {
+            background-color: #28a745;
+        }
+        .cb-config-status .cbResultSetTableCell .cb-bg-danger{
+            background-color: #dc3545;
+        }
+
+        .cb-tabular-report tr{
+            border-bottom: 1px solid #dee2e6!important;
+            padding: 10px 3px;
+        }
+        .cb-tabular-report .cbResultSetNavigationTable{
+            padding: 10px 0px 0px 0px;
+        }
+        /* Standard buttons */
+        .cb-tabular-report .cbResultSetActionCell a[data-cb-name="InlineDelete"]:nth-of-type(3),
+        #inlineActions.ToolBox .RAItem a[data-cb-name="InlineDelete"]:first-of-type,
+        .cb-tabular-report .cbResultSetActionCell a[data-cb-name="InlineEdit"]:nth-of-type(1),
+        #inlineActions.ToolBox .RAItem a[data-cb-name="InlineEdit"]:first-of-type{
+            display: none!important;
+        }
+        .cb-tabular-report .cbResultSetActionCell > a[data-cb-name="InlineDelete"]:last-of-type::before,
+        #inlineActions.ToolBox .RAItem a[data-cb-name="InlineDelete"]::before,
+        .cb-tabular-report .cbResultSetActionCell > a[data-cb-name="InlineEdit"]:nth-of-type(2)::before,
+        #inlineActions.ToolBox .RAItem a[data-cb-name="InlineEdit"]::before,
+        .cb-tabular-report table > thead + tbody > tr > td[class*="cbResultSetData"][class*="cbResultSetTableCell"] a.view-details-btn::before{
+            font-family: "Font Awesome 5 Free";
+            display: inline-block;
+            padding-right: 6px;
+            /* vertical-align: middle; */
+            font-weight: 900;
+            display: inline;
+        }
+        .cb-tabular-report .cbResultSetActionCell > a[data-cb-name="InlineDelete"]:last-of-type::before,
+        #inlineActions.ToolBox .RAItem a[data-cb-name="InlineDelete"]::before{
+            content: "\f00d";
+        }
+        .cb-tabular-report .cbResultSetActionCell > a[data-cb-name="InlineEdit"]:nth-of-type(2)::before,
+        #inlineActions.ToolBox .RAItem a[data-cb-name="InlineEdit"]::before{
+            content: "\f044";
+        }
+        .cb-tabular-report table > thead + tbody > tr > td[class*="cbResultSetData"][class*="cbResultSetTableCell"] a.view-details-btn::before{
+            content: "\f061";
+        }
+        /* Setting color for Inline delete icon and text */
+        .cb-tabular-report .cbResultSetActionCell > a[data-cb-name="InlineDelete"]::before,
+        .cb-tabular-report .cbResultSetActionCell > a[data-cb-name="InlineEdit"]::before,
+        .cb-tabular-report .cbResultSetActionsLinks,
+        #inlineActions.ToolBox .RAItem a[data-cb-name="InlineDelete"],
+        #inlineActions.ToolBox .RAItem a[data-cb-name="InlineDelete"]::before,
+        #inlineActions.ToolBox .RAItem a[data-cb-name="InlineEdit"],
+        #inlineActions.ToolBox .RAItem a[data-cb-name="InlineEdit"]::before,
+        .cb-tabular-report table > thead + tbody > tr > td[class*="cbResultSetData"][class*="cbResultSetTableCell"] a.view-details-btn,
+        .cb-tabular-report table > thead + tbody > tr > td[class*="cbResultSetData"][class*="cbResultSetTableCell"] a.view-details-btn:before{
+            color: #0a80a0;
+        }
+        .cb-tabular-report .cbResultSetActionsLinks:hover,
+        .cb-tabular-report table > thead + tbody > tr > td[class*="cbResultSetData"][class*="cbResultSetTableCell"] a.view-details-btn:hover{
+            color: #1196BA;
+        }
+        /* button background colors */
+        .cb-config-status .cbResultSetTableCell.cb-bg-success {
+            color: #28a745;
+        }
+        .cb-config-status .cbResultSetTableCell.cb-bg-danger{
+            color: #dc3545;
+        }
+
+        .cb-tabular-report table > thead + tbody > tr > td a.view-details-btn{
+            float: right!important;
+        }
+
+
+
+    /* End of tabular report */
+
+
+/** end of tabular report **/
+
+/* buttons */
+
+button,
+.cbSubmitButton{
+    font-style: normal;
+    min-width: 70px!important;
+}
+.cb-add-form .cbSubmitButton,
+.cb-edit-form .cbUpdateButton,
+.cb-edit-form .cbDeleteButton{
+    padding: .5rem 2rem!important;
+}
+/* Setting color for Inline add icon and text; search Filter button */
+.cb-search-button-container .btn-primary,
+.cb-tabular-report .cbResultSetAddButton,
+.cb-add-form .cbSubmitButton{
+    background-color: #005883;
+    transition: 0.3s;
+}
+.cb-edit-form .cbDeleteButton {
+    background-color: #fff;
+    color: #c9302c;
+    border: 1px solid #c9302c;
+    transition: 0.3s;
+}
+.cb-edit-form .cbDeleteButton:hover {
+    background-color: #d9534f;
+    color: #fff;
+}
+
+.cb-edit-form .cbUpdateButton{
+    background-color: #0a80a0;
+    border: 1px solid #0a80a0;
+}
+.cb-edit-form .cbUpdateButton:hover{
+    background-color: #1196BA;
+    border: 1px solid #1196BA;
+
+}
+.cb-search-button-container .btn-primary:hover,
+.cb-tabular-report .cbResultSetAddButton:hover,
+.cb-add-form .cbSubmitButton:hover{
+    background-color: #174478;
+}
+
+
+/* caspio form: make fields equal */
+form#caspioform > div > section
+{
+    width: 100%;
+    grid-column-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+}
+form#caspioform > div {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .cb-tabular-report .cbFormNestedTableContainer:not(:first-of-type){
+        padding-top: 15px;
+    }
+    section[class^="cbFormSection"] span[data-cb-name=cbFormDataRadios] label{
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width: 577px) {
+    .cb-tabular-report form#caspioform > div > section{
+        padding: 10px;
+    }
+    .cb-tabular-report.cb-tabular-header-bg-white [id*="cbOuterAjaxCtnr"]:nth-of-type(2) [data-cb-name="cbTable"]{
+        margin-top: 40px;
+    }
+    
+
+}
+
+.cb-form-btn-w-100 .cbDeleteButton {
+    margin: 5px 0px!important;
+}
+
+@media only screen and (min-width: 1025px){
+    .cb-tabular-report .cbResultSetTableHeader th{
+        padding: .75rem;
+        text-align: left!important;
+    }
+}
+
+/* Tabs/Pills */
+
+#sub-navbar-tabs{
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    /* justify-content: end; */
+    width: auto;
+    margin-bottom: 25px;
+    background-color: #fff;
+    
+}
+
+#sub-navbar-tabs a{
+    text-align: center;
+}
+
+#sub-navbar-tabs
+{
+    font-size:1.05em;
+}
+
+#sub-navbar-tabs .nav-link span{
+    white-space: nowrap;
+}
+
+#sub-navbar-tabs .nav-link.active{
+    color: #005883;
+    background-color: #f8f9fc;
+    box-shadow: 0px 0px 5px 0.8px rgb(0 0 0 / 10%);
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
+@media only screen and (min-width: 1000px) {
+    #sub-navbar-tabs{
+        border-radius: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-bottom: 50px; */
+        padding: 12px;
+        background-color: white;
+        color: black;
+        /* width: fit-content;
+        width: -moz-fit-content; */
+        width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+  width: -moz-max-content;    /* Firefox/Gecko */
+  width: -webkit-max-content; /* Chrome */
+        box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.20);
+        font-size: 17px;
+    
+    }
+}
+
+#sub-navbar-tabs.nav-pills .nav-link {
+    margin: 0.1rem 0.25rem;
+    border-radius: 0.25rem;
+    color: #005883;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+  #sub-navbar-tabs.nav-pills .nav-link:hover {
+    background-color: #f8f9fc!important;
+    color: #006ca0!important;
+}
+
+#sub-navbar-tabs .nav-link.active {
+    color: #005883;
+    background-color: #f8f9fc;
+    box-shadow: 0px 0px 5px 0.8px rgb(0 0 0 / 10%);
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
+/* Form */
+.cb-add-form #caspioform section .cbFormNestedTableContainer,
+.cb-edit-form #caspioform section .cbFormNestedTableContainer {
+    padding: 10px 0px;
+}
+
+.cb-add-form label:not(.form-check-label):not(.custom-file-label),
+.cb-edit-form label:not(.form-check-label):not(.custom-file-label){
+    font-weight: inherit;
+}
+.cb-add-form .cbComboBoxContainer .ListData.ListBox.cbFormMultiSelect,
+.cb-edit-form .cbComboBoxContainer .ListData.ListBox.cbFormMultiSelect{
+    width: auto!important;
+}
+.cb-add-form .cbComboBoxContainer input,
+.cb-edit-form .cbComboBoxContainer input,
+.cb-edit-form .cbComboBoxContainer > select{
+    height: auto!important;
+}
+.cb-add-form label,
+.cb-edit-form label{
+    margin-bottom: 2px;
+}
+.cbFormMultiSelect label{
+    margin-bottom: 0px;
+}
+.cbFormMultiSelect label{
+    vertical-align: text-top!important;
+}
+
+.cb-add-form section[class^="cbFormSection"] input[type=radio] + label,
+.cb-edit-form section[class^="cbFormSection"] input[type=radio] + label {
+    margin-left: 5px;
+}
+.cb-add-form [data-cb-name="cbFormDataRadios"] label,
+.cb-edit-form [data-cb-name="cbFormDataRadios"] label {
+    vertical-align: bottom;
+}
+.cb-add-form [data-cb-name="cbFormDataCheckbox"] input,
+.cb-edit-form [data-cb-name="cbFormDataCheckbox"] input{
+    vertical-align: text-bottom;
+}
+.cb-add-form [data-cb-name="cbFormDataCheckbox"] label,
+.cb-edit-form [data-cb-name="cbFormDataCheckbox"] label{
+    vertical-align: text-top;
+}
+
+
+.cb-add-form select:focus-visible,
+.cb-add-form input:focus-visible,
+.cb-add-form textarea:focus-visible,
+.cb-edit-form select:focus-visible,
+.cb-edit-form input:focus-visible,
+.cb-edit-form textarea:focus-visible{
+    /* color: #585858!important;
+    background-color: #f0f4f3!important; */
+    /* border-color: #585858!important; */
+    outline: transparent!important;
+}
+
+/* .cb-add-form [data-cb-name="cbFormDataRadios"] > span{
+    white-space: normal;
+} */
+
+.cb-fields-shadow-blue input:focus,
+.cb-fields-shadow-blue textarea:focus,
+.cb-fields-shadow-blue select:focus,
+.cb-fields-shadow-blue input[type="checkbox"]:focus{
+    border-color: #0b7ba0;
+    box-shadow: 0 0 0 3px rgb(11 123 160 / 25%);
+}
+.cb-fields-shadow-blue input[type="radio"]:focus{
+    /* border-color: #0b7ba0; */
+    box-shadow: none;
+}
+
+/* Custom Cards */
+.center-aligned-card {
+    max-width: 800px;
+    margin: auto;
+}
+.left-aligned-card {
+    max-width: 800px;
+}
+[class*="cb-form-divider"] section > div:first-child > .cb-section-divider{
+    margin: 0px 0px 30px 0px;
+}
+[class*="cb-form-divider"] .cb-section-divider{
+    margin: 30px 0px;
+}
+.cb-section-divider{
+    text-transform: uppercase;
+    font-weight: 600!important;
+}
+
+.cb-form-divider-blue .cb-section-divider{
+    border-bottom: 1px solid #0b7ba0;
+}
+.cb-form-divider-white .cb-section-divider{
+    border-bottom: 1px solid #cecece;
+}
+
+/* how to vertically center label with field */
+.cb-form-label-left-vc .cbFormLabelCell{
+    display: flex; 
+    align-items: center;
+}
+
+.cb-form-btn-w-100 .cbSubmitButton,
+.cb-form-btn-w-100 .cbUpdateButton,
+.cb-form-btn-w-100 .cbDeleteButton{
+    width: 100%!important;
+}
+
+.cb-form-btn-right .cbSubmitButtonContainer,
+.cb-form-btn-right .cbUpdateButtonContainer,
+.cb-form-btn-right .cbBackButtonContainer  {
+    text-align: right!important;
+}
+
+.cb-btn-radius-0 .cbSubmitButton,
+.cb-btn-radius-0 .cbUpdateButton,
+.cb-btn-radius-0 .cbDeleteButton{
+    border-radius: 0px!important;
+}
+.cb-btn-radius-1-5 .cbSubmitButton,
+.cb-btn-radius-1-5 .cbUpdateButton,
+.cb-btn-radius-1-5 .cbDeleteButton{
+    border-radius: 1.5rem!important;
+}
+
+.cb-edit-form .cbFormFile {
+    width: auto!important;
+}
+
+/* new */
+.theme-blue-text {
+    color: #005883;
+}

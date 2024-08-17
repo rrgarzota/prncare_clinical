@@ -1,0 +1,116 @@
+[class*=sidebar-light] .brand-link,
+[class*=sidebar-light]>.nav-item>.nav-link.active,
+.sidebar-light-warning .nav-sidebar>.nav-item>.nav-link.active {
+    color: rgba(255,255,255,1);
+}
+
+.brand-link.navbar-white  {
+    color: rgba(0,0,0,.5);
+}
+
+.nav-pills .nav-link:not(.active):hover{
+    color: inherit;
+}
+
+[class*=sidebar-light-info] .nav-pills .nav-link:not(.active):hover,
+[class*=sidebar-light-info] .nav-item>.nav-link:not(.active):hover{
+    background-color: #17a2b81f;
+}
+
+[class*=sidebar-light-info] .nav-item>.nav-link:not(.active):hover i,
+[class*=sidebar-light-info] .nav-treeview>.nav-item>.nav-link.active i{
+    color: #17a2b8;
+}
+
+[class*=sidebar-light-primary] .nav-pills .nav-link:not(.active):hover,
+[class*=sidebar-light-primary] .nav-item>.nav-link:not(.active):hover{
+    background-color: #007bff21;
+}
+
+[class*=sidebar-light-primary] .nav-item>.nav-link:not(.active):hover i,
+[class*=sidebar-light-primary] .nav-treeview>.nav-item>.nav-link.active i{
+    color: #007bff;
+}
+
+[class*=sidebar-light-secondary] .nav-pills .nav-link:not(.active):hover,
+[class*=sidebar-light-secondary] .nav-item>.nav-link:not(.active):hover{
+    background-color: #6c757d1f;
+}
+
+[class*=sidebar-light-secondary] .nav-item>.nav-link:not(.active):hover i,
+[class*=sidebar-light-secondary] .nav-treeview>.nav-item>.nav-link.active i{
+    color: #6c757d;
+}
+
+[class*=sidebar-light-success] .nav-pills .nav-link:not(.active):hover,
+[class*=sidebar-light-success] .nav-item>.nav-link:not(.active):hover{
+    background-color: #28a7451a;
+}
+
+[class*=sidebar-light-success] .nav-item>.nav-link:not(.active):hover i,
+[class*=sidebar-light-success] .nav-treeview>.nav-item>.nav-link.active i{
+    color: #28a745;
+}
+
+[class*=sidebar-light-danger] .nav-pills .nav-link:not(.active):hover,
+[class*=sidebar-light-danger] .nav-item>.nav-link:not(.active):hover{
+    background-color: #dc354512;
+}
+
+[class*=sidebar-light-danger] .nav-item>.nav-link:not(.active):hover i,
+[class*=sidebar-light-danger] .nav-treeview>.nav-item>.nav-link.active i{
+    color: #dc3545;
+}
+
+[class*=sidebar-light-indigo] .nav-pills .nav-link:not(.active):hover,
+[class*=sidebar-light-indigo] .nav-item>.nav-link:not(.active):hover{
+    background-color: #6610f217;
+}
+
+[class*=sidebar-light-indigo] .nav-item>.nav-link:not(.active):hover i,
+[class*=sidebar-light-indigo] .nav-treeview>.nav-item>.nav-link.active i{
+    color: #6610f2;
+}
+
+[class*=sidebar-light-purple] .nav-pills .nav-link:not(.active):hover,
+[class*=sidebar-light-purple] .nav-item>.nav-link:not(.active):hover{
+    background-color: #6f42c121;
+}
+
+[class*=sidebar-light-purple] .nav-item>.nav-link:not(.active):hover i,
+[class*=sidebar-light-purple] .nav-treeview>.nav-item>.nav-link.active i{
+    color: #6f42c1;
+}
+
+[class*=sidebar-light-pink] .nav-pills .nav-link:not(.active):hover,
+[class*=sidebar-light-pink] .nav-item>.nav-link:not(.active):hover{
+    background-color: #e83e8c1a;
+}
+
+[class*=sidebar-light-pink] .nav-item>.nav-link:not(.active):hover i,
+[class*=sidebar-light-pink] .nav-treeview>.nav-item>.nav-link.active i{
+    color: #e83e8c;
+}
+
+[class*=sidebar-light-teal] .nav-pills .nav-link:not(.active):hover,
+[class*=sidebar-light-teal] .nav-item>.nav-link:not(.active):hover{
+    background-color: #20c99717;
+}
+
+[class*=sidebar-light-teal] .nav-item>.nav-link:not(.active):hover i,
+[class*=sidebar-light-teal] .nav-treeview>.nav-item>.nav-link.active i{
+    color: #20c997;
+}
+
+[class*=sidebar-light-warning] .nav-pills .nav-link:not(.active):hover,
+[class*=sidebar-light-warning] .nav-item>.nav-link:not(.active):hover{
+    background-color: #ffc10712;
+}
+
+[class*=sidebar-light-warning] .nav-item>.nav-link:not(.active):hover i,
+[class*=sidebar-light-warning] .nav-treeview>.nav-item>.nav-link.active i{
+    color: #ffc107;
+}
+
+
+
