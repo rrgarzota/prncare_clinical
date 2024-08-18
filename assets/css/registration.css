@@ -135,7 +135,8 @@ body.public{
 }
 .cb-rounded-1-5,
 .cb-btn-rounded-1-5 .cbSubmitButton,
-.cb-btn-rounded-1-5 .cbLoginButton{
+.cb-btn-rounded-1-5 .cbLoginButton,
+.custom-button{
     border-radius: 0rem!important;
 }
 
@@ -209,14 +210,16 @@ body.public{
 }
 .cb-btn-outline-sea-green:hover,
 .cb-btn-outline-blue:hover,
-.cb-btn-outline-orange:hover {
+.cb-btn-outline-orange:hover,
+.custom-button:hover {
     background-color: #f8f9fa;
     border-color: #f8f9fa;
 }
 .cb-btn-outline-sea-green:hover {
     color: #3baf9f;    
 }
-.cb-btn-outline-blue:hover {
+.cb-btn-outline-blue:hover,
+.custom-button:hover {
     color: #005883;
 }
 .cb-btn-outline-orange:hover {
@@ -237,11 +240,13 @@ body.public{
 }
 
 .cb-btn-py-2 .cbSubmitButton,
-.cb-btn-py-2 .cbLoginButton{
+.cb-btn-py-2 .cbLoginButton,
+.custom-button{
     padding-top: .5rem!important;
 }
 .cb-btn-py-2 .cbSubmitButton,
-.cb-btn-py-2 .cbLoginButton{
+.cb-btn-py-2 .cbLoginButton,
+.custom-button{
     padding-bottom: .5rem!important;
 }
 .cb-btn-sea-green .cbSubmitButton,
@@ -249,7 +254,8 @@ body.public{
 .cb-btn-blue .cbSubmitButton,
 .cb-btn-blue .cbLoginButton,
 .cb-btn-orange .cbSubmitButton,
-.cb-btn-orange .cbLoginButton{
+.cb-btn-orange .cbLoginButton,
+.custom-button{
     color: #f8f9fa;
     transition: 0.3s;
 }
@@ -259,7 +265,8 @@ body.public{
     border-color: #3baf9f!important;
 }
 .cb-btn-blue .cbSubmitButton,
-.cb-btn-blue .cbLoginButton{
+.cb-btn-blue .cbLoginButton,
+.custom-button{
     background-color: #005883;
     border-color: #005883!important;
 }
@@ -300,7 +307,8 @@ input {
 }
 
 .cb-text-size-1 .cbSubmitButton,
-.cb-text-size-1 .cbLoginButton{
+.cb-text-size-1 .cbLoginButton,
+.custom-button{
     font-size: 1rem!important;
 }
 
@@ -362,4 +370,40 @@ label {
 }
 .h-v100{
     height: 100vh;
+}
+
+.custom-button{
+    width: 100%;
+    border: 1px solid #005883;
+    margin: 20px 0px;
+}
+
+.alert-custom-warning{
+    background-color: #f5f1e7;
+    color: #000000;
+    border-color: #ffecb59e;
+}
+.alert-custom-warning i{
+    color: #e59615;
+}
+
+.alert-custom-danger{
+    background-color: #ffedec;
+    color: #af4149;
+    border-color: #f5c2c740;
+}
+
+[class*="alert-custom-"]{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+[class*="alert-custom-"] span{
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+}
+
+[class*="alert-custom-"] span i{
+    font-size: 20px;
 }
