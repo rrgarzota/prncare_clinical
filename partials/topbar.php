@@ -147,7 +147,7 @@
                             <i class="fas fa-lock"></i> <span class="">Change Password</span>
                         </a>
                         <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item dropdown-footer">
+                        <a href="https://c9ebv091.caspio.com/folderlogout" class="dropdown-item dropdown-footer">
                             Logout
                         </a>
                     </div>
