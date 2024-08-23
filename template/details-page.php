@@ -97,7 +97,7 @@
                 $caspiotbodyTr.each(function(index, elem){
 
                     $mainCard = $('<div>', {
-                        'class': 'card mt-4 mb-2'
+                        'class': 'card mt-4 mb-5 border'
                     });
                     $mainCardBody = $('<div>', {
                         'class': 'card-body'
@@ -168,7 +168,9 @@
                                 $valueCont = $('<p>',{
                                     "class": 'form-control-plaintext'
                                 });
-                                $dateCont = $('<p>');
+                                $dateCont = $('<p>',{
+                                    'class': 'date-cont'
+                                });
                                
                                 if (indexTd == 0) {
                                     $label.text('Medication Name');

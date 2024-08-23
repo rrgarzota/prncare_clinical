@@ -5,6 +5,7 @@ body.public{
 .public-wrapper {
     /* margin-top:50px; */
     /* height: 85vh; */
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
 }
 .public-wrapper form#caspioform > div > section {
     width: 100%;
@@ -16,46 +17,6 @@ body.public{
     margin: 0px;
     padding: 0rem;
 }
-
-@media only screen and (min-width: 577px){
-    /* .public-wrapper.login form#caspioform > div > section {
-        padding: 0rem 3rem;
-    } */
-    /* .public-wrapper form#caspioform > div > section {
-        padding: 0rem 3rem;
-    } */
-}
-
-@media only screen and (min-width: 1024px){
-    .public-wrapper.login form#caspioform > div > section {
-        /* padding: 0rem 3rem; */
-    }
-    .public-wrapper form#caspioform > div > section {
-        padding: 0rem 3rem;
-    }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1536px){
-    .public-wrapper {
-        /* margin-top: 70px; */
-    }
-}
-
-@media only screen and (min-width: 1537px){
-    .public-wrapper {
-        /* margin-top: 50px; */
-    }
-}
-
-@media only screen and (max-width: 1024px){
-    .public-wrapper div[id^="cbOuterAjaxCtnr"] .cbFormCommonError{
-        margin-left: 0px!important;
-        margin-right: 0px!important;
-    }
-}
-
-
-
 .bg-login-image-green {
     background: url(../img/sea-green-bg.jpg);
     background-position: center;
@@ -98,6 +59,12 @@ body.public{
     background-color:rgba(255,151,80,0.2);
 }
 
+.left-form-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
 @media only screen and (min-width: 992px){
     .bg-login-image-blue:before,
     .bg-login-image-orange:before {
@@ -106,7 +73,6 @@ body.public{
         border-top-right-radius: 1.5rem;
     }
 }
-
 .cb-text-sea-green{
     color: #3baf9f;
 }
@@ -190,7 +156,7 @@ body.public{
     font-size: 1rem!important;
 }
 .cb-text-size-2{
-    font-size: 2rem!important;
+    font-size: 2rem;
 }
 .cb-opacity-0-8{
     opacity: 0.8;
@@ -328,8 +294,8 @@ input {
     padding-top: 2rem!important;    
 }
 .cb-login-res-px{
-    padding-left: 2rem!important;
-    padding-right: 2rem!important;    
+    padding-left: 2rem;
+    padding-right: 2rem;    
 }
 
 @media only screen and (min-width: 992px){
@@ -406,4 +372,179 @@ label {
 
 [class*="alert-custom-"] span i{
     font-size: 20px;
+}
+
+.forgot-password-container .cbFormFieldCell,
+.forgot-password-container .cbFormLabelCell,
+.login-container .cbFormAuthFieldCell,
+.login-container .cbFormAuthLabelCell  {
+    padding: 0px 0px 5px!important;
+}
+
+.forgot-password-container p.sub-heading{
+    margin-bottom: 3rem;
+}
+[id^="PostBackMessage"] .card h3.message-title{
+    font-weight: 800;
+    color: #464444!important;
+    font-size: 25px;
+}
+.success-message-icon{
+    border: 20px solid #dffff0;
+    color: #2dcc70;
+    border-radius: 100px;
+    font-size: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+[id^="PostBackMessage"] .card .message-sub-title{
+    color: #5c5c5c;
+    font-size: 14px;
+}
+
+[id^="PostBackMessage"] .card{
+    background-color: #dffff030;
+    border: 1px solid #2dcc7066;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.logo{
+    width: 25%;
+}
+
+.forgot-password-container .cbSubmitButtonContainer .cbSubmitButton{
+    border-radius: 1px;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: auto;
+	margin: 0px 0px;
+	min-width: 100%;
+	padding: 10px 20px;
+	text-align: center;
+	text-transform: capitalize;
+	background-color: #005883!important;
+	transition:all 0.3s ease-in-out;
+	border:1px solid #005883!important;
+    width: 100%!important;
+}
+
+.forgot-password-container .cbSubmitButtonContainer .cbSubmitButton:hover{
+    -moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border: 1px solid #005883!important;
+	border-radius: 1px;
+	color: #005883!important;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: auto;
+	margin: 0px 0px;
+	min-width: 100%;
+	padding: 10px 20px;
+	text-align: center;
+	text-transform: capitalize;
+	background-color: #FFFFFF!important;
+	box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    width: 100%!important;
+
+}
+
+.forgot-password-container .cbSubmitButtonContainer{
+    background: #FFFFFF;
+    padding: 20px 0px!important;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media only screen and (min-width: 1024px){
+    .public-wrapper.login form#caspioform > div > section {
+        /* padding: 0rem 3rem; */
+    }
+    .public-wrapper form#caspioform > div > section {
+        padding: 0rem 3rem;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1536px){
+    .public-wrapper {
+        /* margin-top: 70px; */
+    }
+}
+
+@media only screen and (min-width: 1537px){
+    .public-wrapper {
+        /* margin-top: 50px; */
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .public-wrapper div[id^="cbOuterAjaxCtnr"] .cbFormCommonError{
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .left-form-container{
+        display: block;
+        
+        /* display: flex;
+        align-items: center; */
+    }
+    .cb-text-size-2 {
+        font-size: 1.6rem;
+    }
+    .forgot-password-container p.sub-heading{
+        margin-bottom: 4rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .success-message-icon {
+        border: 15px solid #dffff0;
+        color: #2dcc70;
+        border-radius: 50px;
+        font-size: 50px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    body.public{
+        background-color: #fff;
+    }
+
+    [id^="PostBackMessage"] {
+        margin-bottom: 45px;
+    }
+    
+}
+
+@media only screen and (max-width: 577px){
+    /* .public-wrapper.login form#caspioform > div > section {
+        padding: 0rem 3rem;
+    } */
+    /* .public-wrapper form#caspioform > div > section {
+        padding: 0rem 3rem;
+    } */
+    .logo{
+        width: 50%;
+    }
+    .h-v100{
+        height: 100%;
+    }
+    .public-wrapper {
+        box-shadow: none;
+        border: none;
+    }
+    .cb-login-res-px{
+        padding-left: 1rem;
+        padding-right: 1rem;    
+    }
 }

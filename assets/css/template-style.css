@@ -1553,3 +1553,7 @@ button:focus {
 [class*="alert-custom-"] span i{
     font-size: 20px;
 }
+
+.date-cont{
+    font-size: 14px;
+}
