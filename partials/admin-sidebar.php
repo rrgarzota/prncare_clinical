@@ -25,12 +25,12 @@
                 <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                 <li class="nav-item">
-                    <a href="dashboard.php" class="nav-link" id="dashboard">
+                    <a href="index.php" class="nav-link" id="alerts">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
-                        <p>Dashboard</p>
+                        <p>Alerts</p>
                     </a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a href="profile.php" class="nav-link" id="profile">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>Profile</p>
@@ -64,7 +64,7 @@
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>Profile</p>
                     </a>
-                </li>
+                </li> -->
                 <!-- <li class="nav-header">MULTI LEVEL EXAMPLE</li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">

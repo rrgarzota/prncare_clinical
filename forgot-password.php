@@ -41,18 +41,15 @@
                                     <div class="row">
                                         <dic class="col-12">
                                             <div class="cb-btn-rounded-1-5 cb-btn-w-45 cb-btn-py-2 cb-btn-blue cb-fields-bg-blue cb-text-size-1 forgot-password-container">
-                                                <script type="text/javascript" src="https://c1hck776.caspio.com/dp/d09ac000216f63c21129458186c7/emb"></script>
-
-                                                
-
+                                                <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000018fdfb1d2cc46859215/emb"></script>
                                             </div>   
                                         </dic>
                                         <div class="col-12">
                                             <hr class="cb-hr-light mb-4 mt-3">
                                         </div>
                                         <div class="col-12">
-                                            <div class="mt-4">
-                                                <a href="./login2.php" class="cb-text-light-grey">Back to Login</a>
+                                            <div class="mt-0">
+                                                <a href="./index.php" class="cb-text-light-grey">Back to Login</a>
                                             </div>
                                         </div>
                                     </div>

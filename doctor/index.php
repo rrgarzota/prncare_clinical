@@ -24,15 +24,15 @@
             <section class="content-header">
                 <div class="container-fluid">
                     <div class="row mt-2 mb-1">
-                        <div class="col-sm-6">
-                            <h1>Dashboard</h1>
+                        <div class="col-lg-6 col-12">
+                            <h1>Medication Alerts and Summary</h1>
                         </div>
-                        <div class="col-sm-6">
+                        <!-- <div class="col-lg-6 col-12">
                             <ol class="breadcrumb float-sm-right">
                                 <li class="breadcrumb-item"><a href="dashboard1.php">Home</a></li>
                                 <li class="breadcrumb-item active">Dashboard</li>
                             </ol>
-                        </div>
+                        </div> -->
                     </div>
                 </div><!-- /.container-fluid -->
             </section>
@@ -51,7 +51,7 @@
                                 </div> -->
                                 <!-- search - submission form -->
                                 <div class="card-body submit-d-none blue-theme pt-0 pb-2">
-                                    <script type="text/javascript" src="https://c1hck776.caspio.com/dp/d09ac0002b922ee9c7324591a852/emb"></script>
+                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e0007fc5c8dba015422a9dbc/emb"></script>
                                 </div>
                                 <!-- tabular report -->
                                 <!-- <div class="card-body custom-search-report no-bulk-actions blue-theme p-0"> -->
@@ -70,7 +70,7 @@
                             </div>
 
                             <!-- alert message -->
-                            <div class="row">
+                            <div class="row search-message-container d-none">
                                 <div class="col-12">
                                     <div class="alert alert-info mt-20 mb-30 shadow-sm py-4 px-4 rounded-0" role="alert">
                                         <span><i class="fas fa-info-circle"></i></span> Please select Patient Name or Device ID to view Details.
@@ -79,25 +79,27 @@
                             </div>
                             <!-- end of alert message -->
 
-                            <!-- widgets -->
+                            <div class="search-result-container d-none">
+                                <!-- widgets -->
 
-                            <div class="card bg-transparent shadow-none border-0 mb-0 widgets-container">
-                                <div class="card-body bg-transparent px-0">
-                                    <script type="text/javascript" src="https://c1hck776.caspio.com/dp/d09ac000a532ce498acd480faeab/emb"></script>
-                                </div>
-                            </div>  
+                                <!-- <div class="card bg-transparent shadow-none border-0 mb-0 widgets-container">
+                                    <div class="card-body bg-transparent px-0">
+                                        <script type="text/javascript" src="https://c1hck776.caspio.com/dp/d09ac000a532ce498acd480faeab/emb"></script>
+                                    </div>
+                                </div>   -->
 
-                            <!-- end of widgets -->
+                                <!-- end of widgets -->
 
-                            <!-- calendar container -->
+                                <!-- calendar container -->
 
-                            <div class="card mb-5">
-                                <div class="card-body calendar-report blue-theme one-item-only">
-                                    <script type="text/javascript" src="https://c1hck776.caspio.com/dp/d09ac00066dde545adb7499fadab/emb"></script>
-                                </div>
+                                <!-- <div class="card mb-5">
+                                    <div class="card-body calendar-report blue-theme one-item-only">
+                                        <script type="text/javascript" src="https://c1hck776.caspio.com/dp/d09ac00066dde545adb7499fadab/emb"></script>
+                                    </div>
+                                </div> -->
+
+                                <!-- end of calendar container -->
                             </div>
-
-                            <!-- end of calendar container -->
 
                             <!-- /.card -->
                         </div>
@@ -112,10 +114,30 @@
         <?php include '../partials/footer.php'; ?>
         <script>
             $(function(){
-                setActiveNav('dashboard');
+                setActiveNav('alerts');
+
+                $searchMessageContainer = $('.search-message-container');
+                $searchResultContainer = $('.search-result-container');
+
+                var url = new URL(window.location.href);
+                var search_params = url.searchParams;
+                var patient_ID =  search_params.get('PID');
+
+                if (patient_ID == null || patient_ID == '') {
+                    if ($searchMessageContainer.hasClass('d-none')){
+                        $searchMessageContainer.removeClass('d-none');
+                    }
+                } else {
+                    if ($searchResultContainer.hasClass('d-none')){
+                        $searchResultContainer.removeClass('d-none');
+                    }
+                }
+
             });
 
             document.addEventListener('DataPageReady', function (event) {
+
+
 
             });
 
