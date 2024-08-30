@@ -1557,3 +1557,51 @@ button:focus {
 .date-cont{
     font-size: 14px;
 }
+
+.widgets-container [class^="cbFormSection"]{
+    white-space: normal!important;
+}
+
+#per_patient .cbResultSetCalendarDataLabel,
+#per_patient .cbResultSetCalculatedField,
+#per_device .cbResultSetCalendarDataLabel,
+#per_device .cbResultSetCalculatedField
+{
+    display: none;
+}
+
+/* loader */
+#section-loader {
+    background: rgba(255, 255, 255, 0.75);
+    position: fixed;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: auto;
+    /* display: none !important; */
+}
+
+.loader-container {
+    position: fixed;
+    z-index: 1050;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loader-icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.under-maintenance {
+    background-image: url('../img/under-maintenance.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+

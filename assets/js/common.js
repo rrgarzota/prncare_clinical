@@ -1,3 +1,19 @@
+var $loader = $('#section-loader');
+var $loaderCont = $loader.find('.loader-container');
+var $pageContentContainer = $('#content').find('.container-fluid').first();
+
+function showLoader() {
+    // console.log($loader);
+    $loader.removeClass('d-none');
+}
+
+function closeLoader() {
+    $loader.addClass('d-none');
+    if ($pageContentContainer.hasClass('d-none')) {
+        $pageContentContainer.removeClass('d-none');
+    }
+}
+
 /** 
  * Highlights the active side navbar link. 
  * 
@@ -156,6 +172,78 @@ function getUrlVars() {
 
     return vars;
 }
+
+function pageLoad(interval) {
+
+    showLoader();
+
+    let pageLoadStats = {
+        pageLoaded: false,
+        interval: interval,
+        stats: {
+            mutations: 0,
+            idle: 0,
+        },
+        prevStats: {
+            mutations: 0,
+            idle: 0,
+        },
+    };
+
+    const observer = new MutationObserver((mutations, _observer) => {
+        pageLoadStats.prevStats = Object.assign({}, pageLoadStats.stats);
+        ++pageLoadStats.stats.mutations;
+        pageLoadStats.stats.idle = 0;
+    });
+
+    const target = Array.from(document.querySelectorAll("body"))[0];
+    observer.observe(target, {
+        attributes: true,
+        attributeOldValue: true,
+        characterData: true,
+        characterDataOldValue: true,
+        childList: true,
+        subtree: true,
+    });
+
+    const mutationCheck = setInterval(() => {
+        if (pageLoadStats.stats.mutations !== pageLoadStats.prevStats.mutations) {
+            pageLoadStats.prevStats = Object.assign({}, pageLoadStats.stats);
+            ++pageLoadStats.stats.idle;
+        } else {
+            ++pageLoadStats.prevStats.idle;
+            ++pageLoadStats.stats.idle;
+
+            if (pageLoadStats.stats.idle > pageLoadStats.interval.iterations) {
+                closeLoader();
+                observer.disconnect();
+                clearInterval(mutationCheck);
+                pageLoadStats.pageLoaded = true;
+
+                document.dispatchEvent(
+                    new CustomEvent("onpageload", {
+                        detail: {
+                            pageLoadStats: pageLoadStats,
+                        },
+                    })
+                );
+            }
+        }
+    }, pageLoadStats.interval.delay);
+}
+
+// window.addEventListener("load", (event) => {
+//     pageLoad({
+//         delay: 180, //msecs
+//         iterations: 5, //secs
+//     });
+// });
+
+
+
+ 
+
+ 
 
 
 

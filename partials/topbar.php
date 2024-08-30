@@ -35,6 +35,12 @@
 
 ?>
 
+<!-- <div id="section-loader">
+    <div class="loader-container">
+        <img src="../assets/img/template/loader.gif" class="loader-icon" alt="page loader" />
+    </div>
+</div> -->
+
 <!-- Navbar -->
 <nav
     class="main-header navbar <?php echo $navbarExpand; ?> navbar-<?php echo $themes[CURRENT_THEME]['SYSTEM_TOP_NAVBAR_BRAND_TEXT']; ?> navbar-<?php echo $themes[CURRENT_THEME]['SYSTEM_TOP_NAVBAR_BG']; ?> <?php echo SYSTEM_NO_NAVBAR_BORDER; ?> <?php echo SYSTEM_NAVBAR_SMALL_TEXT; ?>">
@@ -159,3 +165,4 @@
     <?php endif; ?>
 </nav>
 <!-- /.navbar -->
+

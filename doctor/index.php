@@ -82,21 +82,25 @@
                             <div class="search-result-container d-none">
                                 <!-- widgets -->
 
-                                <!-- <div class="card bg-transparent shadow-none border-0 mb-0 widgets-container">
+                                <div class="card bg-transparent shadow-none border-0 mb-0 widgets-container">
                                     <div class="card-body bg-transparent px-0">
-                                        <script type="text/javascript" src="https://c1hck776.caspio.com/dp/d09ac000a532ce498acd480faeab/emb"></script>
+                                        <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000373b010ac4dc495ea464/emb"></script>
                                     </div>
-                                </div>   -->
+                                </div>  
 
                                 <!-- end of widgets -->
 
                                 <!-- calendar container -->
 
-                                <!-- <div class="card mb-5">
-                                    <div class="card-body calendar-report blue-theme one-item-only">
-                                        <script type="text/javascript" src="https://c1hck776.caspio.com/dp/d09ac00066dde545adb7499fadab/emb"></script>
+                                <div class="card mb-5">
+                                    <div class="card-body calendar-report blue-theme one-item-only d-none" id="per_patient">
+                                        <!-- per patient -->
+                                        <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000f4d71f99a2194913a893/emb"></script>
                                     </div>
-                                </div> -->
+                                    <div class="card-body calendar-report blue-theme one-item-only d-none" id="per_device">
+                                        <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000abca889002f145b5b245/emb"></script>
+                                    </div>
+                                </div>
 
                                 <!-- end of calendar container -->
                             </div>
@@ -118,10 +122,13 @@
 
                 $searchMessageContainer = $('.search-message-container');
                 $searchResultContainer = $('.search-result-container');
+                $perPatient = $('#per_patient');
+                $perDevice = $('#per_device');
 
                 var url = new URL(window.location.href);
                 var search_params = url.searchParams;
                 var patient_ID =  search_params.get('PID');
+                var device_ID =  search_params.get('DID');
 
                 if (patient_ID == null || patient_ID == '') {
                     if ($searchMessageContainer.hasClass('d-none')){
@@ -131,7 +138,23 @@
                     if ($searchResultContainer.hasClass('d-none')){
                         $searchResultContainer.removeClass('d-none');
                     }
+
+                    // condition for calendar DataPage
+                    if (device_ID == null || device_ID == '') {
+                        // Per patient DataPage Calendar
+                        if ($perPatient.hasClass('d-none')){
+                            $perPatient.removeClass('d-none');
+                        }
+                    } else {
+                        // Per patient and device DataPage Calendar
+                        if ($perDevice.hasClass('d-none')){
+                            $perDevice.removeClass('d-none');
+                        }
+                    }
+
                 }
+
+                
 
             });
 
