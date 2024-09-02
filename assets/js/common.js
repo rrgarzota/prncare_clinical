@@ -239,7 +239,47 @@ function pageLoad(interval) {
 //     });
 // });
 
+var DOMChanges = {
+    track: (target) => {
+            // console.log(target);
+            // console.log('track');
 
+        const observer = new MutationObserver((mutations, _observer) => {
+            const lastMutation = mutations[mutations.length - 1];
+            // console.log('MutationObserver');
+
+
+            if (
+                lastMutation.oldValue !== lastMutation.target.value ||
+                lastMutation.target.value === ""
+            ) {
+                // if (autoDisconnect) {
+                //     observer.disconnect();
+                // }
+
+                document.dispatchEvent(
+                    new CustomEvent("onfieldchange", {
+                        detail: {
+                            target: target,
+                            observer: observer
+                        },
+                    })
+                );
+            }
+        });
+
+        target.each((index, element) => {
+            observer.observe(element, {
+                attributes: true,
+                attributeOldValue: true,
+                characterData: true,
+                characterDataOldValue: true,
+                childList: true,
+                subtree: true,
+            });
+        });
+    },
+};
 
  
 

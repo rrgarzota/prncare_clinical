@@ -4,7 +4,7 @@
 <head>
 
     <?php include '../partials/header.php'; ?>
-    <title>Admin: Details Page</title>
+    <title>Doctor: Details Page</title>
 
 </head>
 
@@ -16,7 +16,7 @@
         <!-- Contains the logo and navbar -->
         <?php include '../partials/topbar.php'; ?>
         <!-- Contains the user panel and sidebar menu -->
-        <?php include '../partials/admin-sidebar.php'; ?>
+        <?php include '../partials/doctor-sidebar.php'; ?>
 
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
@@ -51,25 +51,18 @@
                                     <div class="card-custom-body pb-0">
                                         <div class="row">
                                             <div class="col-12 medication-container-final">
-                                                
-
+                                                <!-- Medication alerts here -->
                                             </div>
                                             <div class="col-12 medication-container d-none">
                                                 <!-- medication container -->
-                                                 <!-- filter: PTID=AA3DDB32B9804FD39D9FE0E3D6B7ED49&DID=&Date=08/29/2024&cbResetParam=1 -->
                                                 <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e0004170404901a74785827d/emb"></script>                                                
                                                 <!-- end medication container -->
-
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- /.card-body -->
                             </div>
-
-
-                            
-
                             <!-- /.card -->
                         </div>
                     </div>
@@ -86,7 +79,7 @@
                 setActiveNav('alerts');
             });
 
-
+            // Generate the medication alert details by scraping data from DataPage table
             document.addEventListener('DataPageReady', function (event) {
                 var $caspioTableContainer = $('.medication-container');
 
@@ -159,8 +152,7 @@
                                 "class": 'alert alert-custom-'+ $alertType +' mt-20 mb-0 shadow-sm px-3 py-2 rounded-0',
                                 'role': 'alert'
                             });
-                            triggerTime = '';
-                            
+                            triggerTime = '';                            
 
                             // first record - main details
                             if (indexTr==0) {
@@ -254,8 +246,7 @@
                                         triggerTime = $(this).text();
                                     } else if (indexTd == 4) {
                                         schedule = $(this).text();
-                                    } else if (indexTd == 5) {
-                                        
+                                    } else if (indexTd == 5) {                                        
 
                                         if ($(this).text().startsWith('Missed')) {
                                             $alertType = 'warning';
@@ -291,7 +282,6 @@
 
                             }
 
-
                             $imageContainer.append($image);
                             $colImageContainer.append($imageContainer);                        
                             $rowFormContainer.append($colImageContainer);
@@ -309,7 +299,6 @@
                             
                             $mainCard.append($mainCardBody);
 
-
                             $mainCont.append($mainCard);
 
                         })
@@ -320,9 +309,7 @@
                     $caspioTableContainer.removeClass('d-none');
                 }
 
-                
             });
-
 
         </script>
 

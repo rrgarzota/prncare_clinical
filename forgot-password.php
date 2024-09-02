@@ -27,16 +27,7 @@
                                     <img src="./assets/img/template/prn-log.jpeg" alt="Caspio Logo" class="logo">
                                 </div>
 
-                                <!-- <div class="d-block d-lg-none text-center bg-login-image-blue py-5 cb-rounded-bot-1-5">
-                                    <h5 class=" cb-font-weight-800 cb-text-size-2 cb-opacity-0-8 text-white mb-0">Sign in to your account</h5>   
-                                </div> -->
-
-                                <!-- <div class="d-block d-lg-none text-center mt-3 cb-rounded-bot-1-5">
-                                    <h5 class=" cb-font-weight-800 cb-text-size-2 cb-text-blue mb-0">Forgot Your Password?</h5>   
-                                </div> -->
-
                                 <div class="cb-login-res-px cb-login-res-py text-center left-form-container">
-                                    <!-- <h5 class="cb-text-blue cb-font-weight-800 cb-text-size-2 mb-4 mt-4">Forgot Your Password?</h5>    -->
 
                                     <div class="row">
                                         <dic class="col-12">

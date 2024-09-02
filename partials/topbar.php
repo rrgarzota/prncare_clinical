@@ -71,74 +71,10 @@
                     <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
                 </li>
                 <?php endif; ?>
-
-                <!-- sample links -->
-
-                <!-- <li class="nav-item">
-                    <a href="index3.html" class="nav-link">
-                        <i class="fa fa-home"></i> Dashboard
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="index3.html" class="nav-link">
-                        <i class="fa fa-address-card"></i> Employee Directory
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="index3.html" class="nav-link">
-                        <i class="fa fa-address-book"></i> Employee Report
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="index3.html" class="nav-link">
-                        <i class="fas fa-list"></i> Feedback List
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li class="dropdown-item"><a href="#">Action</a></li>
-                        <li class="dropdown-item"><a href="#">Another action</a></li>
-                        <li class="dropdown-item"><a href="#">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li class="dropdown-item"><a href="#">Separated link</a></li>
-                        <li class="divider"></li>
-                        <li class="dropdown-item"><a href="#">One more separated link</a></li>
-                    </ul>
-                </li> -->
             </ul>
 
             <!-- Right navbar links -->
             <ul class="navbar-nav ml-auto">
-                <!-- Messages Dropdown Menu -->
-               
-                <!-- Notifications Dropdown Menu -->
-                <!-- <li class="nav-item dropdown">
-                    <a class="nav-link" data-toggle="dropdown" href="#">
-                        <i class="far fa-bell"></i>
-                        <span class="badge badge-warning navbar-badge">15</span>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-                        <span class="dropdown-item dropdown-header">15 Notifications</span>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">
-                            <i class="fas fa-envelope mr-2"></i> 4 new messages
-                            <span class="float-right text-muted text-sm">3 mins</span>
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">
-                            <i class="fas fa-users mr-2"></i> 8 friend requests
-                            <span class="float-right text-muted text-sm">12 hours</span>
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">
-                            <i class="fas fa-file mr-2"></i> 3 new reports
-                            <span class="float-right text-muted text-sm">2 days</span>
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
-                    </div>
-                </li> -->
                 <!-- Profile Dropdown Menu -->
                 <li class="nav-item dropdown">
                     <a class="nav-link" data-toggle="dropdown" href="#">
