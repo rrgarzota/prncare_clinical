@@ -48,7 +48,7 @@
                             <div class="row search-message-container d-none">
                                 <div class="col-12">
                                     <div class="alert alert-info mt-20 mb-30 shadow-sm py-4 px-4 rounded-0" role="alert">
-                                        <span><i class="fas fa-info-circle"></i></span> Please select Patient Name or Device ID to view Details.
+                                        <span><i class="fas fa-info-circle"></i></span> Please select Patient Name or Device ID and click "View" for details.
                                     </div>
                                 </div>
                             </div>
