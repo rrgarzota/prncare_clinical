@@ -1,10 +1,11 @@
 <!-- /.content-wrapper -->
-<footer class="main-footer <?php echo SYSTEM_FOOTER_SMALL_TEXT; ?>">
-    <strong>Copyright &copy; 2021 <a href="https://caspio.com/" target="_blank">Caspio</a>.</strong>
+<footer class="main-footer <?php echo SYSTEM_FOOTER_SMALL_TEXT; ?> text-center">
+    <!-- <strong>&copy; 2024 <a href="https://caspio.com/" target="_blank">Caspio</a>.</strong> -->
+    <strong>&copy; 2024 Prncare.</strong>
     All rights reserved.
-    <div class="float-right d-none d-sm-inline-block">
+    <!-- <div class="float-right d-none d-sm-inline-block">
         <b>Version</b> 1.0.0
-    </div>
+    </div> -->
 </footer>
 
 <!-- Control Sidebar -->
