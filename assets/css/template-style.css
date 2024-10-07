@@ -1278,8 +1278,9 @@ input:not(.ClsBtn) {
 .custom-search-report .view-details-btn::before {
     font-family: 'Font Awesome\ 5 Free';
     content: "\f06e";
-    padding-right: 3px;
-    display: inline;
+    padding-left: 3px;
+    display: inline-block;
+    transform: scaleX(-1);
 }
 
 .one-item-only .cbResultSetCalendarTableNowCell div:nth-child(2) .cbResultSetPanelDataContainer,
@@ -1304,10 +1305,16 @@ input:not(.ClsBtn) {
 }
 
 .one-item-only .cbResultSetData a:before {
-    font-family: 'Font Awesome\ 5 Free';
+    /* font-family: 'Font Awesome\ 5 Free';
     content: "\f06e";
     padding-right: 3px;
-    display: inline;
+    display: inline; */
+
+    font-family: 'Font Awesome\ 5 Free';
+    content: "\f06e";
+    padding-left: 3px;
+    display: inline-block;
+    transform: scaleX(-1);
 }
 
 .one-item-only .cbResultSetData a{
