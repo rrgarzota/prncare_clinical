@@ -214,7 +214,7 @@
                                         }else if ($(this).text().startsWith('Incorrect')) {
                                             $alertType = 'warning';
                                             $icon = '<span><i class="fas fa-exclamation-circle"></i></span>';
-                                            $alertText = 'Incorrect dose detected at ' + triggerTime + '. Please ensure a 5-minute interval between each medication intake.'
+                                            $alertText = 'Incorrect dose detected at ' + triggerTime + '. Please ensure a 2-minute interval between each medication intake.'
                                             $divWarningAlertsContainer = $('<div>',{
                                                 "class": 'alert alert-custom-'+ $alertType +' mt-20 mb-0 shadow-sm px-3 py-2 rounded-0',
                                                 'role': 'alert'
