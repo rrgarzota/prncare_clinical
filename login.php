@@ -35,7 +35,7 @@
                                             <a href="./forgot-password.php" class="cb-text-light-grey">Forgot your password?</a>
                                         </div>  
                                         <div class="mt-3 d-block ">
-                                            <p class="cb-text-light-grey">Not a member?<a href="#"> Join today!</a></p>
+                                            <p class="cb-text-light-grey">Not a member?<a href="./registration-landing-page.php"> Join today!</a></p>
                                         </div>                      
                                     </div>
                                 </div>

@@ -171,6 +171,10 @@ body, .cbResultSetData, .cbResultSetRecordMessage, .cbResultSetLabelLink, .cbFor
     background-color: #f5f5fa;
     padding: 20px;
 }
+.center-aligned-card-1200{
+    max-width: 1200px;
+    margin: auto;
+}
 .center-aligned-card{
     max-width: 800px;
     margin: auto;
@@ -1610,5 +1614,9 @@ button:focus {
     background-attachment: fixed;
     background-size: 100% 100%;
 
+}
+
+.rounded-10{
+    border-radius: 10px;
 }
 
