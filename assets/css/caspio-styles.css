@@ -10232,7 +10232,8 @@ table[class*="cbResultSetActionsContainer"]
 	display: flex;
 	align-items: center;
 }
-#caspioform > div > .cbResultSetRecordMessage:before
+#caspioform > div > .cbResultSetRecordMessage:before,
+article > div > div > div > .cbResultSetRecordMessage:before
 {
 	font-family: 'Font Awesome\ 5 Free';
 	content: "\f07c";
