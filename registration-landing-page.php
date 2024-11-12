@@ -52,7 +52,7 @@
 
                                     <div class="row mb-3">
                                         <div class="col-12">
-                                            <button type="button" onclick="window.location.href='./staff-registration-step.php'" class="custom-button">Register as a Patient</button>
+                                            <button type="button" onclick="window.location.href='./staff-registration.php'" class="custom-button">Register as a Patient</button>
                                         </div>
                                         <div class="col-12">
                                             <div class="alert alert-custom-warning mt-20 mb-30 shadow-sm p-3 rounded-0 text-left" role="alert">

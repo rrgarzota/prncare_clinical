@@ -1745,3 +1745,11 @@ article > div > div > div > .cbResultSetRecordMessage
 .update-form article > div > div div{
     width: 100%;
 }
+
+section[data-cb-name="cbTable"]{
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    width: 100%;
+    grid-column-gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

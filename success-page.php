@@ -11,11 +11,26 @@
         $sourcePage = isset($_GET['page']) ? $_GET['page'] : ''; //identifier for tab page
         $messageBody = '';
         $messageButtonText = '';
+        $messageMainTitleText = '';
+        $messageSubTitleText = '';
+        $multistep = true;
+
+        $validPages = ['doctor-registration', 'staff-registration'];
 
         if ($sourcePage == 'doctor-registration') {
+            $messageMainTitleText = 'Join Prncare';
+            $messageSubTitleText = 'Create your account to start managing patient <br /> medication adherence';
             $messageBody = "Your account is set up, and staff invitations have been sent. You're ready to manage patient care and track medication adherence. <br /> Welcome aboard!";
             $messageButtonText = 'Go to Login';
             $messageButtonURL = './login.php';
+
+        } else if ($sourcePage == 'staff-registration') {
+            $messageMainTitleText = 'Join Prncare';
+            $messageSubTitleText = 'Complete your registration to join the team and start collaborating on patient care';
+            $messageBody = "Your account has been successfully created. You’re ready to connect with patients and track medication adherence. <br /> Welcome aboard!";
+            $messageButtonText = 'Go to Login';
+            $messageButtonURL = './login.php';
+            $multistep = false;
 
         }
     ?>
@@ -28,29 +43,35 @@
 
         <!-- Outer Row -->
         <div class="row justify-content-center h-v100 d-flex align-items-center">
+            <?php  if(!in_array($sourcePage, $validPages)): ?>                
+                <div class="alert alert-danger probihited-page-cont mt-5 mb-3" role="alert">
+                    <p class="mb-0 bold">Prohibited: You dont have permission to access this page.</p>
+                </div>
+            <?php else: ?>
             <div class="col-12">
                 <div class="text-center pt-5">
-                    <h1>Join Prncare</h1>
-                    <h5>Create your account to start managing patient <br /> medication adherence</h5>
+                    <h1><?= $messageMainTitleText; ?></h1>
+                    <h5><?= $messageSubTitleText; ?></h5>
                 </div>
 
-                <!-- Default box -->
                 <section class="multi_step_form">
                     <form id="msform">
                         <div class="center-aligned-card-1200">
-                            <ul id="progressbar" class="pl-0 d-none d-md-flex">
-                                <li class="active done one">Personal Details</li>
-                                <li class="active done two">Invite Staff</li>
-                            </ul>
-                            <div class="d-block d-md-none">
-                                <div class="bar">
-                                    <span class="bar-circle one done"></span>
-                                    <span class="bar-circle two active"></span>
+                            <?php if($multistep): ?>
+                                <ul id="progressbar" class="pl-0 d-none d-md-flex">
+                                    <li class="active done one">Personal Details</li>
+                                    <li class="active done two">Invite Staff</li>
+                                </ul>
+                                <div class="d-block d-md-none">
+                                    <div class="bar">
+                                        <span class="bar-circle one done"></span>
+                                        <span class="bar-circle two active"></span>
+                                    </div>
+                                    <div>
+                                        <p>Step <strong>2</strong> of 2</p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <p>Step <strong>2</strong> of 2</p>
-                                </div>
-                            </div>
+                            <?php endif; ?>
 
                             <div class="card shadow my-4 border">
                                 <div class="card-body blue-theme pt-4 pb-4">
@@ -84,6 +105,7 @@
 
                     </form>
                 </section>
+                <?php endif; ?>
 
                 <!-- /.card -->
                 <!-- </div>
@@ -94,33 +116,6 @@
     </div>
 
     <?php include_once './partials/footer-public.php' ?>
-    <!-- <script>
-        var url = new URL(window.location.href);
-        var page_search_params = url.searchParams;
-        var Step2 = page_search_params.get('Step2');
-        var $progressBarLi = $('#progressbar').find('li.two');
-
-        if ((Step2 !== undefined || Step2 != null || Step2 != '') && Step2 === 'true') {
-            if (!$progressBarLi.hasClass('done')) {
-                $progressBarLi.addClass('done');
-            }
-        }
-        var $prevBtn = $('.previous_button');
-
-        $prevBtn.on("click", function() {
-
-            window.location.href = "./doctor-registration-step1.php?" + page_search_params;
-
-        });
-
-        var $finishBtn = $('.finish-button');
-
-        $finishBtn.on("click", function() {
-
-            window.location.href = "./success-page.php?page=doctor-registration";
-
-        });
-    </script> -->
 </body>
 
 </html>
