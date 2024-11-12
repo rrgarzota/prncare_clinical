@@ -44,7 +44,7 @@
                             <div class="card-body blue-theme pt-4 pb-5">
                                 <div class="alert alert-custom-warning-black mt-20 mb-5 shadow-sm px-3 py-3 rounded-0" role="alert"><i class="fas fa-info-circle"></i> 
                                     <p class="lh-20 mb-0 default-message">Please fill in the details below to set up your account.</p>
-                                    <p class="lh-20 mb-0 update-form d-none">You will be able to edit your personal details in the app by logging in and navigating to the profile page.</p>
+                                    <p class="lh-20 mb-0 update-form d-none">You will be able to edit your personal details in the application by logging in and navigating to the profile page.</p>
 
                                 </div>
                                 

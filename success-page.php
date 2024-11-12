@@ -8,7 +8,16 @@
     <link rel="stylesheet" href="./assets/css/multistep.css">
 
     <?php
+        $sourcePage = isset($_GET['page']) ? $_GET['page'] : ''; //identifier for tab page
+        $messageBody = '';
+        $messageButtonText = '';
 
+        if ($sourcePage == 'doctor-registration') {
+            $messageBody = "Your account is set up, and staff invitations have been sent. You're ready to manage patient care and track medication adherence. <br /> Welcome aboard!";
+            $messageButtonText = 'Go to Login';
+            $messageButtonURL = './login.php';
+
+        }
     ?>
 
 </head>
@@ -28,12 +37,6 @@
                 <!-- Default box -->
                 <section class="multi_step_form">
                     <form id="msform">
-                        <!-- Tittle -->
-                        <!-- <div class="tittle">
-                                        <h2>Verification Process</h2>
-                                        <p>In order to use this service, you have to complete this verification process</p>
-                                        </div> -->
-                        <!-- progressbar -->
                         <div class="center-aligned-card-1200">
                             <ul id="progressbar" class="pl-0 d-none d-md-flex">
                                 <li class="active done one">Personal Details</li>
@@ -43,15 +46,11 @@
                                 <div class="bar">
                                     <span class="bar-circle one done"></span>
                                     <span class="bar-circle two active"></span>
-                                    <!-- <span class="bar-circle done"></span>
-                                                <span class="bar-circle active done"></span> -->
-                                    <!-- <span class="bar-circle"></span> -->
                                 </div>
                                 <div>
                                     <p>Step <strong>2</strong> of 2</p>
                                 </div>
                             </div>
-
 
                             <div class="card shadow my-4 border">
                                 <div class="card-body blue-theme pt-4 pb-4">
@@ -68,9 +67,8 @@
                                                         <i class="fas fa-check-circle success-message-icon"></i>
                                                     </div>
                                                     <div class="col-12 mx-auto">
-                                                        <p class="message-sub-title mx-auto">Your account is set up, and staff invitations have been sent. You're ready to manage patient care and track medication adherence. Welcome aboard!</p>
-                                                        <button type="button" onclick="window.location.href='./login.php';" class="secondary-button mt-5">Go to Login</a>
-                                                        <!-- <button type="button" class="action-button previous previous_button my-1">Back</button> -->
+                                                        <p class="message-sub-title mx-auto"><?= $messageBody; ?></p>
+                                                        <button type="button" onclick="window.location.href='<?= $messageButtonURL; ?>';" class="secondary-button mt-5"><?= $messageButtonText; ?></a>
 
                                                     </div>
                                                 </div>
