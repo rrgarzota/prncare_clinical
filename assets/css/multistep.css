@@ -77,6 +77,9 @@ body.public{
 .multi_step_form #msform #progressbar li.two:before {
     content: "2";
 }
+.multi_step_form #msform #progressbar li.three:before {
+    content: "3";
+}
 .multi_step_form #msform #progressbar li:before {
     /* content: "\f1fa"; */
     /* font: normal normal normal 30px/50px Ionicons; */
@@ -207,7 +210,8 @@ body.public{
     box-shadow: inset 0px 0px 40px rgba(1, 73, 0, 0.1);
 }
 
-.hide-submit-btn .cbSubmitButton{
+.hide-submit-btn .cbSubmitButton,
+.hide-update-btn .cbUpdateButton{
     display: none!important;
 }
 

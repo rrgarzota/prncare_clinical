@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <?php include_once './partials/header-public.php' ?>
+    <link rel="stylesheet" href="./assets/css/template-style.css">
+    <link rel="stylesheet" href="./assets/css/multistep.css">
+
+</head>
+
+<body class="public">
+
+    <div class="container">
+
+        <!-- Outer Row -->
+        <div class="row justify-content-center h-v100 d-flex align-items-center">
+            <div class="col-12">
+                <div class="text-center pt-5">
+                    <h1>Join Prncare</h1>
+                    <h5>Complete the steps below to set up your account, enter your medication details, and<br> configure your medication schedule and guardian alerts. We're here to support your<br> journey to better health.</h5>
+                </div>
+                <!-- Default box -->
+                <section class="multi_step_form">
+                    <form id="msform">
+                        <div class="center-aligned-card-1200">
+                            <ul id="progressbar" class="pl-0 d-none d-md-flex">
+                                <li class="active done one">Personal Details</li>  
+                                <li class="active done two">Medication Details</li>
+                                <li class="active three">Schedule & Guardian</li>
+                            </ul>
+                            <div class="d-block d-md-none">
+                                <div class="bar">
+                                    <span class="bar-circle one done"></span>
+                                    <span class="bar-circle two done"></span>
+                                    <span class="bar-circle three active"></span>
+                                    <!-- <span class="bar-circle done"></span>
+                                                <span class="bar-circle active done"></span> -->
+                                    <!-- <span class="bar-circle"></span> -->
+                                </div>
+                                <div>
+                                    <p>Step <strong>3</strong> of 3</p>
+                                </div>
+                            </div>
+    
+
+                            <div class="card shadow my-4 border hide-submit-btn">
+                                <div class="card-body blue-theme pt-4 pb-5">
+                                    <h5 class="section-header mt-0 text-left mt-3">SCHEDULE</h5>
+
+                                    <div class="alert alert-custom-warning-black mt-20 mb-5 shadow-sm px-3 py-3 rounded-0 text-left" role="alert"><i class="fas fa-info-circle"></i>
+                                        <p class="lh-20 mb-0 default-message">Set up your medication schedule and ensure the number of schedules matches the prescribed frequency (e.g., if you take a medication twice daily, input two schedules).</p>
+                                    </div>
+
+                                    <fieldset>
+
+                                        <div class="patient-details-cont">
+                                            <div class="create-form d-none text-left">
+                                                <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00091fcaa69b25b4c5295bf/emb"></script>
+                                            </div>
+                                            <div class="update-form d-none mb-5">
+                                                <!-- <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00000d8ff12e6394d789368/emb"></script> -->
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-12 col-md-6 text-left d-flex align-items-center">
+                                                <div class="  d-none d-md-block">
+                                                    <p class="mb-0">Step <strong>3</strong> of 3</p>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 text-right">
+                                                <button type="button" class="action-button previous previous_button my-1">Back</button>
+                                                <button type="button" class="next action-button">Continue</button>  
+                                            </div>
+                                        </div>
+
+
+
+                                    </fieldset>
+                                </div>
+                                <!-- /.card-body -->
+                            </div>
+                        </div>
+
+                        <!-- fieldsets -->
+
+                    </form>
+                </section>
+
+                <!-- /.card -->
+                <!-- </div>
+                        </div> -->
+
+            </div>
+        </div>
+    </div>
+
+    <?php include_once './partials/footer-public.php' ?>
+    <script>
+
+        // var $finishBtn = $('.finish-button');
+
+        // $finishBtn.on("click", function() {
+
+        //     window.location.href = "./success-page.php?page=doctor-registration";
+
+        // });
+
+
+
+        var url = new URL(window.location.href);
+        var page_search_params = url.searchParams;
+        var Step1 = page_search_params.get('Step1');
+        var Step2 = page_search_params.get('Step2');
+        var UID = page_search_params.get('UID');
+        var $createForm = $('.patient-details-cont').find('.create-form');
+        var $updateForm = $('.update-form');
+        var $defaultMsg = $('.default-message');
+        var $progressbar = $('#progressbar').find('.one');
+        var $nextBtn = $('.next.action-button');
+
+        if (
+        
+                (Step1 !== undefined && Step1 != null && Step1 != '') 
+            
+            && 
+
+            (Step2 !== undefined && Step2 != null && Step2 != '') 
+            
+            && 
+        
+                (UID !== undefined && UID != null && UID != '')
+            
+        ) {
+
+            if ($createForm.hasClass('d-none')) {
+                $createForm.removeClass('d-none');
+            }
+            $nextBtn.on("click", function(){
+
+                $('.cbSubmitButton').click();
+
+            });
+            
+        } else {
+            
+        }
+
+
+        var $prevBtn = $('.previous_button');
+
+        $prevBtn.on("click", function() {
+
+            window.location.href = "./patient-registration-step2.php?" + page_search_params;
+
+        });
+    </script>
+</body>
+
+</html>

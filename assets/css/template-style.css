@@ -1299,9 +1299,11 @@ label{
     border: 1px solid #005883!important;
     outline: none!important;
 }
-
-select,
-input:not(.ClsBtn) {
+input.cur-year {
+    border: none!important;
+}
+select:not(.flatpickr-monthDropdown-months),
+input:not(.ClsBtn):not(.cur-year) {
     border: 1px solid #d7d7d7!important;
     color: #555353;
     background-color: #fff;
