@@ -25,13 +25,12 @@
                     <form id="msform">
                         <div class="card shadow my-4 border hide-submit-btn">
                             <div class="card-body blue-theme pt-4 pb-5">
-                                
 
                                 <div class="alert alert-info accepted-invitation-exists-cont d-none mt-5 mb-3" role="alert">
                                     <p class="mb-0 bold">An account with this profile already exists. Please log in to continue.</p>
                                 </div>
                                 <div class="alert alert-danger probihited-page-cont d-none mt-5 mb-3" role="alert">
-                                <p class="mb-0 bold">Prohibited: You dont have permission to access this page.</p>
+                                    <p class="mb-0 bold">Prohibited: You dont have permission to access this page.</p>
                                 </div>
 
                                 <div class="create-form-main-cont d-none">
@@ -59,18 +58,14 @@
 
                                     </fieldset>
                                 </div>
-                                
+
                             </div>
                             <!-- /.card-body -->
                         </div>
-            </div>
-
-            <!-- fieldsets -->
-
-            </form>
-            </section>
+                    </form>
+                </section>
+            </div>            
         </div>
-    </div>
     </div>
 
     <?php include_once './partials/footer-public.php' ?>
@@ -92,7 +87,6 @@
                     var $createFormCont = $('.create-form-main-cont');
                     var $finish = $('.finish-button');
 
-
                     if ($invitation_status.length !== 0) {
                         invitation_statusValue = $invitation_status.next().find('span').text();
                     }
@@ -100,37 +94,32 @@
                         accepted_invitationValue = $accepted_invitation.next().find('span').text();
                     }
 
-                    // console.log(invitation_statusValue);
-                    
                     if (accepted_invitationValue === 'Yes' && invitation_statusValue === 'Active') {
-                        console.log('accepted_invitationValue = yes');
                         if ($acceptedInvitationExistsCont.hasClass('d-none')) {
                             $acceptedInvitationExistsCont.removeClass('d-none');
                         }
                     } else if (accepted_invitationValue == 'No' && invitation_statusValue == 'Active') {
-                        console.log("accepted_invitationValue == 'No' && invitation_statusValue == 'Active'");
-                        
 
                         if ($createFormCont.hasClass('d-none')) {
                             $createFormCont.removeClass('d-none');
                         }
-                        $finish.on("click", function(){
+                        $finish.on("click", function() {
 
                             $('.cbSubmitButton').click();
 
                         });
-                        
-                    }  else if (invitation_statusValue === 'Inactive') {
-                        console.log("invitation_statusValue === 'Inactive'");
+
+                    } else {
                         if ($probihitedPageCont.hasClass('d-none')) {
                             $probihitedPageCont.removeClass('d-none');
                         }
-                    } 
+                    }
 
-                    
                 } else {
                     // Auth is invalid
-                    console.log('Prohibited: You dont have permission to access this page');
+                    if ($probihitedPageCont.hasClass('d-none')) {
+                        $probihitedPageCont.removeClass('d-none');
+                    }
                 }
 
             }
