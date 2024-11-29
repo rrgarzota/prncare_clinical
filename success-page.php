@@ -15,7 +15,7 @@
         $messageSubTitleText = '';
         $multistep = true;
 
-        $validPages = ['doctor-registration', 'staff-registration'];
+        $validPages = ['doctor-registration', 'staff-registration', 'patient-registration'];
 
         if ($sourcePage == 'doctor-registration') {
             $messageMainTitleText = 'Join Prncare';
@@ -28,6 +28,14 @@
             $messageMainTitleText = 'Join Prncare';
             $messageSubTitleText = 'Complete your registration to join the team and start collaborating on patient care';
             $messageBody = "Your account has been successfully created. You’re ready to connect with patients and track medication adherence. <br /> Welcome aboard!";
+            $messageButtonText = 'Go to Login';
+            $messageButtonURL = './login.php';
+            $multistep = false;
+
+        } else if ($sourcePage == 'patient-registration') {
+            $messageMainTitleText = 'Join Prncare';
+            $messageSubTitleText = 'Complete the steps below to set up your account, enter your medication details, and configure your medication schedule and guardian alerts. We’re here to support your journey to better health.';
+            $messageBody = "Your registration is complete! Your guardians will also be notified about any missed doses.";
             $messageButtonText = 'Go to Login';
             $messageButtonURL = './login.php';
             $multistep = false;

@@ -1076,15 +1076,16 @@ margin-right:0px!important;
     
 }
 
-::placeholder {
-    color: #000000c9!important;
+input::placeholder {
+    color: #9a9a9a!important;
     opacity: 1!important; /* Firefox */
 }
 
-::-ms-input-placeholder { /* Edge 12 -18 */
-    color: #000000c9!important;
+input::-ms-input-placeholder { /* Edge 12 -18 */
+    color: #9a9a9a!important;
 }
 .custom-search-report .cbResultSetActionCell > a[data-cb-name="InlineEdit"]:nth-of-type(2)::before, 
+.edit-delete-btn .cbResultSetActionCell > a[data-cb-name="InlineEdit"]:nth-of-type(2)::before, 
 #inlineActions.ToolBox .RAItem a[data-cb-name="InlineEdit"]:nth-of-type(2)::before
 {
     font-family: 'Font Awesome\ 5 Free';
@@ -1180,6 +1181,7 @@ margin-right:0px!important;
 }
 
 .custom-search-report .cbResultSetActionCell > a[data-cb-name="InlineDelete"]:last-of-type::before, 
+.edit-delete-btn .cbResultSetActionCell > a[data-cb-name="InlineDelete"]:last-of-type::before, 
 #inlineActions.ToolBox .RAItem a[data-cb-name="InlineDelete"]:nth-of-type(2)::before,
 .custom-search-report .cbResultSetGridActionCell a:nth-of-type(2)::before
 {
@@ -1190,7 +1192,10 @@ margin-right:0px!important;
 }
 #inlineActions.ToolBox .RAItem a[data-cb-name="InlineEdit"]:nth-of-type(1),
 #inlineActions.ToolBox .RAItem a[data-cb-name="InlineDelete"]:nth-of-type(1),
-.custom-search-report .cbResultSetGridActionCell a:nth-of-type(1){
+.custom-search-report .cbResultSetGridActionCell a:nth-of-type(1),
+.edit-delete-btn [data-cb-name="InlineEdit"]:first-of-type,
+.edit-delete-btn .cbResultSetActionCell > a[data-cb-name="InlineDelete"]:nth-of-type(3)
+{
 display:none;
 }
 
@@ -1303,9 +1308,9 @@ input.cur-year {
     border: none!important;
 }
 select:not(.flatpickr-monthDropdown-months),
-input:not(.ClsBtn):not(.cur-year) {
-    border: 1px solid #d7d7d7!important;
-    color: #555353;
+input:not(.ClsBtn):not(.cur-year):not(.cbResultSetAddButton):not(.cbResultSetModifyButton):not(.cbResultSetCancelButton):not(.cbInlineAddFormButton) {
+    border: 1px solid #d7d7d7;
+    color: #393939;
     background-color: #fff;
 }
 
@@ -1754,4 +1759,25 @@ section[data-cb-name="cbTable"]{
     grid-column-gap: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.alert-custom-danger-validation{
+    background-color: #ffedec;
+    color: #af4149;
+    border-color: #f5c2c740;
+    display: block;
+    text-align: left;
+    padding: 10px;
+}
+
+.alert-custom-danger-validation li.error{
+    margin-bottom: 0px!important;
+    padding: 5px 5px!important;
+
+}
+
+button.disabled{
+    background-color: #3b5f70!important;
+    color: #fff!important; /* Gray text */
+    cursor: not-allowed!important; /* Change cursor to indicate it's not clickable */
 }

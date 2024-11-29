@@ -8,9 +8,7 @@
     <link rel="stylesheet" href="./assets/css/multistep.css">
     <style>
         .schedule-container thead th:nth-child(5),
-        .schedule-container tbody tr td:nth-child(5),
-        .schedule-container [data-cb-cell-name^="EditRecordMA_LU_Frequency_Number"],
-        .schedule-container [data-cb-cell-name^="EditRecordMA_LU_Frequency_Number"] + div{
+        .schedule-container tbody tr td:nth-child(5){
             display: none;
         }
     </style>
@@ -29,7 +27,7 @@
                     <h5>Complete the steps below to set up your account, enter your medication details, and<br> configure your medication schedule and guardian alerts. We're here to support your<br> journey to better health.</h5>
                 </div>
                 <!-- Default box -->
-                <section class="multi_step_form mb-5">
+                <section class="multi_step_form">
                     <div id="msform">
                         <div class="center-aligned-card-1200">
                             <ul id="progressbar" class="pl-0 d-none d-md-flex">
@@ -42,47 +40,37 @@
                                     <span class="bar-circle one done"></span>
                                     <span class="bar-circle two done"></span>
                                     <span class="bar-circle three active"></span>
+                                    <!-- <span class="bar-circle done"></span>
+                                                <span class="bar-circle active done"></span> -->
+                                    <!-- <span class="bar-circle"></span> -->
                                 </div>
                                 <div>
                                     <p>Step <strong>3</strong> of 3</p>
                                 </div>
-                            </div>    
+                            </div>
+    
 
                             <div class="card shadow my-4 border hide-submit-btn">
                                 <div class="card-body blue-theme pt-4 pb-5">
+                                    <h5 class="section-header mt-0 text-left mt-3">SCHEDULE</h5>
+
                                     <div class="alert alert-custom-warning-black mt-20 mb-5 shadow-sm px-3 py-3 rounded-0 text-left" role="alert"><i class="fas fa-info-circle"></i>
-                                        <p class="lh-20 mb-0 default-message">In order to complete your registration, please ensure you add at least one guardian and provide the required schedules.</p>
+                                        <p class="lh-20 mb-0 default-message">Set up your medication schedule and ensure the number of schedules matches the prescribed frequency (e.g., if you take a medication twice daily, input two schedules).</p>
                                     </div>
-                                    <div class="schedule-section">
-                                        <h5 class="section-header mt-0 text-left mt-3">SCHEDULE</h5>
-                                        <div class="alert alert-custom-warning-black mt-20 mb-3 shadow-sm px-3 py-3 rounded-0 text-left" role="alert"><i class="fas fa-info-circle"></i>
-                                            <p class="lh-20 mb-0 default-message">Set up your medication schedule and ensure the number of schedules matches the prescribed frequency (e.g., if you take a medication twice daily, input two schedules).</p>
-                                        </div>
-                                        <fieldset>
-                                            <div class="patient-details-cont">
-                                                <div class="alert-custom-danger-validation d-none">
-                                                    <ul class="schedule-error-cont mb-0"></ul>
-                                                </div>
-                                                <div class="create-form d-none text-left schedule-container edit-delete-btn dp-container d-none">
-                                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e0007906f956b9184deb8c06/emb"></script>
-                                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00091fcaa69b25b4c5295bf/emb"></script>
-                                                </div>
+
+                                    <!-- <fieldset> -->
+
+                                        <div class="patient-details-cont">
+                                            <div class="alert-custom-danger-validation d-none">
+                                                <ul class="schedule-error-cont mb-0"></ul>
                                             </div>
-                                        </fieldset>
-                                    </div>
-                                    <div class="guardian-section">
-                                        <h5 class="section-header mt-0 text-left mt-3">GUARDIAN MANAGEMENT</h5>
-                                        <div class="alert alert-custom-warning-black mt-20 mb-3 shadow-sm px-3 py-3 rounded-0 text-left" role="alert"><i class="fas fa-info-circle"></i>
-                                            <p class="lh-20 mb-0 default-message">Add guardians to receive medication alerts if you miss a dose.</p>
-                                        </div>
-                                        <fieldset>
-                                            <div class="patient-details-cont">
-                                                <div class="create-form d-none text-left guardian-container edit-delete-btn dp-container d-none">
-                                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00073d8ccfe53f74522ae72/emb"></script>
-                                                </div>
-                                                </div>
+                                            <div class="create-form d-none text-left schedule-container edit-delete-btn dp-container d-none">
+                                                <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e0007906f956b9184deb8c06/emb"></script>
+                                                <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00091fcaa69b25b4c5295bf/emb"></script>
                                             </div>
-                                        </fieldset>
+                                            <div class="update-form d-none mb-5">
+                                            </div>
+                                        </div>
 
                                         <div class="row">
                                             <div class="col-12 col-md-6 text-left d-flex align-items-center">
@@ -93,12 +81,13 @@
                                             </div>
                                             <div class="col-12 col-md-6 text-right">
                                                 <button type="button" class="action-button previous previous_button my-1">Back</button>
-                                                <button type="button" class="action-button finish-button my-1 disabled" >Finish</button>
+                                                <button type="button" class="next action-button">Continue</button>  
                                             </div>
                                         </div>
 
-                                    </div>
-                                    
+
+
+                                    <!-- </fieldset> -->
                                 </div>
                                 <!-- /.card-body -->
                             </div>
@@ -181,17 +170,24 @@
 
         $(function(){
             var dpCount = 0;
-            var $dpContainer = $('.dp-container');   
-            var scheduleTrNumber = false;
-            var guardianTrNumber = false;   
+            var $dpContainer = $('.dp-container');
+
+            function scheduleValidation(params){
+                console.log(params.scheduleTrNumber);
+            }
+
+
+            
 
             document.addEventListener('DataPageReady', function (event) {
 
-                if (event.detail.appKey == '40c0e0007906f956b9184deb8c06' || event.detail.appKey == '40c0e00091fcaa69b25b4c5295bf' || event.detail.appKey == '40c0e00073d8ccfe53f74522ae72') {
+                console.log(dpCount);
+
+                if (event.detail.appKey == '40c0e0007906f956b9184deb8c06' || event.detail.appKey == '40c0e00091fcaa69b25b4c5295bf') {
                     dpCount++;
                 }                
 
-                if (dpCount == 3) {
+                if (dpCount == 2) {
                     $dpContainer.removeClass('d-none');
                 }
 
@@ -218,7 +214,6 @@
                     });
 
                     function formatDateTime(type) {
-                        console.log(type);
                         // Get values from input fields
                         var $addButton = $('.cbResultSetAddButton');
                         var $errorCont = $('.schedule-error-cont');
@@ -289,6 +284,7 @@
                     $("[name*='MA_Patient_Medication_Schedule_Minutes']").attr({'type': 'number', 'min': '0', 'max': '59'});
 
                     $("[name*='MA_Patient_Medication_Schedule_Hours']").on("input", function () {
+                        console.log('type');
                         formatDateTime('add');
                     });
                     $("[name*='MA_Patient_Medication_Schedule_Minutes']").on("input", function () {
@@ -298,7 +294,8 @@
                         formatDateTime('add');
                     });
 
-                    
+                    var frequencryNumber = $('[data-cb-cell-name^="EditRecordMA_LU_Frequency_Number"]').next().find('span').text();
+                    console.log(frequencryNumber);
                     // var $divCont = $('.schedule-container').find('[id*="cbOuterAjaxCtnr"]:eq(1)');
                     // var $form = $divCont.find('#caspioform');
                     var $scheduleCont = $('.schedule-container');
@@ -306,7 +303,6 @@
                     var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;
                     var $inlineAdd = $scheduleCont.find('[data-cb-name="inlineaddrow"]');
                     var $norecordsfound = $scheduleCont.find('[id*="RecordMessageTop"]');
-                    var frequencyNumber = $('.frequency-number').text();
 
                     if(!$inlineAdd.hasClass('d-none')) {
                         $inlineAdd.addClass('d-none');
@@ -317,150 +313,21 @@
                             $inlineAdd.removeClass('d-none');
                         }
                     } else {
-
-                        if (frequencyNumber > resultTr) {
+                        scheduleValidation({scheduleTrNumber: resultTr});
+                        if (resultTr < frequencryNumber) {
                             if($inlineAdd.hasClass('d-none')) {
                                 $inlineAdd.removeClass('d-none');
                             }
                         }
-                        // console.log(resultTr);
-                        if (frequencyNumber == resultTr) {
-                            validateTrNumber(scheduleTrNumber = true, guardianTrNumber);
-                        } else {
-                            validateTrNumber(scheduleTrNumber = false, guardianTrNumber);
-                        }
-                        
-                        
                     }
-
-                    window.cbAjaxEventHandler.addEventListener('DeleteRow', function(v_event){   
-                        if (v_event.data.AppKey == '40c0e00091fcaa69b25b4c5295bf'){
-                            var $resultTable = $scheduleCont.find('[data-cb-name="cbTable"]');
-                            var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;
-                            console.log(resultTr);
-                            console.log(frequencyNumber);
-                            if (frequencyNumber == resultTr) {
-                                validateTrNumber(scheduleTrNumber = true, guardianTrNumber);
-                            } else {
-                                validateTrNumber(scheduleTrNumber = false, guardianTrNumber);
-                            }
-                        }
-                    });
-
-                    window.cbAjaxEventHandler.addEventListener('InsertRow', function(v_event){   
-                        if (v_event.data.AppKey == '40c0e00091fcaa69b25b4c5295bf'){
-                            var $resultTable = $scheduleCont.find('[data-cb-name="cbTable"]');
-                            var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;
-
-                            console.log(resultTr);
-                            console.log(frequencyNumber);
-                            var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;
-                            if (frequencyNumber == resultTr) {
-                                validateTrNumber(scheduleTrNumber = true, guardianTrNumber);
-                            } else {
-                                validateTrNumber(scheduleTrNumber = false, guardianTrNumber);
-                            }
-                        }
-                    });
 
 
 
 
                 } //event end
-
-                
-
-                // Guardian DataPage
-                if (event.detail.appKey == '40c0e00073d8ccfe53f74522ae72') {
-                    var $guardianCont = $('.guardian-container');
-                    var $resultTable = $guardianCont.find('[data-cb-name="cbTable"]');
-                    var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;
-
-                    if (resultTr > 0) {
-                        validateTrNumber(scheduleTrNumber, guardianTrNumber = true);
-                    }else {
-                        validateTrNumber(scheduleTrNumber, guardianTrNumber = false);
-                    }
-
-                    window.cbAjaxEventHandler.addEventListener('DeleteRow', function(v_event){  
-                        var $resultTable = $guardianCont.find('[data-cb-name="cbTable"]');
-                        var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length; 
-                        if (v_event.data.AppKey == '40c0e00073d8ccfe53f74522ae72'){
-                            if (resultTr > 0) {
-                                validateTrNumber(scheduleTrNumber, guardianTrNumber = true);
-                            }
-                        }else {
-                            validateTrNumber(scheduleTrNumber, guardianTrNumber = false);
-                        }
-                    });
-
-                    window.cbAjaxEventHandler.addEventListener('InsertRow', function(v_event){ 
-                        var $resultTable = $guardianCont.find('[data-cb-name="cbTable"]');
-                        var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;   
-                        if (v_event.data.AppKey == '40c0e00073d8ccfe53f74522ae72'){
-                            if (resultTr > 0) {
-                                validateTrNumber(scheduleTrNumber, guardianTrNumber = true);
-                            }
-                        }else {
-                            validateTrNumber(scheduleTrNumber, guardianTrNumber = false);
-                        }
-                    });
-                    
-
-                }
-
-                
-
                 
                 
-            });
-
-            function validateTrNumber(scheduleTrNumber = false, guardianTrNumber = false){
-                var $finishBtn = $('.finish-button');
-                console.log(scheduleTrNumber);
-                console.log(guardianTrNumber);
-                if (!$finishBtn.hasClass('disabled')) {
-                    $finishBtn.addClass('disabled');
-                }
-                $finishBtn.addClass('disabled');
-
-
-                if (scheduleTrNumber && guardianTrNumber) {
-
-                    $finishBtn.removeClass('disabled');
-
-                    $finishBtn.on("click", function() {
-
-                        window.location.href = "./success-page.php?page=patient-registration";
-
-                    });
-                }
-            }
-            // function validateGuardianTrNumber(guardianTrNumber = false){
-            //     console.log(guardianTrNumber);
-            //     if (guardianTrNumber) {
-            //         validateAll(guardianTrNumber);
-            //     }
-            // }
-
-            // function validateAll() {
-
-            // }
-
-            // }
-
-            // if (scheduleTrNumber) {
-            //     console.log(scheduleTrNumber);
-            // }
-
-// console.log('scheduleValidation: ' + scheduleValidation.frequencyNumber);
-// console.log(scheduleValidation[0]);
-// console.log('scheduleValidation: ' + scheduleValidation[0].frequencyNumber);
-// console.log('scheduleValidation: ' + scheduleValidation[0].scheduleTrNumber);
-
-            // if (scheduleValidation[0].frequencyNumber != undefined && scheduleValidation[0].scheduleTrNumber != undefined) {
-            //     console.log('complete');
-            // }
+            })
         })
     </script>
 
