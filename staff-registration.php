@@ -77,13 +77,14 @@
         document.addEventListener('DataPageReady', function(event) {
             if (event.detail.appKey == '40c0e0000817d22b928a4aca8591') {
 
+                var $probihitedPageCont = $('.probihited-page-cont');
+
                 if (Auth !== undefined && Auth != null && Auth != '') {
                     var $invitation_status = $('[data-cb-cell-name^="EditRecordMA_Doctor_Invited_Staff_Invitation_Status_ID"]');
                     var $accepted_invitation = $('[data-cb-cell-name^="EditRecordMA_Doctor_Invited_Staff_Accepted_Invitation"]');
                     var invitation_statusValue = '';
                     var accepted_invitationValue = '';
                     var $acceptedInvitationExistsCont = $('.accepted-invitation-exists-cont');
-                    var $probihitedPageCont = $('.probihited-page-cont');
                     var $createFormCont = $('.create-form-main-cont');
                     var $finish = $('.finish-button');
 
