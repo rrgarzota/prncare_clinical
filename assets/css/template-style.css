@@ -583,13 +583,22 @@ padding:10px!important;
 
 .custom-search-report [id^="cbOuterAjaxCtnr"]:first-of-type{
     padding-bottom: 30px;
-    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15);
-    padding-left: 5px;
-    padding-right: 5px;
+    /* box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15); */
+    /* padding-left: 5px;
+    padding-right: 5px; */
     /* padding-top: 30px; */
 }
+.custom-search-report [id^="cbOuterAjaxCtnr"]:first-of-type
+{
+    background-color: #f4f6f9!important;
+}
 
-.custom-search-report [id^="cbOuterAjaxCtnr"]:first-of-type,
+.custom-search-report [id^="cbOuterAjaxCtnr"]:last-of-type
+{
+    background-color: #fff!important;
+    padding: 30px 20px;
+}
+
 .custom-search-report [id^="cbOuterAjaxCtnr"]:first-of-type section,
 [class^="cbFormSection"] [data-cb-alternate-semantic-row-desktop],
 .custom-search-report [id^="cbOuterAjaxCtnr"]:first-of-type section .cbHTMLBlockContainer {
@@ -598,7 +607,7 @@ padding:10px!important;
 
 .custom-search-report{
     margin-top: 0px!important;
-    background-color: #f3f5f8!important;
+    background-color: #f4f6f9!important;
 }
 
 .card-stats{
@@ -641,7 +650,7 @@ padding:10px!important;
     text-align: left;
 }
 
-.form-label {
+.medication-container-final .form-label {
     padding-top: 1px;
     padding-bottom: 1px;
     font-size: 14px;
@@ -1308,8 +1317,8 @@ input.cur-year {
     border: none!important;
 }
 select:not(.flatpickr-monthDropdown-months),
-input:not(.ClsBtn):not(.cur-year):not(.cbResultSetAddButton):not(.cbResultSetModifyButton):not(.cbResultSetCancelButton):not(.cbInlineAddFormButton) {
-    border: 1px solid #d7d7d7;
+input:not(.ClsBtn):not(.cur-year):not(.cbResultSetAddButton):not(.cbResultSetModifyButton):not(.cbResultSetCancelButton):not(.cbInlineAddFormButton):not(.cbSearchButton) {
+    border: 1px solid #d7d7d7!important;
     color: #393939;
     background-color: #fff;
 }
@@ -1358,8 +1367,25 @@ input:not(.ClsBtn):not(.cur-year):not(.cbResultSetAddButton):not(.cbResultSetMod
     height: 12px!important;
 }
 
-.cbResultSetPanelDataContainer{
+.calendar-report .cbResultSetPanelDataContainer{
     background-image: linear-gradient(90deg, #f29b62 , #fe7096);
+}
+
+.medication-container-final .cbResultSetListViewTableOddCell {
+    border: 1px solid #ACB7BB;
+    border-radius: 3px;
+}
+
+.medication-container-final .cbResultSetListViewTableOddCell {
+    /* border: 1px solid #ACB7BB!important;
+    border-radius: 3px; */
+}
+
+.details-page-list-view .cbResultSetListViewTableOddCell,
+.details-page-list-view .cbResultSetListViewTableEvenCell {
+    border: none!important;
+    border-bottom: 1px solid #d1d8db!important;
+    border-radius: 0px!important;
 }
 
 .one-item-only .cbResultSetData a:before {
@@ -1753,7 +1779,7 @@ article > div > div > div > .cbResultSetRecordMessage
     width: 100%;
 }
 
-section[data-cb-name="cbTable"]{
+section[data-cb-name="cbTable"]:not(.cbColumnarReport){
     grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     width: 100%;
     grid-column-gap: 10px;
@@ -1780,4 +1806,15 @@ button.disabled{
     background-color: #3b5f70!important;
     color: #fff!important; /* Gray text */
     cursor: not-allowed!important; /* Change cursor to indicate it's not clickable */
+}
+
+.d-none-created-date .cbResultSetPanelDataContainer > *:not(:first-child){
+    display: none;
+}
+
+.details-page-list-view .cbResultSetPanelDataContainer {
+    padding: 15px 0px!important;
+}
+.hide-update-btn .cbBackButtonContainer {
+    display: none!important;
 }

@@ -19,6 +19,12 @@
                         <p>Alerts</p>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="manage-patients.php" class="nav-link" id="manage-patients">
+                        <i class="nav-icon fas fa-user"></i>
+                        <p>Patients</p>
+                    </a>
+                </li>
             </ul>
         </nav>
         <!-- /.sidebar-menu -->
