@@ -25,6 +25,12 @@
                         <p>Patients</p>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="manage-messages.php" class="nav-link" id="manage-messages">
+                        <i class="nav-icon fas fa-comment-dots"></i>
+                        <p>Messages</p>
+                    </a>
+                </li>
             </ul>
         </nav>
         <!-- /.sidebar-menu -->

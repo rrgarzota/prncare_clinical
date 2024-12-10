@@ -2,6 +2,13 @@ var $loader = $('#section-loader');
 var $loaderCont = $loader.find('.loader-container');
 var $pageContentContainer = $('#content').find('.container-fluid').first();
 
+$('body').on('hidden.bs.modal', function () {
+    if($('.modal.show').length > 0)
+    {
+        $('body').addClass('modal-open');
+    }
+});
+
 function showLoader() {
     // console.log($loader);
     $loader.removeClass('d-none');
@@ -14,6 +21,166 @@ function closeLoader() {
     }
 }
 
+function deploy_dp(containerID, appKey, param, title)
+{
+    document.getElementById(containerID).innerHTML = '';
+    var $title = document.getElementById('cb-modal-title');
+
+    // var $formContainer = $('#purchase-order-hidden-form');
+
+    // if ($formContainer) {
+    //     $formContainer.html('');
+    // }
+
+
+    var script = document.createElement('script');
+    script.src = 'https://c9ebv091.caspio.com/dp/' + appKey + '/emb' + param;
+
+    var container = document.getElementById(containerID);
+
+    if(container)
+    {
+        container.appendChild(script);
+    }
+
+    if ($title) {
+        $title.innerHTML = '';
+        $title.innerHTML = title;
+    }
+}
+
+function open_modal(module, action = 'add', size = 'lg', fid = '') {
+
+    var $modal = $('#cb-modal-general');
+    // var $modalTitleContainer = $modal.find('#cb-modal-title');
+    $modal.find('#cb-modal-body').html('');
+
+
+    // var title = processModalTitle(module, action);
+    // var RID = $('#open-modal-btn').data('rid');
+    /**
+     * Set modal size
+     * Parameters: lg,xl
+     */
+    $modalContainer = $modal.find('.modal-dialog');
+    var currentClasses = $modalContainer.attr('class').split(' ');
+    $modalContainer.removeClass(currentClasses[1]);
+    $modalContainer.addClass('modal-' + size);
+
+    /**
+     * DataPage deployment
+     * 1st param = container ID. You will find this in the php file
+     * 2nd param = DataPage appKey
+     * 3rd param = parameters
+     */
+    var $body = '';
+
+    if (module === 'new-message') {
+        deploy_dp('cb-modal-body', '40c0e000f55b8fdbd43a4725989b', '', 'Start New Message Thread');
+        $modal.find('#cb-modal-body').addClass(module);
+
+    }
+
+    // $modalTitleContainer.text(title);
+    // $modal.find('#cb-modal-body').html($body);
+    $modal.modal('show');
+
+}
+
+function closeModalGeneral() {
+    // $('#cb-modal-operators').modal('hide');
+
+    if ($('#cb-modal-general').is(':visible')) {
+        $('#cb-modal-title').html('');
+        $('#cb-modal-body').html('');
+        $('#cb-modal-general').modal('hide');
+        closeLoader();
+    }
+}
+
+function submitAddform(elem){
+    $(elem).closest('section').find('.cbSubmitButton').click();
+}
+
+
+function processModalTitle(module, action) {
+    var titleLabel = '';
+    var actionLabel = '';
+    var newLabel = '';
+
+    if (action === 'add') {
+        actionLabel = 'Add';
+    } else if (action === 'edit') {
+        actionLabel = 'Edit';
+    } else if (action === 'view') {
+        actionLabel = 'View';
+    } else if (action === 'start') {
+        actionLabel = 'Start';
+    }
+
+
+    switch (module) {
+        case 'new-message':
+            titleLabel = 'New Message Thread';
+            break;       
+        default:
+    }
+
+    return newLabel = actionLabel + ' ' + titleLabel;
+}
+
+function successMessage(module)
+{
+    // Reference to the modal and its body
+    var $modal = $('#cb-modal-general');
+    var $modalBodyContainer = $modal.find('#cb-modal-body');
+    var messageTitle = "";
+    var messageBody = ""; // Replace with your desired message content
+    var messageButtonURL = ""; // Replace with your button URL
+    var messageButtonText = ""; // Replace with your button text
+
+    // Message and URL button placeholders
+    if (module == 'new-message') {
+        messageTitle = "Message Sent!";
+        messageBody = "Your message has been successfully created. The receiver will receive an email notification about the new message.";
+        messageButtonURL = "closeModalGeneral()";
+        messageButtonText = "Close";
+    }
+    
+
+    // Clear the modal body initially
+    $modalBodyContainer.html('');
+
+    // Define the card structure
+    if (module === 'new-message') {
+        var $body = `
+            <div class="card mb-0">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="message-title">
+                                ${messageTitle}
+                            </h3>
+                        </div>
+                        <div class="col-12">
+                            <i class="fas fa-check-circle success-message-icon"></i>
+                        </div>
+                        <div class="col-12 mx-auto">
+                            <p class="message-sub-title mx-auto">${messageBody}</p>
+                            <button type="button" onclick="${messageButtonURL};" class="secondary-button mt-5 px-4 py-2">${messageButtonText}</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        // Append the card to the modal body
+        $modalBodyContainer.html($body);
+
+        // Show the modal
+        $modal.modal('show');
+    }
+}
 /** 
  * Highlights the active side navbar link. 
  * 
@@ -280,6 +447,8 @@ var DOMChanges = {
         });
     },
 };
+
+
 
  
 
