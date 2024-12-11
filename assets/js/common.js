@@ -325,6 +325,36 @@ function clearForm(form) {
     
 }
 
+function checkHighlightMessage(){
+    var $messageCont = $('.message-report-cont');
+    var $resultTable = $messageCont.find('.cbColumnarReport');
+    var $resultRow = $resultTable.find('div[data-cb-name="data-row"]');
+
+    $resultRow.each(function(){
+        var $row = $(this);
+        var $message = $row.find('div.message'); // Find child div with class 'message'
+        var dataRead = $message.data('read'); // Get data-read value
+        var dataUser = $message.data('user'); // Get data-user value
+        var dataReceiver = $message.data('receiver'); // Get data-receiver value
+
+        if (dataUser === dataReceiver && dataRead === "No") {
+            $message.addClass('highlight');
+            var $messageThread = $row.find('.message-thread');
+            var currentHref = $messageThread.attr('href');
+
+            // Add the new parameter to the URL (Check if '?' or '&' should be used based on existing parameters)
+            var newHref = currentHref.includes('?') ? currentHref + '&SubmitRead=True' : currentHref + '?SubmitRead=True';
+
+            // Set the new href back to the element
+            $messageThread.attr('href', newHref);
+        }
+    })
+}
+
+function submitReply(){
+
+}
+
 function getUrlVars() {
     var vars = [],
         hash;
@@ -447,6 +477,8 @@ var DOMChanges = {
         });
     },
 };
+
+
 
 
 

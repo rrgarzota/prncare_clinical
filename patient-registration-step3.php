@@ -218,7 +218,6 @@
                     });
 
                     function formatDateTime(type) {
-                        console.log(type);
                         // Get values from input fields
                         var $addButton = $('.cbResultSetAddButton');
                         var $errorCont = $('.schedule-error-cont');
@@ -323,7 +322,7 @@
                                 $inlineAdd.removeClass('d-none');
                             }
                         }
-                        // console.log(resultTr);
+
                         if (frequencyNumber == resultTr) {
                             validateTrNumber(scheduleTrNumber = true, guardianTrNumber);
                         } else {
@@ -337,8 +336,6 @@
                         if (v_event.data.AppKey == '40c0e00091fcaa69b25b4c5295bf'){
                             var $resultTable = $scheduleCont.find('[data-cb-name="cbTable"]');
                             var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;
-                            console.log(resultTr);
-                            console.log(frequencyNumber);
                             if (frequencyNumber == resultTr) {
                                 validateTrNumber(scheduleTrNumber = true, guardianTrNumber);
                             } else {
@@ -351,9 +348,6 @@
                         if (v_event.data.AppKey == '40c0e00091fcaa69b25b4c5295bf'){
                             var $resultTable = $scheduleCont.find('[data-cb-name="cbTable"]');
                             var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;
-
-                            console.log(resultTr);
-                            console.log(frequencyNumber);
                             var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;
                             if (frequencyNumber == resultTr) {
                                 validateTrNumber(scheduleTrNumber = true, guardianTrNumber);
@@ -417,8 +411,6 @@
 
             function validateTrNumber(scheduleTrNumber = false, guardianTrNumber = false){
                 var $finishBtn = $('.finish-button');
-                console.log(scheduleTrNumber);
-                console.log(guardianTrNumber);
                 if (!$finishBtn.hasClass('disabled')) {
                     $finishBtn.addClass('disabled');
                 }

@@ -40,9 +40,9 @@
                     <div class="row">
                         <div class="col-12">
                             <!-- Default box -->
-                            <div class="card shadow-none">
+                            <div class="card shadow-none p-0">
                                 <!-- search -->
-                                <div class="card-body custom-search-report blue-theme pt-0 pb-2 d-none-search-cont message-report-cont">
+                                <div class="card-body custom-search-report blue-theme pt-0 pb-2 d-none-search-cont message-report-cont">   
                                     <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000abe55437377d40bab2d0/emb"></script>
                                 </div>
                             </div>
@@ -62,6 +62,12 @@
             $(function(){
                 // Set side navigation active
                 setActiveNav('manage-messages');
+
+                document.addEventListener('DataPageReady', function (event) {
+                    if (event.detail.appKey == '40c0e000abe55437377d40bab2d0') {
+                        checkHighlightMessage();
+                    }   
+                })
             });
         </script>
 

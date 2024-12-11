@@ -40,6 +40,7 @@
             <!-- Main content -->
             <section class="content">
                 <div class="container-fluid pt-3">
+                    <!-- Medication Details -->
                     <div class="row">
                         <div class="col-12 col-xl-8 offset-xl-2 mb-30">
                             <!-- Default box -->
@@ -52,6 +53,20 @@
                             <!-- /.card -->
                         </div>
                     </div>
+                    <!-- Messages -->
+                    <div class="row">
+                        <div class="col-12 col-xl-8 offset-xl-2 mb-30">
+                            <!-- Default box -->
+                            <div class="card center-aligned-card shadow mt-4">
+                                <div class="card-body blue-theme message-report-cont">
+                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000db2d168007e34c1f92e8/emb"></script>           
+                                </div>
+                                <!-- /.card-body -->
+                            </div>
+                            <!-- /.card -->
+                        </div>
+                    </div>
+                    <!-- Patient Basic Information -->
                     <div class="row">
                         <div class="col-12 col-xl-8 offset-xl-2 mb-30">
                             <!-- Default box -->
@@ -64,6 +79,7 @@
                             <!-- /.card -->
                         </div>
                     </div>
+                    <!-- Guardian Management -->
                     <div class="row">
                         <div class="col-12 col-xl-8 offset-xl-2 mb-30">
                             <!-- Default box -->
@@ -88,6 +104,13 @@
             $(function(){
                 setActiveNav('manage-patients');
             });
+
+            document.addEventListener('DataPageReady', function (event) {
+                if (event.detail.appKey == '40c0e000db2d168007e34c1f92e8') {
+                    checkHighlightMessage();
+                }   
+            })
+            
         </script>
 
     </div>

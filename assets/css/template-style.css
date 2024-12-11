@@ -196,7 +196,7 @@ body, .cbResultSetData, .cbResultSetRecordMessage, .cbResultSetLabelLink, .cbFor
     border: 0 solid rgba(0, 0, 0, .125);
     border-radius: 0rem;
     box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15);
-    /*padding:20px;*/
+    padding:20px;
 }
 .card-body {
     -ms-flex: 1 1 auto;
@@ -731,6 +731,56 @@ padding:10px!important;
     color: #fff;
 }
 
+.message {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc; /* Optional styling */
+    padding: 10px; /* Optional padding */
+    gap: 10px; /* Space between items */
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center; /* Vertical center */
+    justify-content: center;
+    width: 50px; /* Fixed width for the icon */
+    height: 50px; /* Fixed height for the icon */
+  }
+  
+  .center-text {
+    flex: 1; /* Takes up available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .line1, .line2 {
+    text-align: left; /* Align text to the left */
+  }
+
+  .right-text {
+    display: flex;
+    align-items: center; /* Vertical center */
+    justify-content: flex-end;
+    white-space: nowrap; /* Prevents text wrapping */
+  }
+
+  .message-report-cont div[data-cb-name="data-row"] div.highlight .icon::before {
+    content: '';
+    display: inline-block;
+    width: 10px; /* Diameter of the dot */
+    height: 10px; /* Diameter of the dot */
+    background-color: red; /* Dot color */
+    border-radius: 50%; /* Makes it a circle */
+    position: absolute; /* Position relative to the icon container */
+    top: 50%; /* Adjust vertical position */
+    left: 0; /* Adjust horizontal position */
+    transform: translate(50%, -50%); /* Fine-tune alignment */
+    z-index: 1; /* Keep the dot above other elements */
+}
+
+
+
 @media screen and (max-width: 1600px) {
     
     .cont-left{
@@ -849,6 +899,11 @@ padding:10px!important;
     }
     .custom-search-container.button-new-line{
     text-align: center;
+    }
+
+    .create-message section[data-cb-name="cbTable"]{
+        width: 100%!important;
+        margin: 0px!important;
     }
 
 }
@@ -1012,12 +1067,42 @@ padding:10px!important;
 
 }
 @media screen and (min-width: 576px) and (max-width: 1024px){
-.custom-search-report .cbUpdateButton{
-margin-right:0px!important;
-}
+    .custom-search-report .cbUpdateButton{
+    margin-right:0px!important;
+    }
 
 }
 
+@media screen and (max-width: 576px){
+    .replies-cont [data-cb-name="cbNavigationTableBottom"] .cbResultSetRecordMessage{
+        margin-top: 10px!important;
+        text-align: right!important;
+      }
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .message{
+        display: block;
+    }
+    .right-text{
+        justify-content: flex-start;
+    }
+    .line1{
+        display: grid;
+    }
+    .date-cont{
+        padding-left: 1px!important;
+    }
+    .icon,  .message-thread{
+        padding: 0px!important;
+    }
+    .message-report-cont div[data-cb-name="data-row"] div[data-read="No"] .icon::before {
+        left: 100%; /* Adjust horizontal position */
+    }
+}
 
 @media screen and (max-width: 576px) {
 
@@ -1381,12 +1466,18 @@ input:not(.ClsBtn):not(.cur-year):not(.cbResultSetAddButton):not(.cbResultSetMod
     border-radius: 3px; */
 }
 
-.details-page-list-view .cbResultSetListViewTableOddCell,
-.details-page-list-view .cbResultSetListViewTableEvenCell {
+.details-page-list-view:not(.replies-cont) .cbResultSetListViewTableOddCell,
+.details-page-list-view:not(.replies-cont) .cbResultSetListViewTableEvenCell {
     border: none!important;
     border-bottom: 1px solid #d1d8db!important;
     border-radius: 0px!important;
 }
+
+.replies-cont .cbResultSetListViewTableOddCell,
+.replies-cont .cbResultSetListViewTableEvenCell {
+    border: none!important;
+}
+
 
 .one-item-only .cbResultSetData a:before {
     /* font-family: 'Font Awesome\ 5 Free';
@@ -1812,8 +1903,11 @@ button.disabled{
     display: none;
 }
 
-.details-page-list-view .cbResultSetPanelDataContainer {
+.details-page-list-view:not(.replies-cont) .cbResultSetPanelDataContainer {
     padding: 15px 0px!important;
+}
+.replies-cont .cbResultSetPanelDataContainer{
+    padding: 0px!important;
 }
 .hide-update-btn .cbBackButtonContainer {
     display: none!important;
@@ -1904,3 +1998,196 @@ body .hintHook{
 .message-report-cont .date-cont{
     color: #5c5c5c!important;
 }
+
+.message-report-cont div[data-cb-name="data-row"]{
+    border: none!important;
+    background-color: transparent!important;
+}
+
+.message-report-cont div[data-cb-name="data-row"] div.message{
+    border: 1px solid #f0f0f0!important;
+    background-color: #f0f0f0;
+}
+
+.message-report-cont div[data-cb-name="data-row"] div.message.highlight{
+    border: 1px solid #f0f0f0!important;
+    background-color: #ebf3ff;
+}
+
+.message-report-cont .cbResultSetPanelDataContainer {
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+}
+
+.blue-theme.message-report-cont a{
+    color: #005883!important;
+    font-weight: 600;
+}
+
+
+  
+ 
+
+.message-report-cont i.fas.fa-user-circle{
+    font-size: 40px;
+    color: #5c5c5c !important;
+}
+
+.receiver-cont {
+    font-weight: 600;
+}
+
+.message-report-cont .message-thread:hover{
+    color: #002a4e!important;
+    font-weight: 600;
+}
+
+
+
+/* General Row Styling */
+
+  
+  /* Icon Styling */
+  .icon {
+    position: relative; /* Relative positioning for the dot */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Adjust icon size */
+    height: 40px;
+  }
+  
+
+/* General Card Styling */
+.replies-cont .card {
+    /* padding: 15px; */
+    /* width: 300px; Set the width of the card */
+    box-shadow: none;
+    /* background-color: #fff; Card background color */
+    margin-bottom: 15px; /* Space between cards */
+  }
+  
+  /* Card Header Styling (First Line) */
+  .replies-cont .card-header {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between items in the header */
+    margin-bottom: 10px; /* Space between the header and the body */
+  }
+  
+  /* User Icon Styling */
+  .user-icon {
+    font-size: 16px;
+    color: #5c5c5c !important;
+}
+  
+  /* User Name Styling */
+  .user-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #2d2c2c;
+  }
+  
+  /* Date Styling */
+  .date {
+    font-size: 12px;
+    color: #5c5c5c;
+    /* margin-left: auto; Align the date to the right */
+  }
+  
+  /* Card Body Styling (Second Line) */
+  .card-body {
+    padding: 10px 0;
+  }
+  
+  /* Message Content Styling */
+  .message-content {
+    background-color: #f0f0f0; /* Grey background */
+    padding: 15px;
+    border-radius: 0px; /* Rounded corners for the message box */
+    font-size: 14px;
+    color: #5c5c5c;
+    white-space: normal;
+  }
+
+  .replies-cont .message .icon i{
+    color: #1a6990;
+    font-size: 40px;
+  }
+
+  .replies-cont .line1{
+    font-weight: 600;
+    font-size: 18px;
+    color: #2d2c2c;
+  }
+
+  .replies-cont .line2{
+    color: #5c5c5c;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .replies-cont .message {
+    border: none;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+
+  .replies-cont .icon{
+    justify-content: end;
+  }
+
+  .create-message section[data-cb-name="cbTable"] {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Align items vertically centered */
+    gap: 10px; /* Add spacing between items */ 
+  }
+
+  .create-message .cbFormFieldCell {
+    width: 100%;
+  }
+
+  .create-message .cbHTMLBlockContainer:nth-of-type(3){
+    display: none;
+  }
+
+  .create-message .cbHTMLBlockContainer:nth-of-type(2){
+    padding: 0px;
+  }
+  .create-message .cbHTMLBlockContainer:nth-of-type(2) button{
+    text-transform: capitalize;
+    font-size: 15px;
+    background-color: #005883;
+    border: 1px solid #005883;
+    padding: 6px 10px;
+    color: #fff;
+  }
+
+  .create-message .cbHTMLBlockContainer:nth-of-type(2) button:hover{
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border: 1px solid #005883;
+    color: #005883;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 5px -3px #000000, 0 1px 1px -4px #000000;
+  }
+
+  .replies-cont [data-cb-name="cbNavigationTableBottom"] .cbResultSetRecordMessage{
+    justify-content: right!important;
+    min-height: 30px!important;
+  }
+
+  .replies-cont .cbFormFieldCell{
+    padding: 0px!important;
+  }
+
+  .replies-cont form#caspioform > div > section, :not(.calendar-report) form#caspioform > div > section{
+    align-items: normal!important;
+  }
+
+  .replies-cont .cbFormTextArea,
+  .replies-cont .create-message .cbHTMLBlockContainer:nth-of-type(2) button{
+    height: 100%;
+    vertical-align: middle;
+  }
