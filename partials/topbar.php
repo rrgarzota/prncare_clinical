@@ -81,11 +81,11 @@
                         <i class="fas fa-user-circle"></i>
                     </a>
                     <div class="dropdown-menu dropdown-menu-md dropdown-menu-right text-sm">
-                        <a href="#" class="dropdown-item">                                    
+                        <a href="./manage-profile.php" class="dropdown-item">                                    
                             <i class="fas fa-user mr-2"></i> <span class="">Profile</span>
                         </a>
                         <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">
+                        <a href="./change-password.php" class="dropdown-item">
                             <i class="fas fa-lock"></i> <span class="">Change Password</span>
                         </a>
                         <div class="dropdown-divider"></div>

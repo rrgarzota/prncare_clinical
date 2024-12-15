@@ -1402,7 +1402,7 @@ input.cur-year {
     border: none!important;
 }
 select:not(.flatpickr-monthDropdown-months),
-input:not(.ClsBtn):not(.cur-year):not(.cbResultSetAddButton):not(.cbResultSetModifyButton):not(.cbResultSetCancelButton):not(.cbInlineAddFormButton):not(.cbSearchButton) {
+input:not(.ClsBtn):not(.cur-year):not(.cbResultSetAddButton):not(.cbResultSetModifyButton):not(.cbResultSetCancelButton):not(.cbInlineAddFormButton):not(.cbSearchButton):not(.cbUpdateButton) {
     border: 1px solid #d7d7d7!important;
     color: #393939;
     background-color: #fff;
@@ -2190,4 +2190,43 @@ body .hintHook{
   .replies-cont .create-message .cbHTMLBlockContainer:nth-of-type(2) button{
     height: 100%;
     vertical-align: middle;
+  }
+
+  .btn-right .cbUpdateButton{
+    width: 120px!important;
+    border-radius: 0px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Sans-serif;
+    font-size: 1rem !important;
+    font-weight: 400;
+    height: auto;
+    margin: 0px 0px;
+    min-width: auto!important;
+    padding: 12px 20px;
+    text-align: center;
+    background-color: #005883!important;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #005883 !important;
+    text-transform: capitalize !important;
+
+  }
+
+  .btn-right .cbUpdateButton:hover{
+    border: 1px solid #005883!important;
+    color: #005883!important;
+    background-color: #FFFFFF!important;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)!important;
+    text-transform: capitalize !important;
+  }
+
+  .btn-right .cbBackButtonContainer,
+  .btn-right .cbUpdateButtonContainer  {
+    justify-content: right;
+    text-align: right!important;
+  }
+
+  .w-120{
+    min-width: 120px!important;
   }
