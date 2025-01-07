@@ -28,7 +28,7 @@
                             <h1>Manage Messages</h1>
                         </div>
                         <div class="col-lg-6 col-12 text-right">
-                            <button onclick="open_modal('new-message','start', '','')" type="button" class="theme-btn"><i class="fas fa-comment-dots"></i> Start New Message Thread</button>
+                            <button onclick="open_modal('new-message-patient','start', '','')" type="button" class="theme-btn"><i class="fas fa-comment-dots"></i> Start New Message Thread</button>
                         </div>
                     </div>
                 </div><!-- /.container-fluid -->

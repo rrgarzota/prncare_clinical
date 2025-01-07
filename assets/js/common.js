@@ -79,6 +79,10 @@ function open_modal(module, action = 'add', size = 'lg', fid = '') {
         deploy_dp('cb-modal-body', '40c0e000f55b8fdbd43a4725989b', '', 'Start New Message Thread');
         $modal.find('#cb-modal-body').addClass(module);
 
+    } else if (module === 'new-message-patient') {
+        deploy_dp('cb-modal-body', '40c0e000dd14615b0fb1484fad68', '', 'Start New Message Thread');
+        $modal.find('#cb-modal-body').addClass(module);
+
     }
 
     // $modalTitleContainer.text(title);
