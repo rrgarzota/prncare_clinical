@@ -86,7 +86,7 @@
                                         <div class="alert alert-custom-warning-black mt-20 mb-3 shadow-sm px-3 py-3 rounded-0 text-left" role="alert"><i class="fas fa-info-circle"></i>
                                             <p class="lh-20 mb-0 default-message">These are the guardians who will receive alerts if you misses a dose.</p>
                                         </div>
-                                <div class="card-body blue-theme text-left guardian-container edit-delete-btn">
+                                <div class="card-body blue-theme text-left guardian-container edit-delete-btn overflow-auto">
                                     <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00085c2b029d114429eb159/emb"></script>
                                 </div>
                                 <!-- /.card-body -->

@@ -127,13 +127,16 @@ body.public{
     font-weight: 400;
     height: auto;
     margin: 0px 0px;
-    min-width: 100%;
     padding: 12px 20px;
     text-align: center;
     background-color: #005883;
     transition: all 0.3s ease-in-out;
     border: 1px solid #005883 !important;
 }
+.public .multi_step_form #msform .action-button {
+    min-width: 100%;
+}
+
 .multi_step_form #msform .action-button:hover, .multi_step_form #msform .action-button:focus {
     
     border: 1px solid #005883;    

@@ -2311,3 +2311,27 @@ body .hintHook{
     margin: auto;
 }
 
+.alert i{
+    margin-right: 10px!important;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.schedule-container.manage-profile [id="InlineAddMA_Patient_Medication_Schedule_Period_ID"]{
+    -moz-border-radius: 1px;
+    -moz-box-sizing: border-box;
+    -webkit-border-radius: 1px;
+    -webkit-box-sizing: border-box;
+    border-color: #A3ABB8;
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    color: #002a4e;
+    font-family: Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 4px 6px;
+    width: 100%;
+    background-color: transparent;
+}
