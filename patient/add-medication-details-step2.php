@@ -5,7 +5,7 @@
 
     <?php include '../partials/header.php'; ?>
     <link rel="stylesheet" href="../assets/css/multistep.css">
-    <title>Patient: Add Medication Page</title>
+    <title>Patient: Medication Page</title>
     <style>
         .schedule-container thead th:nth-child(5),
         .schedule-container tbody tr td:nth-child(5),
@@ -27,6 +27,12 @@
         <?php include '../partials/topbar.php'; ?>
         <!-- Contains the user panel and sidebar menu -->
         <?php include '../partials/patient-sidebar.php'; ?>
+        <?php
+            $page = 'Add';
+            if (isset($_GET['Page']) && $_GET['Page'] == 'edit') {
+                $page = 'Edit';
+            }
+        ?>
 
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
@@ -35,12 +41,12 @@
                 <div class="container-fluid">
                     <div class="row mt-2 mb-1">
                         <div class="col-sm-6">
-                            <h1>Add Medication</h1>
+                            <h1><?= $page; ?> Medication</h1>
                         </div>
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
                                 <li class="breadcrumb-item"><a href="manage-profile.php">Profile</a></li>
-                                <li class="breadcrumb-item active">Add Medication</li>
+                                <li class="breadcrumb-item active"><?= $page; ?> Medication</li>
                             </ol>
                         </div>
                     </div>
@@ -61,7 +67,7 @@
                             <!-- Default box -->
                             <section class="multi_step_form">
                                 <div id="msform">
-                                    <div class="center-aligned-card-1200">
+                                    <div class="center-aligned-card-1000">
                                         <ul id="progressbar" class="pl-0 d-none d-md-flex">
                                             <!-- <li class="active done one">Personal Details</li>   -->
                                             <li class="active done one">Medication Details</li>
@@ -84,7 +90,7 @@
 
                                         <div class="card shadow my-4 border hide-submit-btn hide-update-btn">
                                             <div class="card-body blue-theme pt-4 pb-5">
-                                                <div class="alert alert-custom-warning-black mt-20 mb-0 shadow-sm px-3 py-3 rounded-0 text-left" role="alert"><i class="fas fa-info-circle"></i>
+                                                <div class="alert alert-custom-warning-black mt-20 mb-1 shadow-sm px-3 py-3 rounded-0 text-left" role="alert"><i class="fas fa-info-circle"></i>
                                                     <p class="lh-20 mb-0 default-message"> Set up your medication schedule and ensure the number of schedules matches the prescribed frequency (e.g., if you take a medication twice daily, input two schedules).</p>
                                                 </div>
 
@@ -155,7 +161,7 @@
         var page_search_params = url.searchParams;
         var Step1 = page_search_params.get('Step1');
         var Step2 = page_search_params.get('Step2');
-        var UID = page_search_params.get('UID');
+        var Page = page_search_params.get('Page');
         var $createForm = $('.patient-details-cont').find('.create-form');
         var $updateForm = $('.update-form');
         var $defaultMsg = $('.default-message');
