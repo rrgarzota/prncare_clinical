@@ -1,9 +1,9 @@
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-blue-theme sidebar-no-expand elevation-4">
     <!-- Brand Logo -->
-    <a href="../patient/index.php" class="brand-link navbar-blue-theme ?>">
+    <a href="../staff/index.php" class="brand-link navbar-blue-theme ?>">
         <img src="../assets/img/template/prn-log - Copy.jpeg" alt="Logo" class="brand-image img-circle elevation-2">
-        <span class="brand-text font-weight-bold">Patient</span>
+        <span class="brand-text font-weight-bold">Staff</span>
     </a>
 
     <!-- Sidebar -->
@@ -16,7 +16,7 @@
                 <li class="nav-item">
                     <a href="index.php?cbResetParam=1" class="nav-link" id="alerts">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
-                        <p>Health Snapshots</p>
+                        <p>Alerts</p>
                     </a>
                 </li>
                 <li class="nav-item">
