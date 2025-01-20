@@ -47,9 +47,9 @@
                 <div class="container-fluid pt-3">
                     <!-- General Details -->
                     <div class="row">
-                        <div class="col-12 col-xl-10 offset-xl-1 mb-30">
+                        <div class="col-12 col-xl-8 offset-xl-2 mb-30">
                             <!-- Default box -->
-                            <div class="card center-aligned-card-1200 shadow mt-4">
+                            <div class="card center-aligned-card shadow mt-4">
                                 <div class="card-body blue-theme hide-update-btn">
                                 <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000a15b25be76e645b6acea/emb"></script>
                                 </div>

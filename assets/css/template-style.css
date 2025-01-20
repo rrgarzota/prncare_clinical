@@ -5,15 +5,8 @@ body, .cbResultSetData, .cbResultSetRecordMessage, .cbResultSetLabelLink, .cbFor
 
 /* navbar */
 
-.sidebar-blue-theme{
-    background-color: #005883;
-}
-
 .sidebar-blue-theme .nav-pills .nav-link{
-    color: #fff;
     font-size: 16px;
-    /* margin-top: 5px;
-    margin-bottom: 5px; */
     border-left: .2rem solid transparent;
     padding: 1rem 1rem;
 }
@@ -24,23 +17,16 @@ body, .cbResultSetData, .cbResultSetRecordMessage, .cbResultSetLabelLink, .cbFor
 
 .sidebar-blue-theme .nav-pills .nav-link.active,
 .sidebar-blue-theme .nav-flat.nav-sidebar > .nav-item.has-treeview.menu-open > .nav-link
-
 {
-    color: #FFFFFF;
-    background-color: #027faa;
     border-left: .2rem solid;
 }
+
+/* Sidebar dropdown menu */
 .sidebar-blue-theme .nav-flat.nav-sidebar > .nav-item .nav-treeview .nav-item > .nav-link:hover, 
 .sidebar-blue-theme .nav-flat.nav-sidebar > .nav-item > .nav-treeview .nav-item > .nav-link:hover
-
 {
     color: #FFFFFF;
     background-color: hsla(0,0%,100%,.1);
-}
-.sidebar-blue-theme .nav-pills .nav-link:hover{
-    background-color: hsla(0,0%,100%,.1);
-    color: #FFFFFF;
-
 }
 
 /* .sidebar-blue-theme .nav-flat.nav-sidebar > .nav-item .nav-treeview .nav-item > .nav-link:hover, 
@@ -66,8 +52,6 @@ body, .cbResultSetData, .cbResultSetRecordMessage, .cbResultSetLabelLink, .cbFor
     background-color: #005883;
     border-left: none;
 }
-
-
 
 
 .sidebar-blue-theme .nav-flat.nav-sidebar > .nav-item .nav-treeview .nav-item > .nav-link, 
@@ -100,19 +84,15 @@ body, .cbResultSetData, .cbResultSetRecordMessage, .cbResultSetLabelLink, .cbFor
     transition: all .3s ease 0s;
 }
 
-.nav-link .nav-icon {
-    color: hsla(0,0%,100%,.5);
-}
-
-.nav-link.active .nav-icon,
-.nav-link:hover .nav-icon,
-.nav-item.has-treeview.menu-open>.nav-link>.nav-icon{
-    color: hsla(0,0%,100%,1);
-}
-
 .nav-link p{
     /* text-transform: uppercase; */
 }
+
+.sidebar-blue-theme .brand-link{
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
 .sidebar-blue-theme .nav-pills .nav-link p {
     font-size: .9142em!important;
 }
@@ -125,19 +105,6 @@ body, .cbResultSetData, .cbResultSetRecordMessage, .cbResultSetLabelLink, .cbFor
 .nav-link{
     display: flex;
     align-items: center;
-}
-/* brand */
-.sidebar-blue-theme .brand-link, 
-.sidebar-blue-theme .brand-link .pushmenu {
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.sidebar-blue-theme .brand-link:hover{
-    color: rgba(255, 255, 255, 1);
-}
-
-.sidebar-blue-theme .brand-link{
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 /* margin */
@@ -161,6 +128,7 @@ body, .cbResultSetData, .cbResultSetRecordMessage, .cbResultSetLabelLink, .cbFor
 .card-header{
     font-size:20px;
 }
+
 .card-header-cont{
     color: #002A4E;
     margin: 20px 5px;
@@ -676,7 +644,6 @@ padding:10px!important;
     margin-top: -50px;
     margin-right: 70px;
     margin-left: 70px;
-    background-color: #1a6990;
     color: #ffffff;
 }
 
@@ -771,7 +738,6 @@ padding:10px!important;
     display: inline-block;
     width: 10px; /* Diameter of the dot */
     height: 10px; /* Diameter of the dot */
-    background-color: red; /* Dot color */
     border-radius: 50%; /* Makes it a circle */
     position: absolute; /* Position relative to the icon container */
     top: 50%; /* Adjust vertical position */
@@ -1416,12 +1382,9 @@ input:not(.ClsBtn):not(.cur-year):not(.cbResultSetAddButton):not(.cbResultSetMod
 
 .custom-search-report .view-details-btn:hover{
     text-decoration: underline;
-    color: #002a4e!important;
-
 }
 
 .custom-search-report .view-details-btn{
-    color: #005883!important;
     font-family: Sans-serif;
     font-size: 14px;
     font-weight: 600!important;
@@ -1515,7 +1478,6 @@ dd{
 }
 
 .content-header h1{
-    color: #002a4e;
     font-weight: 600;
 }
 
@@ -1667,10 +1629,6 @@ button:focus {
 .card-title{
     /* font-weight: 600!important; */
     font-size: 1.3rem;
-}
-
-.breadcrumb-item a{
-    color: #002a4e!important;
 }
 
 .widgets-container .cbHTMLBlockContainer{
@@ -2006,23 +1964,12 @@ body .hintHook{
     background-color: transparent!important;
 }
 
-.message-report-cont div[data-cb-name="data-row"] div.message{
-    border: 1px solid #f0f0f0!important;
-    background-color: #f0f0f0;
-}
-
-.message-report-cont div[data-cb-name="data-row"] div.message.highlight{
-    border: 1px solid #f0f0f0!important;
-    background-color: #ebf3ff;
-}
-
 .message-report-cont .cbResultSetPanelDataContainer {
     padding-top: 2px!important;
     padding-bottom: 2px!important;
 }
 
 .blue-theme.message-report-cont a{
-    color: #005883!important;
     font-weight: 600;
 }
 
@@ -2032,7 +1979,6 @@ body .hintHook{
 
 .message-report-cont i.fas.fa-user-circle{
     font-size: 40px;
-    color: #5c5c5c !important;
 }
 
 .receiver-cont {
@@ -2040,7 +1986,6 @@ body .hintHook{
 }
 
 .message-report-cont .message-thread:hover{
-    color: #002a4e!important;
     font-weight: 600;
 }
 
@@ -2113,7 +2058,6 @@ body .hintHook{
   }
 
   .replies-cont .message .icon i{
-    color: #1a6990;
     font-size: 40px;
   }
 

@@ -24,6 +24,7 @@
 <!-- Theme style -->
 <link rel="stylesheet" href="../assets/css/adminlte.css">
 <link rel="stylesheet" href="../assets/css/template-style.css">
+<link rel="stylesheet" href="../assets/css/customize-template-style.css">
 <!-- overlayScrollbars -->
 <link rel="stylesheet" href="../plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
 <!-- Daterange picker -->

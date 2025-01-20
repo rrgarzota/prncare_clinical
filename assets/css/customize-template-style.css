@@ -1,0 +1,146 @@
+/* navigation bar */
+
+/* Sidebar background color */
+.sidebar-blue-theme{
+    background-color: #005883;
+}
+/* Sidebar link color */
+.sidebar-blue-theme .nav-pills .nav-link{
+    color: #fff;
+}
+/* Sidebar Active link*/
+.sidebar-blue-theme .nav-pills .nav-link.active,
+.sidebar-blue-theme .nav-flat.nav-sidebar > .nav-item.has-treeview.menu-open > .nav-link
+{
+    color: #FFFFFF; /* link text color and border left color */
+    background-color:#027faa; /* background color */
+}
+/* Sidebar link design on hover */
+.sidebar-blue-theme .nav-pills .nav-link:hover{
+    background-color: hsla(0,0%,100%,.1);
+    color: #FFFFFF;
+}
+/* Sidebar icon color  */
+.nav-link .nav-icon {
+    color: hsla(0,0%,100%,.5);
+}
+/* Sidebar icon color on hover and active link */
+.nav-link.active .nav-icon,
+.nav-link:hover .nav-icon,
+.nav-item.has-treeview.menu-open>.nav-link>.nav-icon{
+    color: hsla(0,0%,100%,1);
+}
+
+/* Brand text i.e. Doctor, Staff, Patient */
+.sidebar-blue-theme .brand-link, 
+.sidebar-blue-theme .brand-link .pushmenu {
+    color: rgba(255, 255, 255, 0.8);
+}
+/* Brand text i.e. Doctor, Staff, Patient on hover*/
+.sidebar-blue-theme .brand-link:hover{
+    color: rgba(255, 255, 255, 1);
+}
+
+/* end of the navigation bar */
+
+
+/* Text styles */
+
+/* Page Header Titles */
+.content-header h1{
+    color: #002a4e;
+}
+
+/* Breadcrumbs active text */
+.breadcrumb-item a{
+    color: #002a4e!important;
+}
+
+/* Form Section Header */
+.section-header, .section-sub-header
+{
+	color: #002A4E;
+}
+
+/* Form main Section Header border bottom */
+.section-header
+{
+	border-bottom: 1px solid #002A4E;
+}
+
+/* Form sub section background color */
+.section-sub-header
+{
+	background-color: #f0f2f5;
+}
+
+
+/* End of Text styles */
+
+/* Details Link Design */
+
+/* Details link design */
+.custom-search-report .view-details-btn{
+    color: #005883!important;
+}
+/* Details link on hover design */
+.custom-search-report .view-details-btn:hover{
+    color: #002a4e!important;
+}
+
+/* End of Details Link Design */
+
+/* Card Design for View Alerts Details */
+.card-custom-header{
+    background-color: #1a6990;
+    color: #ffffff;
+}
+
+/* End of Card Design */
+
+/* Message report rows design */
+
+/* Row design for read messages */
+.message-report-cont div[data-cb-name="data-row"] div.message{
+    border: 1px solid #f0f0f0!important;
+    background-color: #f0f0f0;
+}
+
+/* Row design for unread messages */
+.message-report-cont div[data-cb-name="data-row"] div.message.highlight{
+    border: 1px solid #f0f0f0!important;
+    background-color: #ebf3ff;
+}
+
+/* Message Icon */
+.message-report-cont i.fas.fa-user-circle{
+    color: #5c5c5c !important;
+}
+
+/* Message Thread design */
+.blue-theme.message-report-cont a{
+    color: #005883!important;
+}
+
+/* Message Thread hover design */
+.message-report-cont .message-thread:hover{
+    color: #002a4e!important;
+}
+
+/* Dot color - unread identifier */
+.message-report-cont div[data-cb-name="data-row"] div.highlight .icon::before {
+    background-color: red; /* Dot color */
+}
+
+/* End of Message report rows design */
+
+/* Message Details */
+
+/* Envelope icon design */
+.replies-cont .message .icon i{
+    color: #1a6990;
+}
+
+/* End of Message Details */
+
+
