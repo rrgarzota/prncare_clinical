@@ -164,7 +164,13 @@
 
         $prevBtn.on("click", function() {
 
-            window.location.href = "./patient-registration-step1.php?" + page_search_params;
+            let url = "./patient-registration-step1.php?" + page_search_params;
+
+            if (!url.includes('&cbResetParam=1')) {
+                url += '&cbResetParam=1';
+            }
+
+            window.location.href = url;
 
         });
     </script>

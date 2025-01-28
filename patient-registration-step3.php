@@ -175,7 +175,13 @@
 
         $prevBtn.on("click", function() {
 
-            window.location.href = "./patient-registration-step2.php?" + page_search_params;
+            let url = "./patient-registration-step2.php?" + page_search_params;
+
+            if (!url.includes('&cbResetParam=1')) {
+                url += '&cbResetParam=1';
+            }
+
+            window.location.href = url;
 
         });
 

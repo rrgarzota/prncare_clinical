@@ -118,7 +118,13 @@
 
         $prevBtn.on("click", function() {
 
-            window.location.href = "./doctor-registration-step1.php?" + page_search_params;
+            let url = "./doctor-registration-step1.php?" + page_search_params;
+
+            if (!url.includes('&cbResetParam=1')) {
+                url += '&cbResetParam=1';
+            }
+
+            window.location.href = url;
 
         });
 
