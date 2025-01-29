@@ -20,6 +20,7 @@
     background-color: hsla(0,0%,100%,.1);
     color: #FFFFFF;
 }
+
 /* Sidebar icon color  */
 .nav-link .nav-icon {
     color: hsla(0,0%,100%,.5);
@@ -132,6 +133,12 @@
     background-color: red; /* Dot color */
 }
 
+/* Start New Message Thread button */
+.theme-btn{
+    background-color: #005883;
+    border: 1px solid #005883;
+}
+
 /* End of Message report rows design */
 
 /* Message Details */
@@ -143,4 +150,44 @@
 
 /* End of Message Details */
 
+/* Alerts calendar */
 
+/* Alert box in the calendar */
+.calendar-report .cbResultSetPanelDataContainer{
+    background-image: linear-gradient(90deg, #f29b62 , #fe7096);
+}
+/* Alert box text in the calendar*/
+.one-item-only .cbResultSetData a{
+    color: #fff!important;
+}
+/* Alert box number in the calendar*/
+.alert-number {
+    background-color: #ffedec;
+    color: #bb3640;
+}
+/* End of Alerts calendar */
+
+/* Alerts > Details */
+
+/* For "Incorrect dose  and Missed dose" */
+.alert-custom-warning{
+    background-color: #fff7cc;
+    color: #e59615;
+    border-color: #ffecb59e;
+}
+
+/* For "Not taken and extra dose" */
+.alert-custom-danger{
+    background-color: #ffedec;
+    color: #af4149;
+    border-color: #f5c2c740;
+}
+/* End of Alerts > Details */
+
+/* Alert info boxes */
+.alert-info {
+    color: #055160;
+    background-color: #cff4fc;
+    border-color: #b6effb;
+}
+/* End of Alert Info boxes */

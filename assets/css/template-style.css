@@ -303,8 +303,6 @@ iframe {
 .theme-btn{
     text-transform: capitalize;
     font-size: 15px;
-    background-color: #005883;
-    border: 1px solid #005883;
 }
 .custom-btn,
 section[class^="cbFormSection"] .cbFormData .custom-btn,
@@ -382,11 +380,6 @@ section[class^="cbFormSection"] .cbFormData .custom-btn:hover
 
 
 /* //alert */
-.alert-info {
-    color: #055160;
-    background-color: #cff4fc;
-    border-color: #b6effb;
-}
 
 .alert {
     position: relative;
@@ -1416,10 +1409,6 @@ input:not(.ClsBtn):not(.cur-year):not(.cbResultSetAddButton):not(.cbResultSetMod
     height: 12px!important;
 }
 
-.calendar-report .cbResultSetPanelDataContainer{
-    background-image: linear-gradient(90deg, #f29b62 , #fe7096);
-}
-
 .medication-container-final .cbResultSetListViewTableOddCell {
     border: 1px solid #ACB7BB;
     border-radius: 3px;
@@ -1456,20 +1445,14 @@ input:not(.ClsBtn):not(.cur-year):not(.cbResultSetAddButton):not(.cbResultSetMod
     transform: scaleX(-1);
 }
 
-.one-item-only .cbResultSetData a{
-    color: #fff!important;
-}
-
 .cbResultSetCalendarFieldInactiveDate+div .cbResultSetPanelDataContainer{
     opacity: 0.8;
 }
 
 .alert-number {
-    background-color: #ffedec;
     border-radius: 15px;
     padding: 2px 7px;
     font-size: 13px;
-    color: #bb3640;
     margin-left: 8px;
 }
 
@@ -1675,18 +1658,6 @@ button:focus {
 }
 .alert-custom-warning-black p{
     color: #212529;
-}
-
-.alert-custom-warning{
-    background-color: #fff7cc;
-    color: #e59615;
-    border-color: #ffecb59e;
-}
-
-.alert-custom-danger{
-    background-color: #ffedec;
-    color: #af4149;
-    border-color: #f5c2c740;
 }
 
 [class*="alert-custom-"]{

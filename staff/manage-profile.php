@@ -4,7 +4,7 @@
 <head>
 
     <?php include '../partials/header.php'; ?>
-    <title>Patient: Profile Page</title>
+    <title>Staff: Profile Page</title>
     <style>
         .guardian-container [name^="InlineEdit"]{
             width: 100%!important;
