@@ -24,7 +24,7 @@
         <!-- Contains the logo and navbar -->
         <?php include '../partials/topbar.php'; ?>
         <!-- Contains the user panel and sidebar menu -->
-        <?php include '../partials/patient-sidebar.php'; ?>
+        <?php include '../partials/staff-sidebar.php'; ?>
 
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
