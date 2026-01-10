@@ -33,7 +33,7 @@
                             <ul id="progressbar" class="pl-0 d-none d-md-flex">
                                 <li class="active done one">Personal Details</li>  
                                 <li class="active done two">Medication Details</li>
-                                <li class="active three">Schedule & Guardian</li>
+                                <li class="active three">Schedule & Guardian test</li>
                             </ul>
                             <div class="d-block d-md-none">
                                 <div class="bar">
@@ -330,6 +330,7 @@
             })
         })
     </script>
+    
 
 
 </body>
