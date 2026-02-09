@@ -130,9 +130,37 @@
                     const s = status.toLowerCase();
                     const overdoseYes = (isOverdoseRaw || "").trim().toLowerCase() === "yes";
 
-                    // ✅ Your requirement: ONLY if Status == "Correct dose" AND Is Overdose == "Yes"
+                    // ✅ Requirement: ONLY if Status == "Correct dose" AND Is Overdose == "Yes"
                     if (overdoseYes && status === "Correct dose") {
                         const overdoseSchedule = errorSchedule || schedule || triggerTime || "unknown time";
+
+                        const L = Number(leftEye || 0);
+                        const R = Number(rightEye || 0);
+                        const LIMIT = 3;
+
+                        const leftOD = L > LIMIT;
+                        const rightOD = R > LIMIT;
+
+                        // Build user-friendly message that supports left/right/both overdose
+                        let msg = `Correct dose, but overdose detected at ${overdoseSchedule}. `;
+
+                        if (leftOD && rightOD) {
+                            msg +=
+                            `Both eyes received more than the recommended number of drops. ` +
+                            `Left eye received ${L} drops and right eye received ${R} drops (limit is ${LIMIT} each).`;
+                        } else if (leftOD) {
+                            msg +=
+                            `The left eye received more than the recommended number of drops. ` +
+                            `Left eye received ${L} drops (limit is ${LIMIT}).`;
+                        } else if (rightOD) {
+                            msg +=
+                            `The right eye received more than the recommended number of drops. ` +
+                            `Right eye received ${R} drops (limit is ${LIMIT}).`;
+                        } else {
+                            // Safety fallback: if flagged overdose but counts don't exceed limit,
+                            // still show a clear message with counts
+                            msg += `Drop count exceeded the recommended limit. Left eye received ${L} drops and right eye received ${R} drops (limit is ${LIMIT}).`;
+                        }
 
                         const $div = $("<div>", {
                             class: "alert alert-custom-warning mt-20 mb-0 shadow-sm px-3 py-2 rounded-0",
@@ -140,10 +168,7 @@
                         });
 
                         $div.append('<span><i class="fas fa-exclamation-triangle"></i></span>');
-                        $div.append(
-                            `Correct dose but overdose detected at ${overdoseSchedule}. ` +
-                            `Left eye count: ${leftEye || 0}, right eye count: ${rightEye || 0}.`
-                        );
+                        $div.append(msg);
 
                         return $div;
                     }
