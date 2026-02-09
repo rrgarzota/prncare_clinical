@@ -41,10 +41,10 @@
 
                                         <div class="doctor-personal-details-cont">
                                             <div class="create-form">
-                                                <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000923cb415c7fd4420af0c/emb"></script>
+                                                <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000041043771b564ec68c5f/emb"></script>
                                             </div>
                                             <div class="invitation-status-cont d-none">
-                                                <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e0000817d22b928a4aca8591/emb"></script>
+                                                <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000b54db5ed60e54848a04d/emb"></script>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -75,7 +75,7 @@
         var Auth = page_search_params.get('Auth');
 
         document.addEventListener('DataPageReady', function(event) {
-            if (event.detail.appKey == '40c0e0000817d22b928a4aca8591') {
+            if (event.detail.appKey == '40c0e000b54db5ed60e54848a04d') {
 
                 var $probihitedPageCont = $('.probihited-page-cont');
 

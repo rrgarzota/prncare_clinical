@@ -64,8 +64,8 @@
                                                     <ul class="schedule-error-cont mb-0"></ul>
                                                 </div>
                                                 <div class="create-form d-none text-left schedule-container edit-delete-btn dp-container d-none">
-                                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e0007906f956b9184deb8c06/emb"></script>
-                                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00091fcaa69b25b4c5295bf/emb"></script>
+                                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000afcd3e40969c4c0e84be/emb"></script>
+                                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000de74ea80972e4486947d/emb"></script>
                                                 </div>
                                             </div>
                                         </fieldset>
@@ -78,7 +78,7 @@
                                         <fieldset>
                                             <div class="patient-details-cont">
                                                 <div class="create-form d-none text-left guardian-container edit-delete-btn dp-container d-none">
-                                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00073d8ccfe53f74522ae72/emb"></script>
+                                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000474588b829064cb89812/emb"></script>
                                                 </div>
                                                 </div>
                                             </div>
@@ -193,7 +193,7 @@
 
             document.addEventListener('DataPageReady', function (event) {
 
-                if (event.detail.appKey == '40c0e0007906f956b9184deb8c06' || event.detail.appKey == '40c0e00091fcaa69b25b4c5295bf' || event.detail.appKey == '40c0e00073d8ccfe53f74522ae72') {
+                if (event.detail.appKey == '40c0e000afcd3e40969c4c0e84be' || event.detail.appKey == '40c0e000de74ea80972e4486947d' || event.detail.appKey == '40c0e000474588b829064cb89812') {
                     dpCount++;
                 }                
 
@@ -202,9 +202,9 @@
                 }
 
                 // On insert event of Schedule tabular report
-                if (event.detail.appKey == '40c0e00091fcaa69b25b4c5295bf') {
+                if (event.detail.appKey == '40c0e000de74ea80972e4486947d') {
                     window.cbAjaxEventHandler.addEventListener('GetRowData', function(v_event){   
-                        if (v_event.data.AppKey == '40c0e00091fcaa69b25b4c5295bf'){
+                        if (v_event.data.AppKey == '40c0e000de74ea80972e4486947d'){
 
                             $("[name='InlineEditMA_Patient_Medication_Schedule_Hours']").attr({'type': 'number', 'min': '0', 'max': '12'});
                             $("[name='InlineEditMA_Patient_Medication_Schedule_Minutes']").attr({'type': 'number', 'min': '0', 'max': '59'});
@@ -339,7 +339,7 @@
                     }
 
                     window.cbAjaxEventHandler.addEventListener('DeleteRow', function(v_event){   
-                        if (v_event.data.AppKey == '40c0e00091fcaa69b25b4c5295bf'){
+                        if (v_event.data.AppKey == '40c0e000de74ea80972e4486947d'){
                             var $resultTable = $scheduleCont.find('[data-cb-name="cbTable"]');
                             var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;
                             if (frequencyNumber == resultTr) {
@@ -351,7 +351,7 @@
                     });
 
                     window.cbAjaxEventHandler.addEventListener('InsertRow', function(v_event){   
-                        if (v_event.data.AppKey == '40c0e00091fcaa69b25b4c5295bf'){
+                        if (v_event.data.AppKey == '40c0e000de74ea80972e4486947d'){
                             var $resultTable = $scheduleCont.find('[data-cb-name="cbTable"]');
                             var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;
                             var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;
@@ -371,7 +371,7 @@
                 
 
                 // Guardian DataPage
-                if (event.detail.appKey == '40c0e00073d8ccfe53f74522ae72') {
+                if (event.detail.appKey == '40c0e000474588b829064cb89812') {
                     var $guardianCont = $('.guardian-container');
                     var $resultTable = $guardianCont.find('[data-cb-name="cbTable"]');
                     var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;
@@ -385,7 +385,7 @@
                     window.cbAjaxEventHandler.addEventListener('DeleteRow', function(v_event){  
                         var $resultTable = $guardianCont.find('[data-cb-name="cbTable"]');
                         var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length; 
-                        if (v_event.data.AppKey == '40c0e00073d8ccfe53f74522ae72'){
+                        if (v_event.data.AppKey == '40c0e000474588b829064cb89812'){
                             if (resultTr > 0) {
                                 validateTrNumber(scheduleTrNumber, guardianTrNumber = true);
                             }
@@ -397,7 +397,7 @@
                     window.cbAjaxEventHandler.addEventListener('InsertRow', function(v_event){ 
                         var $resultTable = $guardianCont.find('[data-cb-name="cbTable"]');
                         var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;   
-                        if (v_event.data.AppKey == '40c0e00073d8ccfe53f74522ae72'){
+                        if (v_event.data.AppKey == '40c0e000474588b829064cb89812'){
                             if (resultTr > 0) {
                                 validateTrNumber(scheduleTrNumber, guardianTrNumber = true);
                             }

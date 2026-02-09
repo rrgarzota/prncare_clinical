@@ -32,7 +32,7 @@
                                     <div class="row">
                                         <dic class="col-12">
                                             <div class="cb-btn-rounded-1-5 cb-btn-w-45 cb-btn-py-2 cb-btn-blue cb-fields-bg-blue cb-text-size-1 forgot-password-container">
-                                                <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000018fdfb1d2cc46859215/emb"></script>
+                                                <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e0006232614fe5f744988d8f/emb"></script>
                                             </div>   
                                         </dic>
                                         <div class="col-12">

@@ -51,10 +51,10 @@
                                     
                                     <div class="doctor-personal-details-cont">
                                         <div class="create-form d-none">
-                                            <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000ec94f25236694d4da5f0/emb"></script>
+                                            <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000a074b5eaa3ec460a9783/emb"></script>
                                         </div>
                                         <div class="update-form d-none mb-5">
-                                            <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00065a8064aa90e48268217/emb"></script>
+                                            <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00021138a230f6d49f0bda5/emb"></script>
                                         </div>
                                     </div>
 
@@ -132,18 +132,6 @@
 
         });
     }
-
-    // document.addEventListener('DataPageReady', function (event) {
-    //     if (event.detail.appKey == '40c0e000ec94f25236694d4da5f0') {
-    //         document.addEventListener('FormSubmitted', function(event) {
-    //             console.log('submitted');
-    //             var $error = $('.cbFormCommonError')
-    //             if ($error.length == 0) {
-    //                 window.location.hre
-    //             }
-    //         });
-    //    	}
-    // });
 
   </script>
 </body>

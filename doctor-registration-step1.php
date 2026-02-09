@@ -52,10 +52,10 @@
                                     
                                     <div class="doctor-personal-details-cont">
                                         <div class="create-form d-none">
-                                            <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000f9761548452f42fe8d2a/emb"></script>
+                                            <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000bebdfbe5ed99451c9765/emb"></script>
                                         </div>
                                         <div class="update-form d-none mb-5">
-                                            <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00000d8ff12e6394d789368/emb"></script>
+                                            <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00011b98aaf300d44349a22/emb"></script>
                                         </div>
                                     </div>
 

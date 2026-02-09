@@ -55,10 +55,10 @@
 
                                         <div class="patient-details-cont">
                                             <div class="create-form d-none">
-                                                <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00019321a45bb3746c3b2a0/emb"></script>
+                                                <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e0004f17f9f5902942c697e0/emb"></script>
                                             </div>
                                             <div class="update-form d-none mb-5">
-                                                <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e0001a501dfd0dc04ddd898c/emb"></script>
+                                                <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000e337077c0f8449939f01/emb"></script>
                                             </div>
                                         </div>
 
