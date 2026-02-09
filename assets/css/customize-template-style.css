@@ -193,10 +193,18 @@
 /* End of Alert Info boxes */
 
 .Is_Overdose_Yes{
-    background-image: linear-gradient(90deg,#ffa726, #fb8c00);
+    background-image: linear-gradient(90deg,#FFFB00, #FFFB00);
     padding: 10px 20px;
 }
 
+.one-item-only .cbResultSetData .Is_Overdose_Yes {
+    color: #555 !important;
+}
+
+.one-item-only .cbResultSetData .Is_Overdose_Yes .alert-number{
+    background-color: #fff;
+    color: #555;
+}
 .Is_Overdose_No{
     background-image: linear-gradient(90deg, #f29b62, #fe7096);
     padding: 10px 20px;
