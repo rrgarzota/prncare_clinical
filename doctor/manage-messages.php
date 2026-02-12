@@ -43,7 +43,7 @@
                             <div class="card shadow-none p-0">
                                 <!-- search -->
                                 <div class="card-body custom-search-report blue-theme pt-0 pb-2 d-none-search-cont message-report-cont">   
-                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000abe55437377d40bab2d0/emb"></script>
+                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000ae68845610ba4aa291d6/emb"></script>
                                 </div>
                             </div>
 
@@ -64,7 +64,7 @@
                 setActiveNav('manage-messages');
 
                 document.addEventListener('DataPageReady', function (event) {
-                    if (event.detail.appKey == '40c0e000abe55437377d40bab2d0') {
+                    if (event.detail.appKey == '40c0e000ae68845610ba4aa291d6') {
                         checkHighlightMessage();
                     }   
                 })

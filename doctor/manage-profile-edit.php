@@ -46,7 +46,7 @@
                             <!-- Default box -->
                             <div class="card center-aligned-card shadow mt-4">
                                 <div class="card-body blue-theme btn-right">
-                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00027f35b47320143f3b25c/emb"></script>
+                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e0006fa113f83bb3470dad5b/emb"></script>
                                 </div>
                                 <!-- /.card-body -->
                             </div>
@@ -63,7 +63,7 @@
                                     <div class="alert alert-custom-warning-black mt-20 mb-3 shadow-sm px-3 py-3 rounded-0 text-left" role="alert"><i class="fas fa-info-circle"></i>
                                         <p class="lh-20 mb-0 default-message">Enter the email addresses of the staff members you want to invite to register. They will receive an email invitation to join the application.</p>
                                     </div>
-                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000ea26f8241f314e6eb4f7/emb"></script>
+                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000f6f80172f06b4d1aa1e2/emb"></script>
                                 </div>
                                 <!-- /.card-body -->
                             </div>
@@ -81,14 +81,7 @@
         <script>
             $(function(){
                 setActiveNav('');
-            });
-
-            document.addEventListener('DataPageReady', function (event) {
-                if (event.detail.appKey == '40c0e000db2d168007e34c1f92e8') {
-                    // checkHighlightMessage();
-                }   
-            })
-            
+            });            
         </script>
 
     </div>

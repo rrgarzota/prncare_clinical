@@ -43,7 +43,7 @@
                             <!-- Default box -->
                             <div class="card center-aligned-card shadow mt-4">
                                 <div class="card-body blue-theme">
-                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000d251a4870b5c470caf78/emb"></script>
+                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00075711748e0544d93b349/emb"></script>
                                 </div>
                                 <!-- /.card-body -->
                             </div>
@@ -60,7 +60,7 @@
                                     <div class="alert alert-custom-warning-black mt-20 mb-3 shadow-sm px-3 py-3 rounded-0 text-left" role="alert"><i class="fas fa-info-circle"></i>
                                         <p class="lh-20 mb-0 default-message">The staff members who accepted the invitations can now access the application.</p>
                                     </div>
-                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000f928c66ec34046f2a1ae/emb"></script>
+                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e0000c61f88dfddf4f0a9a74/emb"></script>
                                 </div>
                                 <!-- /.card-body -->
                             </div>
@@ -79,13 +79,6 @@
             $(function(){
                 setActiveNav('');
             });
-
-            document.addEventListener('DataPageReady', function (event) {
-                if (event.detail.appKey == '40c0e000db2d168007e34c1f92e8') {
-                    // checkHighlightMessage();
-                }   
-            })
-            
         </script>
 
     </div>

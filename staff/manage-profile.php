@@ -51,7 +51,7 @@
                             <!-- Default box -->
                             <div class="card center-aligned-card shadow mt-4">
                                 <div class="card-body blue-theme hide-update-btn">
-                                <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000a15b25be76e645b6acea/emb"></script>
+                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00031f3c81650fa44fd9e86/emb"></script>
                                 </div>
                                 <!-- /.card-body -->
                             </div>
@@ -73,13 +73,6 @@
             $(function(){
                 setActiveNav('');
             });
-
-            document.addEventListener('DataPageReady', function (event) {
-                if (event.detail.appKey == '40c0e000db2d168007e34c1f92e8') {
-                    // checkHighlightMessage();
-                }   
-            })
-            
         </script>
 
     </div>

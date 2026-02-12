@@ -40,7 +40,7 @@
                             <div class="card">
                                 <!-- search - submission form -->
                                 <div class="card-body submit-d-none blue-theme pt-0 pb-2">
-                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e0007fc5c8dba015422a9dbc/emb"></script>
+                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000a1be3f83ca7b4742a164/emb"></script>
                                 </div>
                             </div>
 
@@ -58,7 +58,7 @@
                                 <!-- widgets -->
                                 <div class="card bg-transparent shadow-none border-0 mb-0 widgets-container">
                                     <div class="card-body bg-transparent px-0">
-                                        <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000373b010ac4dc495ea464/emb"></script>
+                                        <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e0001870907715fb47089bc1/emb"></script>
                                     </div>
                                 </div> 
                                 <!-- end of widgets -->
@@ -67,11 +67,11 @@
                                 <div class="card mb-5">
                                     <div class="card-body calendar-report blue-theme one-item-only d-none" id="per_patient">
                                         <!-- filter per patient -->
-                                        <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000f4d71f99a2194913a893/emb"></script>
+                                        <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000d90599dca8a14cdeae5b/emb"></script>
                                     </div>
                                     <div class="card-body calendar-report blue-theme one-item-only d-none" id="per_device">
                                         <!-- filter per device -->
-                                        <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000abca889002f145b5b245/emb"></script>
+                                        <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000e0ecd79c80194076a4e9/emb"></script>
                                     </div>
                                 </div>
                                 <!-- end of calendar container -->

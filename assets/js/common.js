@@ -76,15 +76,15 @@ function open_modal(module, action = 'add', size = 'lg', fid = '') {
     var $body = '';
 
     if (module === 'new-message') {
-        deploy_dp('cb-modal-body', '40c0e000f55b8fdbd43a4725989b', '', 'Start New Message Thread');
+        deploy_dp('cb-modal-body', '40c0e000f11039797ac44b68ac5c', '', 'Start New Message Thread');
         $modal.find('#cb-modal-body').addClass(module);
 
     } else if (module === 'new-message-patient') {
-        deploy_dp('cb-modal-body', '40c0e000dd14615b0fb1484fad68', '', 'Start New Message Thread');
+        deploy_dp('cb-modal-body', '40c0e0008a5acd10e2794543bf45', '', 'Start New Message Thread');
         $modal.find('#cb-modal-body').addClass(module);
 
     } else if (module === 'new-message-staff') {
-        deploy_dp('cb-modal-body', '40c0e0008b0acc8c0d34414682a4', '', 'Start New Message Thread');
+        deploy_dp('cb-modal-body', '40c0e000f0c4b4e99c11421b8000', '', 'Start New Message Thread');
         $modal.find('#cb-modal-body').addClass(module);
 
     }

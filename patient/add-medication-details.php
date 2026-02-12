@@ -90,10 +90,10 @@
 
                                                     <div class="patient-details-cont">
                                                         <div class="create-form d-none">
-                                                            <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000d454b8ceb1f444f6bb0a/emb"></script>
+                                                            <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00097ee4f9f6cbe4e6687aa/emb"></script>
                                                         </div>
                                                         <div class="update-form d-none mb-5">
-                                                            <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000fadc135623094ed7b069/emb"></script>
+                                                            <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000b0f2aa88b3b34f4e971a/emb"></script>
                                                         </div>
                                                     </div>
 
@@ -183,14 +183,6 @@
             });
         }
 
-
-        // var $prevBtn = $('.previous_button');
-
-        // $prevBtn.on("click", function() {
-
-        //     window.location.href = "./patient-registration-step1.php?" + page_search_params;
-
-        // });
     </script>
 
     </div>

@@ -92,13 +92,6 @@
             $(function(){
                 setActiveNav('');
             });
-
-            document.addEventListener('DataPageReady', function (event) {
-                if (event.detail.appKey == '40c0e000db2d168007e34c1f92e8') {
-                    // checkHighlightMessage();
-                }   
-            })
-            
         </script>
 
     </div>

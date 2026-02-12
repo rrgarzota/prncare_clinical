@@ -100,8 +100,8 @@
                                                             <ul class="schedule-error-cont mb-0"></ul>
                                                         </div>
                                                         <div class="create-form text-left schedule-container edit-delete-btn dp-container manage-profile">
-                                                            <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e0007906f956b9184deb8c06/emb"></script>
-                                                            <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000f2d7e040e1d049bb9e91/emb"></script>
+                                                            <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000afcd3e40969c4c0e84be/emb"></script>
+                                                            <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e0000d4daa40fbf946c48479/emb"></script>
                                                         </div>
                                                     </div>
                                                 </fieldset>
@@ -184,7 +184,7 @@
 
             document.addEventListener('DataPageReady', function (event) {
 
-                if (event.detail.appKey == '40c0e0007906f956b9184deb8c06' || event.detail.appKey == '40c0e000f2d7e040e1d049bb9e91') {
+                if (event.detail.appKey == '40c0e000afcd3e40969c4c0e84be' || event.detail.appKey == '40c0e0000d4daa40fbf946c48479') {
                     dpCount++;
                 }                
 
@@ -193,10 +193,10 @@
                 }
 
                 // On insert event of Schedule tabular report
-                if (event.detail.appKey == '40c0e000f2d7e040e1d049bb9e91') {
+                if (event.detail.appKey == '40c0e0000d4daa40fbf946c48479') {
                     // Edit
                     window.cbAjaxEventHandler.addEventListener('GetRowData', function(v_event){   
-                        if (v_event.data.AppKey == '40c0e000f2d7e040e1d049bb9e91'){
+                        if (v_event.data.AppKey == '40c0e0000d4daa40fbf946c48479'){
 
                             $("[name='InlineEditMA_Patient_Medication_Schedule_Hours']").attr({'type': 'number', 'min': '0', 'max': '12'});
                             $("[name='InlineEditMA_Patient_Medication_Schedule_Minutes']").attr({'type': 'number', 'min': '0', 'max': '59'});
@@ -342,7 +342,7 @@
                     }
 
                     window.cbAjaxEventHandler.addEventListener('DeleteRow', function(v_event){   
-                        if (v_event.data.AppKey == '40c0e000f2d7e040e1d049bb9e91'){
+                        if (v_event.data.AppKey == '40c0e0000d4daa40fbf946c48479'){
                             var $resultTable = $scheduleCont.find('[data-cb-name="cbTable"]');
                             var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').not('.cbReportInlineAddRow').length;
                             console.log(frequencyNumber);
@@ -356,7 +356,7 @@
                     });
 
                     window.cbAjaxEventHandler.addEventListener('InsertRow', function(v_event){   
-                        if (v_event.data.AppKey == '40c0e000f2d7e040e1d049bb9e91'){
+                        if (v_event.data.AppKey == '40c0e0000d4daa40fbf946c48479'){
                             var $resultTable = $scheduleCont.find('[data-cb-name="cbTable"]');
                             var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').not('.cbReportInlineAddRow').length;
                             

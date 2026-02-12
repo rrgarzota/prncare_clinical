@@ -46,7 +46,7 @@
                             <!-- Default box -->
                             <div class="card center-aligned-card shadow mt-4">
                                 <div class="card-body blue-theme details-page-list-view d-none-created-date">
-                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000e39c86a4d8fd41fbbdd2/emb"></script>              
+                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e0003317193e0a9f4a488816/emb"></script>         
                                 </div>
                                 <!-- /.card-body -->
                             </div>
@@ -59,7 +59,7 @@
                             <!-- Default box -->
                             <div class="card center-aligned-card shadow mt-4">
                                 <div class="card-body blue-theme message-report-cont">
-                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000db2d168007e34c1f92e8/emb"></script>           
+                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00009a30ddb2ef941bd83f3/emb"></script>       
                                 </div>
                                 <!-- /.card-body -->
                             </div>
@@ -72,7 +72,7 @@
                             <!-- Default box -->
                             <div class="card center-aligned-card shadow mt-4">
                                 <div class="card-body blue-theme hide-update-btn">
-                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000c9274d5cfa6d48a19ac5/emb"></script>         
+                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000e3ca2a35563f4ecba391/emb"></script>      
                                 </div>
                                 <!-- /.card-body -->
                             </div>
@@ -85,7 +85,7 @@
                             <!-- Default box -->
                             <div class="card center-aligned-card shadow mt-4">
                                 <div class="card-body blue-theme">
-                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000fe4908fa99eb425298dd/emb"></script>     
+                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00047bf931db34249fb9334/emb"></script>  
                                 </div>
                                 <!-- /.card-body -->
                             </div>
@@ -106,7 +106,7 @@
             });
 
             document.addEventListener('DataPageReady', function (event) {
-                if (event.detail.appKey == '40c0e000db2d168007e34c1f92e8') {
+                if (event.detail.appKey == '40c0e00009a30ddb2ef941bd83f3') {
                     checkHighlightMessage();
                 }   
             })

@@ -48,7 +48,7 @@
                             ?>
                                 <div class="d-none" style="display: none;">
                                     <!-- Autosubmit Read to Yes if first visit from report or email -->
-                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00084e44d78653f4fb8a15e/emb"></script>
+                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00033aef4b18ab446e3afab/emb"></script>
                                 </div>
                                 
 
@@ -57,9 +57,9 @@
                                 <!-- Default box -->
                                 <div class="card center-aligned-card shadow mt-4 p-0">
                                     <div class="card-body blue-theme details-page-list-view replies-cont submit-d-none p-4">
-                                        <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000cd591451ce554e2ba6b6/emb"></script>
+                                        <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000c07fe929fe7b45919635/emb"></script>
                                         <div class="create-message">
-                                            <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000f04524becc134c1f96e0/emb"></script>  
+                                            <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e0001e55c3b3298f4e4c9e81/emb"></script>
                                         </div>   
                                     </div>
                                     <!-- /.card-body -->
@@ -81,7 +81,7 @@
                 setActiveNav('manage-messages');
 
                 document.addEventListener('DataPageReady', function (event) {
-                    if (event.detail.appKey == '40c0e000f04524becc134c1f96e0') {
+                    if (event.detail.appKey == '40c0e0001e55c3b3298f4e4c9e81') {
                         $submitBtn = $('.submit-reply');
                         var $cont = $('.create-message');
 
@@ -91,7 +91,7 @@
 
                         });
                     }   
-                    if (event.detail.appKey == '40c0e00084e44d78653f4fb8a15e') {
+                    if (event.detail.appKey == '40c0e00033aef4b18ab446e3afab') {
                         $('.cbUpdateButton').click();
                     }   
                 })

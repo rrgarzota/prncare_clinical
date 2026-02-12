@@ -51,7 +51,7 @@
                             <!-- Default box -->
                             <div class="card center-aligned-card-1200 shadow mt-4">
                                 <div class="card-body blue-theme hide-update-btn">
-                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e0000ee43d40f0df4013aeb3/emb"></script>
+                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e0003f19da01d8e54f159d98/emb"></script>
                                 </div>
                                 <!-- /.card-body -->
                             </div>
@@ -77,7 +77,7 @@
                                     </div> -->
                                 </div>
                                 <div class="card-body blue-theme  details-page-list-view d-none-created-date">
-                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000335c9bb14f454fcdbea4/emb"></script>
+                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000b073a93d21e24a668f05/emb"></script>
                                 </div>
                                 <!-- /.card-body -->
                             </div>
@@ -95,7 +95,7 @@
                                             <p class="lh-20 mb-0 default-message">These are the guardians who will receive alerts if you misses a dose.</p>
                                         </div>
                                 <div class="card-body blue-theme text-left guardian-container edit-delete-btn overflow-auto">
-                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e00085c2b029d114429eb159/emb"></script>
+                                    <script type="text/javascript" src="https://c9ebv091.caspio.com/dp/40c0e000315d3d8ca54c4959bb2b/emb"></script>
                                 </div>
                                 <!-- /.card-body -->
                             </div>
@@ -115,13 +115,6 @@
             $(function(){
                 setActiveNav('');
             });
-
-            document.addEventListener('DataPageReady', function (event) {
-                if (event.detail.appKey == '40c0e000db2d168007e34c1f92e8') {
-                    // checkHighlightMessage();
-                }   
-            })
-            
         </script>
 
     </div>
