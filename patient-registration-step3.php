@@ -51,7 +51,7 @@
                             <div class="card shadow my-4 border hide-submit-btn">
                                 <div class="card-body blue-theme pt-4 pb-5">
                                     <div class="alert alert-custom-warning-black mt-20 mb-5 shadow-sm px-3 py-3 rounded-0 text-left" role="alert"><i class="fas fa-info-circle"></i>
-                                        <p class="lh-20 mb-0 default-message">In order to complete your registration, please ensure you add at least one guardian and provide the required schedules.</p>
+                                        <p class="lh-20 mb-0 default-message">In order to complete your registration, please ensure you provide the required schedules.</p>
                                     </div>
                                     <div class="schedule-section">
                                         <h5 class="section-header mt-0 text-left mt-3">SCHEDULE</h5>
@@ -342,11 +342,28 @@
                         if (v_event.data.AppKey == '40c0e000de74ea80972e4486947d'){
                             var $resultTable = $scheduleCont.find('[data-cb-name="cbTable"]');
                             var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;
-                            if (frequencyNumber == resultTr) {
-                                validateTrNumber(scheduleTrNumber = true, guardianTrNumber);
+                            
+                            if ($norecordsfound.text() === 'No records found.') {
+                                if($inlineAdd.hasClass('d-none')) {
+                                    $inlineAdd.removeClass('d-none');
+                                }
                             } else {
-                                validateTrNumber(scheduleTrNumber = false, guardianTrNumber);
+
+                                if (frequencyNumber > resultTr) {
+                                    if($inlineAdd.hasClass('d-none')) {
+                                        $inlineAdd.removeClass('d-none');
+                                    }
+                                }
+
+                                if (frequencyNumber == resultTr) {
+                                    validateTrNumber(scheduleTrNumber = true, guardianTrNumber);
+                                } else {
+                                    validateTrNumber(scheduleTrNumber = false, guardianTrNumber);
+                                }
+                                
+                                
                             }
+
                         }
                     });
 
@@ -355,11 +372,28 @@
                             var $resultTable = $scheduleCont.find('[data-cb-name="cbTable"]');
                             var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;
                             var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;
-                            if (frequencyNumber == resultTr) {
-                                validateTrNumber(scheduleTrNumber = true, guardianTrNumber);
+                            
+                            if ($norecordsfound.text() === 'No records found.') {
+                                if($inlineAdd.hasClass('d-none')) {
+                                    $inlineAdd.removeClass('d-none');
+                                }
                             } else {
-                                validateTrNumber(scheduleTrNumber = false, guardianTrNumber);
+
+                                if (frequencyNumber > resultTr) {
+                                    if($inlineAdd.hasClass('d-none')) {
+                                        $inlineAdd.removeClass('d-none');
+                                    }
+                                }
+
+                                if (frequencyNumber == resultTr) {
+                                    validateTrNumber(scheduleTrNumber = true, guardianTrNumber);
+                                } else {
+                                    validateTrNumber(scheduleTrNumber = false, guardianTrNumber);
+                                }
+                                
+                                
                             }
+
                         }
                     });
 
@@ -371,43 +405,43 @@
                 
 
                 // Guardian DataPage
-                if (event.detail.appKey == '40c0e000474588b829064cb89812') {
-                    var $guardianCont = $('.guardian-container');
-                    var $resultTable = $guardianCont.find('[data-cb-name="cbTable"]');
-                    var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;
+                // if (event.detail.appKey == '40c0e000474588b829064cb89812') {
+                //     var $guardianCont = $('.guardian-container');
+                //     var $resultTable = $guardianCont.find('[data-cb-name="cbTable"]');
+                //     var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;
 
-                    if (resultTr > 0) {
-                        validateTrNumber(scheduleTrNumber, guardianTrNumber = true);
-                    }else {
-                        validateTrNumber(scheduleTrNumber, guardianTrNumber = false);
-                    }
+                //     if (resultTr > 0) {
+                //         validateTrNumber(scheduleTrNumber, guardianTrNumber = true);
+                //     }else {
+                //         validateTrNumber(scheduleTrNumber, guardianTrNumber = false);
+                //     }
 
-                    window.cbAjaxEventHandler.addEventListener('DeleteRow', function(v_event){  
-                        var $resultTable = $guardianCont.find('[data-cb-name="cbTable"]');
-                        var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length; 
-                        if (v_event.data.AppKey == '40c0e000474588b829064cb89812'){
-                            if (resultTr > 0) {
-                                validateTrNumber(scheduleTrNumber, guardianTrNumber = true);
-                            }
-                        }else {
-                            validateTrNumber(scheduleTrNumber, guardianTrNumber = false);
-                        }
-                    });
+                //     window.cbAjaxEventHandler.addEventListener('DeleteRow', function(v_event){  
+                //         var $resultTable = $guardianCont.find('[data-cb-name="cbTable"]');
+                //         var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length; 
+                //         if (v_event.data.AppKey == '40c0e000474588b829064cb89812'){
+                //             if (resultTr > 0) {
+                //                 validateTrNumber(scheduleTrNumber, guardianTrNumber = true);
+                //             }
+                //         }else {
+                //             validateTrNumber(scheduleTrNumber, guardianTrNumber = false);
+                //         }
+                //     });
 
-                    window.cbAjaxEventHandler.addEventListener('InsertRow', function(v_event){ 
-                        var $resultTable = $guardianCont.find('[data-cb-name="cbTable"]');
-                        var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;   
-                        if (v_event.data.AppKey == '40c0e000474588b829064cb89812'){
-                            if (resultTr > 0) {
-                                validateTrNumber(scheduleTrNumber, guardianTrNumber = true);
-                            }
-                        }else {
-                            validateTrNumber(scheduleTrNumber, guardianTrNumber = false);
-                        }
-                    });
+                //     window.cbAjaxEventHandler.addEventListener('InsertRow', function(v_event){ 
+                //         var $resultTable = $guardianCont.find('[data-cb-name="cbTable"]');
+                //         var resultTr = $resultTable.find('tbody tr[data-cb-name="data"]').length;   
+                //         if (v_event.data.AppKey == '40c0e000474588b829064cb89812'){
+                //             if (resultTr > 0) {
+                //                 validateTrNumber(scheduleTrNumber, guardianTrNumber = true);
+                //             }
+                //         }else {
+                //             validateTrNumber(scheduleTrNumber, guardianTrNumber = false);
+                //         }
+                //     });
                     
 
-                }
+                // }
 
                 
 
@@ -416,6 +450,7 @@
             });
 
             function validateTrNumber(scheduleTrNumber = false, guardianTrNumber = false){
+                
                 var $finishBtn = $('.finish-button');
                 if (!$finishBtn.hasClass('disabled')) {
                     $finishBtn.addClass('disabled');
@@ -423,7 +458,7 @@
                 $finishBtn.addClass('disabled');
 
 
-                if (scheduleTrNumber && guardianTrNumber) {
+                if (scheduleTrNumber) {
 
                     $finishBtn.removeClass('disabled');
 
