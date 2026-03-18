@@ -75,238 +75,233 @@
         <!-- footer -->
         <?php include '../partials/footer.php'; ?>
         <script>
-            $(function() {
-                setActiveNav("alerts");
-            });
+$(function() {
+    setActiveNav("alerts");
+});
 
-            document.addEventListener("DataPageReady", function() {
-                const $caspioTableContainer = $(".medication-container");
-                const $mainCont = $(".medication-container-final").empty();
+function cleanCellText($el) {
+    return ($el.text() || "")
+        .replace(/\u00A0/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+}
 
-                // Robust empty check
-                const recordMsg = ($caspioTableContainer.find('[id^="RecordMessageTop"]').text() || "").trim();
-                const $table = $caspioTableContainer.find('[data-cb-name="cbTable"]');
+function getTextAfterLabel($el) {
+    const txt = cleanCellText($el);
+    return txt.replace(/^[^:]+:\s*/, "").trim();
+}
 
-                if (!$table.length || recordMsg === "No records found.") {
-                    // NOTE: your HTML currently uses "d-non" (typo) not "d-none"
-                    $caspioTableContainer.removeClass("d-none");
-                    return;
-                }
+function getBooleanYesFromCell($td) {
+    return /\byes\b/.test(cleanCellText($td).toLowerCase());
+}
 
-                // Date from URL (?Date=...)
-                const url = new URL(window.location.href);
-                const dateParam = url.searchParams.get("Date");
-                const dateText = dateParam !== null && dateParam !== "" ? dateParam : "";
+function getNumberFromCell($td) {
+    const txt = cleanCellText($td);
+    const match = txt.match(/-?\d+(\.\d+)?/);
+    return match ? parseFloat(match[0]) : 0;
+}
 
-                // Helpers
-                const getCellText = ($row, idx) => {
-                    const $td = $row.find("td").eq(idx);
-                    if (!$td.length) return "";
-                    const $time = $td.find("time");
-                    return ($time.length ? $time.text() : $td.text()).trim();
-                };
+function getCellValue($row, idx) {
+    const $td = $row.find("td").eq(idx);
+    if (!$td.length) return "";
 
-                function buildAlertFromRow($row) {
-                    // Column map (0..8)
-                    // 0: (blank group-left)
-                    // 1: Trigger Time
-                    // 2: Dosage
-                    // 3: Schedule
-                    // 4: Error Schedule
-                    // 5: Status
-                    // 6: Is Overdose
-                    // 7: Left Eye Med Count
-                    // 8: Right Eye Med Count
+    const $time = $td.find("time").first();
+    if ($time.length) {
+        return cleanCellText($time);
+    }
 
-                    const triggerTime = getCellText($row, 1);
-                    const errorSchedule = getCellText($row, 4);
-                    const statusRaw = getCellText($row, 5);
-                    const isOverdoseRaw = getCellText($row, 6);
-                    const leftEye = getCellText($row, 7);
-                    const rightEye = getCellText($row, 8);
+    return getTextAfterLabel($td) || cleanCellText($td);
+}
 
-                    const status = (statusRaw || "").trim();
-                    const s = status.toLowerCase();
-                    const overdoseYes = (isOverdoseRaw || "").trim().toLowerCase() === "yes";
+document.addEventListener("DataPageReady", function() {
+    const $caspioTableContainer = $(".medication-container");
+    const $mainCont = $(".medication-container-final").empty();
 
-                    // ✅ Requirement: ONLY if Status == "Correct dose" AND Is Overdose == "Yes"
-                    if (overdoseYes && status === "Correct dose") {
-                    const overdoseSchedule = errorSchedule || schedule || triggerTime || "unknown time";
+    const recordMsg = ($caspioTableContainer.find('[id^="RecordMessageTop"]').text() || "").trim();
+    const $table = $caspioTableContainer.find('[data-cb-name="cbTable"]');
 
-                    const L = Number(leftEye || 0);
-                    const R = Number(rightEye || 0);
-                    const LIMIT = 3;
+    if (!$table.length || recordMsg === "No records found.") {
+        $caspioTableContainer.removeClass("d-none");
+        return;
+    }
 
-                    const leftOD = L > LIMIT;
-                    const rightOD = R > LIMIT;
+    const url = new URL(window.location.href);
+    const dateParam = url.searchParams.get("Date");
+    const dateText = dateParam !== null && dateParam !== "" ? dateParam : "";
 
-                    // Build user-friendly message that supports left/right/both overdose
-                    let msg = `Correct dose, but overdose detected at ${overdoseSchedule}. `;
+    function buildAlertFromRow($row) {
+        // Column map (0..8)
+        // 0: blank group-left
+        // 1: Trigger Time
+        // 2: Dosage
+        // 3: Schedule
+        // 4: Error Schedule
+        // 5: Status
+        // 6: Is Overdose
+        // 7: Left Eye Med Count
+        // 8: Right Eye Med Count
 
-                    if (leftOD && rightOD) {
-                        msg +=
-                        `Both eyes received more than the recommended number of drops. ` +
-                        `Left eye received ${L} drops and right eye received ${R} drops (limit is ${LIMIT} each).`;
-                    } else if (leftOD) {
-                        msg +=
-                        `The left eye received more than the recommended number of drops. ` +
-                        `Left eye received ${L} drops (limit is ${LIMIT}).`;
-                    } else if (rightOD) {
-                        msg +=
-                        `The right eye received more than the recommended number of drops. ` +
-                        `Right eye received ${R} drops (limit is ${LIMIT}).`;
-                    } else {
-                        // Safety fallback: if flagged overdose but counts don't exceed limit,
-                        // still show a clear message with counts
-                        msg += `Drop count exceeded the recommended limit. Left eye received ${L} drops and right eye received ${R} drops (limit is ${LIMIT}).`;
-                    }
+        const triggerTime = getCellValue($row, 1);
+        const schedule = getCellValue($row, 3);
+        const errorSchedule = getCellValue($row, 4);
+        const status = getCellValue($row, 5);
+        const overdoseYes = getBooleanYesFromCell($row.find("td").eq(6));
+        const leftEye = getNumberFromCell($row.find("td").eq(7));
+        const rightEye = getNumberFromCell($row.find("td").eq(8));
 
-                    const $div = $("<div>", {
-                        class: "alert alert-custom-warning mt-20 mb-0 shadow-sm px-3 py-2 rounded-0",
-                        role: "alert",
-                    });
+        const s = (status || "").toLowerCase();
 
-                    $div.append('<span><i class="fas fa-exclamation-triangle"></i></span>');
-                    $div.append(msg);
+        // ONLY if Status == "Correct dose" AND Is Overdose == "Yes"
+        if (overdoseYes && status === "Correct dose") {
+            const overdoseSchedule = errorSchedule || schedule || triggerTime || "unknown time";
 
-                    return $div;
-                    }
+            const L = Number(leftEye || 0);
+            const R = Number(rightEye || 0);
+            const LIMIT = 3;
 
+            const leftOD = L > LIMIT;
+            const rightOD = R > LIMIT;
 
+            let msg = `Correct dose, but overdose detected at ${overdoseSchedule}. `;
 
-                    // Otherwise: normal status-based alerts
-                    let alertType = "danger";
-                    let iconHtml = '<span><i class="fas fa-times-circle"></i></span>';
-                    let alertText = "";
+            if (leftOD && rightOD) {
+                msg += `Both eyes received more than the recommended number of drops. Left eye received ${L} drops and right eye received ${R} drops (limit is ${LIMIT} each).`;
+            } else if (leftOD) {
+                msg += `The left eye received more than the recommended number of drops. Left eye received ${L} drops (limit is ${LIMIT}).`;
+            } else if (rightOD) {
+                msg += `The right eye received more than the recommended number of drops. Right eye received ${R} drops (limit is ${LIMIT}).`;
+            } else {
+                msg += `Drop count exceeded the recommended limit. Left eye received ${L} drops and right eye received ${R} drops (limit is ${LIMIT}).`;
+            }
 
-                    if (s.startsWith("missed")) {
-                        alertType = "warning";
-                        iconHtml = '<span><i class="fas fa-exclamation-circle"></i></span>';
-                        alertText = `Missed dose (scheduled at ${errorSchedule || "—"}).`;
-                    } else if (s.startsWith("extra")) {
-                        alertText = `Extra dose detected at ${triggerTime || "—"}.`;
-                    } else if (s.startsWith("incorrect")) {
-                        alertType = "warning";
-                        iconHtml = '<span><i class="fas fa-exclamation-circle"></i></span>';
-                        alertText =
-                            `Incorrect dose detected at ${triggerTime || "—"}. ` +
-                            "Please ensure a 2-minute interval between each medication intake.";
-                    } else if (s.startsWith("correct")) {
-                        // No alert for normal correct dose
-                        return null;
-                    } else if (s.startsWith("not")) {
-                        alertText = "No recorded times (missed dose).";
-                    } else {
-                        // Fallback
-                        alertText = status || "Alert detected.";
-                    }
+            return $("<div>", {
+                class: "alert alert-custom-warning mt-20 mb-0 shadow-sm px-3 py-2 rounded-0",
+                role: "alert",
+            })
+            .append('<span><i class="fas fa-exclamation-triangle"></i></span>')
+            .append(msg);
+        }
 
-                    const $div = $("<div>", {
-                        class: `alert alert-custom-${alertType} mt-20 mb-0 shadow-sm px-3 py-2 rounded-0`,
-                        role: "alert",
-                    });
+        // Otherwise: normal status-based alerts
+        let alertType = "danger";
+        let iconHtml = '<span><i class="fas fa-times-circle"></i></span>';
+        let alertText = "";
 
-                    $div.append(iconHtml);
-                    $div.append(alertText);
-                    return $div;
-                }
+        if (s.startsWith("missed")) {
+            alertType = "warning";
+            iconHtml = '<span><i class="fas fa-exclamation-circle"></i></span>';
+            alertText = `Missed dose (scheduled at ${errorSchedule || "—"}).`;
+        } else if (s.startsWith("extra")) {
+            alertText = `Extra dose detected at ${triggerTime || "—"}.`;
+        } else if (s.startsWith("incorrect")) {
+            alertType = "warning";
+            iconHtml = '<span><i class="fas fa-exclamation-circle"></i></span>';
+            alertText = `Incorrect dose detected at ${triggerTime || "—"}. Please ensure a 2-minute interval between each medication intake.`;
+        } else if (s.startsWith("correct")) {
+            return null;
+        } else if (s.startsWith("not")) {
+            alertText = "No recorded times (missed dose).";
+        } else {
+            alertText = status || "Alert detected.";
+        }
 
-                // Iterate group rows (Medication Name is in group label row)
-                const $groupRows = $table.find("tbody tr.cbResultSetGroup1Row");
+        return $("<div>", {
+            class: `alert alert-custom-${alertType} mt-20 mb-0 shadow-sm px-3 py-2 rounded-0`,
+            role: "alert",
+        })
+        .append(iconHtml)
+        .append(alertText);
+    }
 
-                $groupRows.each(function() {
-                    const $groupRow = $(this);
-                    const medicationName = ($groupRow.find("td").first().text() || "").trim();
+    // Iterate group rows (Medication Name is in group label row)
+    const $groupRows = $table.find("tbody tr.cbResultSetGroup1Row");
 
-                    // Data rows under this medication group
-                    const $dataRows = $groupRow.nextUntil("tr.cbResultSetGroup1Row", 'tr[data-cb-name="data"]');
-                    if (!$dataRows.length) return;
+    $groupRows.each(function() {
+        const $groupRow = $(this);
+        const medicationName = getTextAfterLabel($groupRow.find("td").first()) || cleanCellText($groupRow.find("td").first());
 
-                    // Use first row for main details
-                    const $first = $dataRows.eq(0);
-                    const dosage = getCellText($first, 2);
-                    const schedule = getCellText($first, 3);
-                    const leftEyeCount = getCellText($first, 7);
-                    const rightEyeCount = getCellText($first, 8);
+        const $dataRows = $groupRow.nextUntil("tr.cbResultSetGroup1Row", 'tr[data-cb-name="data"]');
+        if (!$dataRows.length) return;
 
-                    // ---- Build Card (once per medication group) ----
-                    const $mainCard = $('<div class="card mt-4 mb-5 border"></div>');
-                    const $mainCardBody = $('<div class="card-body pt-4 pb-5"></div>');
+        const $first = $dataRows.eq(0);
+        const dosage = getCellValue($first, 2);
+        const schedule = getCellValue($first, 3);
+        const leftEyeCount = getCellValue($first, 7);
+        const rightEyeCount = getCellValue($first, 8);
 
-                    // Date (right aligned)
-                    const $dateDivCont = $('<div class="text-right"></div>');
-                    if (dateText) {
-                        $dateDivCont.append($('<p class="date-cont"></p>').text(dateText));
-                        $dateDivCont.append("<hr>");
-                    }
+        const $mainCard = $('<div class="card mt-4 mb-5 border"></div>');
+        const $mainCardBody = $('<div class="card-body pt-4 pb-5"></div>');
 
-                    const $rowFormContainer = $('<div class="row"></div>');
-                    const $colImageContainer = $('<div class="col-md-2 col-12"></div>');
-                    const $imageContainer = $('<div class="rx-image-container"></div>');
-                    const $image = $('<img class="img-rx" src="../assets/img/rx-image.png">');
+        const $dateDivCont = $('<div class="text-right"></div>');
+        if (dateText) {
+            $dateDivCont.append($('<p class="date-cont"></p>').text(dateText));
+            $dateDivCont.append("<hr>");
+        }
 
-                    const $colFormContainer = $('<div class="col-md-10 col-12"></div>');
-                    const $rowContainer = $('<div class="row form-container"></div>');
+        const $rowFormContainer = $('<div class="row"></div>');
+        const $colImageContainer = $('<div class="col-md-2 col-12"></div>');
+        const $imageContainer = $('<div class="rx-image-container"></div>');
+        const $image = $('<img class="img-rx" src="../assets/img/rx-image.png">');
 
-                    function addField(label, value) {
-                        const $label = $('<label class="col-md-3 col-12 form-label"></label>').text(label);
-                        const $valueDiv = $('<div class="col-md-9 col-12"></div>');
-                        const $valueCont = $('<p class="form-control-plaintext"></p>').text(value || "");
-                        $valueDiv.append($valueCont);
-                        $rowContainer.append($label, $valueDiv);
-                    }
+        const $colFormContainer = $('<div class="col-md-10 col-12"></div>');
+        const $rowContainer = $('<div class="row form-container"></div>');
 
-                    addField("Medication Name", medicationName);
-                    addField("Dosage", dosage);
-                    addField("Schedule", schedule);
+        function addField(label, value) {
+            const $label = $('<label class="col-md-3 col-12 form-label"></label>').text(label);
+            const $valueDiv = $('<div class="col-md-9 col-12"></div>');
+            const $valueCont = $('<p class="form-control-plaintext"></p>').text(value || "");
+            $valueDiv.append($valueCont);
+            $rowContainer.append($label, $valueDiv);
+        }
 
-                    // Optional: show eye counts in main details if present
-                    // if (leftEyeCount !== "" || rightEyeCount !== "") {
-                    //   addField("Left Eye Med Count", leftEyeCount);
-                    //   addField("Right Eye Med Count", rightEyeCount);
-                    // }
+        addField("Medication Name", medicationName);
+        addField("Dosage", dosage);
+        addField("Schedule", schedule);
 
-                    const $hrMobile = $('<hr class="d-md-none d-lg-none d-xl-none d-xxl-none line-divider-break">');
-                    const $pContSectionHeader = $('<div class="section-header">Medication Alerts</div>');
+        // Optional: show eye counts in main details if present
+        // if (leftEyeCount !== "" || rightEyeCount !== "") {
+        //   addField("Left Eye Med Count", leftEyeCount);
+        //   addField("Right Eye Med Count", rightEyeCount);
+        // }
 
-                    const $rowAlerts = $('<div class="row"></div>');
-                    const $colAlerts = $('<div class="col-12"></div>');
+        const $hrMobile = $('<hr class="d-md-none d-lg-none d-xl-none d-xxl-none line-divider-break">');
+        const $pContSectionHeader = $('<div class="section-header">Medication Alerts</div>');
 
-                    // Add alerts per data row
-                    $dataRows.each(function() {
-                        const $alert = buildAlertFromRow($(this));
-                        if ($alert) $colAlerts.append($alert);
-                    });
+        const $rowAlerts = $('<div class="row"></div>');
+        const $colAlerts = $('<div class="col-12"></div>');
 
-                    // If no alerts were generated, show a success message
-                    if ($colAlerts.children().length === 0) {
-                        $colAlerts.append(
-                            $('<div class="alert alert-custom-success mt-20 mb-0 shadow-sm px-3 py-2 rounded-0" role="alert"></div>')
-                            .append('<span><i class="fas fa-check-circle"></i></span>')
-                            .append(`No issues detected for this medication on ${dateText || "this date"}.`)
-                        );
-                    }
+        $dataRows.each(function() {
+            const $alert = buildAlertFromRow($(this));
+            if ($alert) $colAlerts.append($alert);
+        });
 
-                    // Assemble card
-                    $imageContainer.append($image);
-                    $colImageContainer.append($imageContainer);
+        if ($colAlerts.children().length === 0) {
+            $colAlerts.append(
+                $('<div class="alert alert-custom-success mt-20 mb-0 shadow-sm px-3 py-2 rounded-0" role="alert"></div>')
+                    .append('<span><i class="fas fa-check-circle"></i></span>')
+                    .append(`No issues detected for this medication on ${dateText || "this date"}.`)
+            );
+        }
 
-                    $colFormContainer.append($rowContainer);
-                    $rowFormContainer.append($colImageContainer, $colFormContainer);
+        $imageContainer.append($image);
+        $colImageContainer.append($imageContainer);
 
-                    $rowAlerts.append($colAlerts);
+        $colFormContainer.append($rowContainer);
+        $rowFormContainer.append($colImageContainer, $colFormContainer);
 
-                    $mainCardBody.append($dateDivCont);
-                    $mainCardBody.append($rowFormContainer);
-                    $mainCardBody.append($hrMobile);
-                    $mainCardBody.append($pContSectionHeader);
-                    $mainCardBody.append($rowAlerts);
+        $rowAlerts.append($colAlerts);
 
-                    $mainCard.append($mainCardBody);
-                    $mainCont.append($mainCard);
-                });
-            });
-        </script>
+        $mainCardBody.append($dateDivCont);
+        $mainCardBody.append($rowFormContainer);
+        $mainCardBody.append($hrMobile);
+        $mainCardBody.append($pContSectionHeader);
+        $mainCardBody.append($rowAlerts);
+
+        $mainCard.append($mainCardBody);
+        $mainCont.append($mainCard);
+    });
+});
+</script>
 
     </div>
     <!-- ./wrapper -->
